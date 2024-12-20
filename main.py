@@ -1,18 +1,15 @@
 from flask import Flask
-
-# Initialize the Flask application
+from models import db
+from Config import Config
+from routes import authBP
 app = Flask(__name__)
+app.config.from_object(Config)
+db.init_app(app)
 
-# Define a route for the root URL
-@app.route("/")
-def home():
-    return "Welcome to your Flask application!"
+with app.app_context():
+    db.create_all()
 
-# Define another route
-@app.route("/about")
-def about():
-    return "This is a basic Flask application."
+app.register_blueprint(authBP, url_prefix='/auth')
 
-# Run the app
 if __name__ == "__main__":
     app.run(debug=True)
