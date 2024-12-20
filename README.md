@@ -14,7 +14,7 @@
 
 }
 ```
-####### Output
+###### Output
 ```json
 {
     "error": "Email is already registered"
@@ -29,7 +29,7 @@
     "password":"pandusai"
 }
 ```
-####### Output
+###### Output
 ```json
 {
     "email": "pandurangasaiguptha@gmail.com",
@@ -42,7 +42,7 @@
 
 ##### /auth/users
 ###### GET /auth/users
-####### Response
+###### Response
 ```json
 [
     {
