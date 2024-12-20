@@ -30,5 +30,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt  # Assuming your dependencies are listed here
-        python main.py
 
+    # Step 4: Run the Python script
+    - name: Run the application
+      run: python main.py
