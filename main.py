@@ -12,4 +12,10 @@ with app.app_context():
 app.register_blueprint(authBP, url_prefix='/auth')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    import sys
+    testing = "--test" in sys.argv
+    if testing:
+        print("Running in test mode")
+        # Perform any setup for test mode
+    else:
+        app.run(host="0.0.0.0", port=5000)

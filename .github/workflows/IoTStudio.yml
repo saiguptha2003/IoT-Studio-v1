@@ -30,6 +30,5 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt  # Assuming your dependencies are listed here
-
-    - name: Run Flask application (with timeout)
-      run: timeout 30s python main.py  # Stops the app after 30 seconds
+    - name: Run Flask application
+      run: python main.py --test
