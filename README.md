@@ -53,3 +53,10 @@
     }
 ]
 ```
+### Execution
+#### Using Docker
+```bash
+docker build -t iotstudioapi .
+docker run -p 5000:5000 --name iotstudioapicontainer iotstudioapi
+
+```
