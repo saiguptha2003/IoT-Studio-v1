@@ -60,3 +60,9 @@ docker build -t iotstudioapi .
 docker run -p 5000:5000 --name iotstudioapicontainer iotstudioapi
 
 ```
+
+#### Using CLI
+```bash
+pip install -r requirements.txt
+python main.py
+```
