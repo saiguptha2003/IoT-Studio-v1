@@ -26,7 +26,6 @@ def signup():
     newUser=User(email=email,user_name=username,password_hash=hashedPassword,uniqueID=uniqueID)
     db.session.add(newUser)
     db.session.commit()
-    # sendAccountCreationMail(newUser.email,newUser.user_name,newUser.uniqueID)
     return jsonify({"message": "User signed up successfully!"}), 201 
 
 
