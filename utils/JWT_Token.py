@@ -44,7 +44,7 @@ def token_required(f):
 
         kwargs["userid"] = decoded.get("userid")
         kwargs["email"] = decoded.get("email")
-        kwargs['usernames'] = decoded.get("username")
+        kwargs['username'] = decoded.get("username")
         return f(*args, **kwargs)
 
     wrapper.__name__ = f.__name__
