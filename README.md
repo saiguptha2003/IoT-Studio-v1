@@ -72,3 +72,9 @@ python main.py
 
 ### DATABASE URL : https://couchdb-xfm8.onrender.com/_utils
 ### API URL : https://iot-studio.onrender.com
+
+
+
+## Pending Functions
+
+#### creating the requried session time input in frontend and backen in login screen and login route in api
