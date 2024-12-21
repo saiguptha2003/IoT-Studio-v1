@@ -71,4 +71,4 @@ python main.py
 ## Connections
 
 ### DATABASE URL : https://couchdb-xfm8.onrender.com/_utils
-### API URL : 
+### API URL : https://iot-studio.onrender.com
