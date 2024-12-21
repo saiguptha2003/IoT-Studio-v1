@@ -5,7 +5,7 @@ import couchdb
 
 from constants import DBNAME
 def createDocumentForUser(userId: str,username :str, emailId: str):
-    couch=couchdb.connect("https://admin:iotstudio@couchdb-xfm8.onrender.com/")
+    couch=couchdb.Server("https://admin:iotstudio@couchdb-xfm8.onrender.com/")
     if DBNAME not in couch:
         cdb = couch.create(DBNAME)
     else:
