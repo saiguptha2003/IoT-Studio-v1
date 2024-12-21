@@ -5,10 +5,17 @@ from routes import authBP
 app = Flask(__name__)
 app.config.from_object(Config)
 db.init_app(app)
+import couchdb
 
-with app.app_context():
-    db.create_all()
+from constants import DBNAME
+couch = couchdb.Server('https://admin:iotstudio@couchdb-xfm8.onrender.com/')
+DBNAME='iotstudio'
 
+if DBNAME not in couch:
+    cdb = couch.create(DBNAME)
+else:
+    cdb = couch[DBNAME]
+    
 app.register_blueprint(authBP, url_prefix='/auth')
 
 @app.route("/",methods=["GET"])
