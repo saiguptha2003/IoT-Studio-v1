@@ -2,22 +2,15 @@ import json
 
 from flask import jsonify
 import couchdb
-
+from utils import cdb
 from constants import DBNAME
 def createDocumentForUser(userId: str,username :str, emailId: str):
-    couch=couchdb.Server("https://admin:iotstudio@couchdb-xfm8.onrender.com/")
-    if DBNAME not in couch:
-        cdb = couch.create(DBNAME)
-    else:
-        cdb = couch[DBNAME]
-    
     doc={
         "_id":userId,
         "username":username,
         "email":emailId
     }
     try:
-        cdb = couch[DBNAME]
         cdb.save(doc)
     except couchdb.http.ResourceConflict:
         return jsonify({
