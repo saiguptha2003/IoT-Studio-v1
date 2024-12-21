@@ -11,6 +11,9 @@ with app.app_context():
 
 app.register_blueprint(authBP, url_prefix='/auth')
 
+@app.route("/",methods=["GET"])
+def index():
+    return {"message": "hello User.."}
 if __name__ == "__main__":
     import sys
     testing = "--test" in sys.argv
