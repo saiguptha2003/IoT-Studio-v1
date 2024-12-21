@@ -1,1 +1,1 @@
-DBNAME='IoT-Studio'
+DBNAME='iotstudio'
