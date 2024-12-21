@@ -66,3 +66,9 @@ docker run -p 5000:5000 --name iotstudioapicontainer iotstudioapi
 pip install -r requirements.txt
 python main.py
 ```
+
+
+## Connections
+
+### DATABASE URL : https://couchdb-xfm8.onrender.com/_utils
+### API URL : 
