@@ -10,3 +10,4 @@ class Config:
     MAIL_USERNAME='adminIoTStudio@gmail.com'
     MAIL_PASSWORD='Pandusai@2003'
     SECRET_KEY="5zp\xdeD\xa3/)\xf1\x87\x80\xf5"
+    
