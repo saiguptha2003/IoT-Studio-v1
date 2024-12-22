@@ -107,7 +107,19 @@ docker build -t iotstudioapi .
 docker run -p 5000:5000 --name iotstudioapicontainer iotstudioapi
 
 ```
+#### Docker Compose
+to turn on the container 
+```bash
+docker-compose up -d  # detach after composing the container
 
+```
+to turn off the container
+```bash
+docker-compose down
+```
+to rebuild application with latest update
+```bash
+docker-compose up --build -d
 #### Using CLI
 ```bash
 pip install -r requirements.txt

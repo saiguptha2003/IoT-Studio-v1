@@ -42,7 +42,7 @@ def token_required(f):
         if "error" in decoded:
             return jsonify({"message": decoded["error"]}), 401
 
-        kwargs["userid"] = decoded.get("userid")
+        kwargs["userid"] = decoded.get("user_id")
         kwargs["email"] = decoded.get("email")
         kwargs['username'] = decoded.get("username")
         return f(*args, **kwargs)

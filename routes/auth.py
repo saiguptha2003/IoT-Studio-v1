@@ -64,7 +64,7 @@ def signin():
     if user and checkPassword(password,user.password_hash):
         session["user_id"] = user.uniqueID
         session["username"] = user.user_name
-        token = create_token(user.user_name, additional_claims={"userid": user.uniqueID,"email":user.email})
+        token = create_token(user.user_name, additional_claims={"user_id": user.uniqueID,"email":user.email})
         return jsonify({
             "message": "Login successful",
             "token": token,
