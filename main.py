@@ -3,10 +3,14 @@ from models import db
 from Config import Config
 from routes import authBP
 from flask_cors import CORS
+import couchdb
 app = Flask(__name__)
 app.config.from_object(Config)
 db.init_app(app)
-import couchdb
+
+with app.app_context():
+    db.create_all()
+
 CORS(app)
 from constants import DBNAME
 couch = couchdb.Server('https://admin:iotstudio@couchdb-xfm8.onrender.com/')
