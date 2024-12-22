@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 import json
 from sqlite3 import IntegrityError, OperationalError
 from flask import Flask, Blueprint, jsonify, request, Response,session
@@ -6,10 +7,11 @@ from utils import hashPassword,checkPassword
 from models import User,db
 from utils import getUniqueID
 from utils import create_token
-from services import createDocumentForUser
+from services import createDocumentForUser,sendAccountCreationEmail
+from sqlalchemy.exc import IntegrityError, OperationalError
 authBP = Blueprint('authBP', __name__, template_folder='templates', static_folder='static')
 
-@authBP.route('/signup',methods=['POST'])
+@authBP.route('/signup', methods=['POST'])
 def signup():
     email = request.json.get('email')
     username = request.json.get('username')
@@ -30,11 +32,28 @@ def signup():
     uniqueID = getUniqueID()
 
     try:
-        newUser = User(email=email, user_name=username, password_hash=hashedPassword, uniqueID=uniqueID)
+        newUser = User(
+            email=email,
+            user_name=username,
+            password_hash=hashedPassword,
+            uniqueID=uniqueID
+        )
+        
         db.session.add(newUser)
+        db.session.flush()
+
+        created_at = str(datetime.now(timezone.utc))
+        couchDBResponse = json.loads(createDocumentForUser(newUser.uniqueID, newUser.user_name, newUser.email, created_at))
+
+        if couchDBResponse['status_code'] != 200:
+            raise Exception("Failed to create document in CouchDB")
+
+        sendAccountCreationEmail(newUser.email, newUser.uniqueID, newUser.user_name, created_at)
+
         db.session.commit()
-        couchDBResponse=json.loads(createDocumentForUser(newUser.uniqueID,newUser.user_name,newUser.email))
-        return jsonify({"success": True, "message": "User signed up successfully! document", "status_code":couchDBResponse['status_code']}), 201
+
+        return jsonify({"success": True, "message": "User signed up successfully!", "status_code": couchDBResponse['status_code']}), 201
+
     except IntegrityError:
         db.session.rollback()
         return jsonify({
@@ -49,8 +68,13 @@ def signup():
             "error": "OperationalError",
             "message": "Database operation failed. Please check the database connection."
         }), 500
-
-
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({
+            "success": False,
+            "error": str(type(e).__name__),
+            "message": str(e)
+        }), 500
 @authBP.route('/signin',methods=['POST'])
 def signin():
     data = request.get_json()

@@ -1,2 +1,3 @@
 from .couchdbServices import createDocumentForUser
 from .secureStoreServices import generateUUID
+from .emailServices import sendAccountCreationEmail

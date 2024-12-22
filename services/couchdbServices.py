@@ -4,11 +4,12 @@ from flask import jsonify
 import couchdb
 from utils import cdb
 from constants import DBNAME
-def createDocumentForUser(userId: str,username :str, emailId: str):
+def createDocumentForUser(userId: str,username :str, emailId: str,created_at):
     doc={
         "_id":userId,
         "username":username,
-        "email":emailId
+        "email":emailId,
+        "created_at":created_at
     }
     try:
         cdb.save(doc)

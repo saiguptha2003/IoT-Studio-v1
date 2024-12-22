@@ -24,3 +24,5 @@ __pycache__/
 # Ignore system files
 .DS_Store
 **.db
+
+**Reference.txt
