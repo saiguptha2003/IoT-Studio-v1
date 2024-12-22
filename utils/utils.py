@@ -6,3 +6,5 @@ def checkPassword(password,password_hash):
     return check_password_hash(password_hash, password)
 def getUniqueID():
     return uuid.uuid4().hex
+def getUniqueIDInt():
+    return uuid.uuid4().int

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 import uuid
 from flask import Blueprint, jsonify, request
 from utils import token_required
@@ -19,7 +19,7 @@ def createServicesConnect(userid, email, username):
             return jsonify({"error": "connection_name is required"}), 400
 
         data['connection_id'] = str(uuid.uuid4())
-        data['created_at'] = str(int(datetime.now().timestamp()))
+        data['created_at'] =str(datetime.now(timezone.utc).timestamp())
 
         userDoc = cdb.get(userid)
         if not userDoc:

@@ -1,7 +1,7 @@
 from flask import Flask
 from models import db
 from Config import Config
-from routes import authBP, IoTConnectBP
+from routes import authBP, IoTConnectBP,SecureStoreBP
 from flask_cors import CORS
 import couchdb
 from constants import DBNAME
@@ -17,6 +17,7 @@ CORS(app)
     
 app.register_blueprint(authBP, url_prefix='/auth')
 app.register_blueprint(IoTConnectBP, url_prefix='/services/IotConnect')
+app.register_blueprint(SecureStoreBP, url_prefix='/services/SecureStore')
 
 @app.route("/",methods=["GET"])
 def index():
