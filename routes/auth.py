@@ -1,4 +1,5 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta
+from pytz import timezone 
 import json
 from sqlite3 import IntegrityError, OperationalError
 from flask import Flask, Blueprint, jsonify, request, Response,session
@@ -42,7 +43,7 @@ def signup():
         db.session.add(newUser)
         db.session.flush()
 
-        created_at = str(datetime.now(timezone.utc))
+        created_at = str(datetime.now(timezone("Asia/Kolkata")))
         couchDBResponse = json.loads(createDocumentForUser(newUser.uniqueID, newUser.user_name, newUser.email, created_at))
 
         if couchDBResponse['status_code'] != 200:
@@ -88,12 +89,14 @@ def signin():
     if user and checkPassword(password,user.password_hash):
         session["user_id"] = user.uniqueID
         session["username"] = user.user_name
-        token = create_token(user.user_name, additional_claims={"user_id": user.uniqueID,"email":user.email})
+        session['session_required']=data.get('session_required')
+        token = create_token(user.user_name, additional_claims={"user_id": user.uniqueID,"email":user.email},sessionRequired=int(data.get('session_required')))
         return jsonify({
             "message": "Login successful",
             "token": token,
             "user_id": user.uniqueID,
-            "email":user.email
+            "email":user.email,
+            "session_expiry": str(datetime.now(timezone("Asia/Kolkata")) + timedelta(minutes=data.get('session_required')))
         }), 200
     else:
         return jsonify({"message": "Invalid username/email or password"}), 401

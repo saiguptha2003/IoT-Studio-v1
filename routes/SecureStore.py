@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
+import uuid
 from flask import Blueprint, jsonify, request
-from services import generateUUID
+from services import generateUUID,generateTokens
 from utils import token_required, cdb,getUniqueIDInt
 SecureStoreBP = Blueprint("SecureStoreBP", __name__)
 
@@ -136,3 +137,142 @@ def getAllSecureIDs(userid, email, username):
         return jsonify(allSecureIds), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+@SecureStoreBP.route('/createSecureToken', methods=['POST'])
+@token_required
+def createSecureToken(userid, email, username):
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "Invalid request, no data provided"}), 400
+
+        type_of_token = data.get('type_of_token')
+        description = data.get('description')
+        token_name = data.get('token_name')
+        expire_date_time = data.get('expire_date_time')
+        nbytes=data.get('nbytes')
+
+        if not type_of_token:
+            return jsonify({"error": "Missing required field: 'type_of_token'"}), 400
+        if not description:
+            return jsonify({"error": "Missing required field: 'description'"}), 400
+        if not token_name:
+            return jsonify({"error": "Missing required field: 'token_name'"}), 400
+        if not expire_date_time:
+            return jsonify({"error": "Missing required field: 'expire_date_time'"}), 400
+        if not nbytes:
+            return jsonify({"error": "Missing required field: 'nbytes'"}), 400
+
+        userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User document not found"}), 404
+
+        if 'SecureStore' not in userDoc:
+            userDoc['SecureStore'] = []
+        if not any('SecureToken' in entry for entry in userDoc['SecureStore']):
+            userDoc['SecureStore'].append({'SecureToken': []})
+
+        for secureEntry in userDoc['SecureStore']:
+            if 'SecureToken' in secureEntry:
+                for existingEntry in secureEntry['SecureToken']:
+                    if existingEntry.get('token_name') == token_name:
+                        return jsonify({"error": f"token_name '{token_name}' already exists."}), 400
+        unique_id=str(uuid.uuid4())
+        token=generateTokens(type_of_token,nbytes)
+        created_at = str(datetime.now(timezone.utc).timestamp())
+
+        new_entry = {
+            "id": str(unique_id),
+            "token_name": token_name,
+            "type_of_token":type_of_token,
+            "token":token,
+            "nbytes":nbytes,
+            "description": description,
+            "expire_date_time": expire_date_time,
+            "created_at": created_at
+        }
+        for secureEntry in userDoc['SecureStore']:
+            if 'SecureToken' in secureEntry:
+                secureEntry['SecureToken'].append(new_entry)
+        cdb.save(userDoc)
+        return jsonify({
+            "message": "Secure Token created successfully.",
+            "token_name": token_name,
+            "entry": new_entry
+        }), 201
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@SecureStoreBP.route('/deleteSecureToken/<token_id>', methods=['DELETE'])
+@token_required
+def deleteSecureTokenById(userid, email, username, token_id):
+    try:
+        userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User document not found"}), 404
+
+        if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
+            return jsonify({"error": "No Secure Tokens found"}), 404
+
+        for secureEntry in userDoc['SecureStore']:
+            if 'SecureToken' in secureEntry:
+                secureTokens = secureEntry['SecureToken']
+                token_to_delete = next((token for token in secureTokens if token['id'] == token_id), None)
+                if token_to_delete:
+                    secureTokens.remove(token_to_delete)
+                    cdb.save(userDoc)
+                    return jsonify({"message": "Secure Token deleted successfully"}), 200
+
+        return jsonify({"error": f"Secure Token with id '{token_id}' not found"}), 404
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+
+@SecureStoreBP.route('/getSecureToken/<token_id>', methods=['GET'])
+@token_required
+def getSecureTokenById(userid, email, username, token_id):
+    try:
+        userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User document not found"}), 404
+
+        if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
+            return jsonify({"error": "No Secure Tokens found"}), 404
+
+        for secureEntry in userDoc['SecureStore']:
+            if 'SecureToken' in secureEntry:
+                token = next((t for t in secureEntry['SecureToken'] if t['id'] == token_id), None)
+                if token:
+                    return jsonify({"token": token}), 200
+
+        return jsonify({"error": f"Secure Token with id '{token_id}' not found"}), 404
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@SecureStoreBP.route('/getAllSecureTokens', methods=['GET'])
+@token_required
+def getAllSecureTokens(userid, email, username):
+    try:
+        userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User document not found"}), 404
+
+        if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
+            return jsonify({"tokens": []}), 200
+
+        all_tokens = []
+        for secureEntry in userDoc['SecureStore']:
+            if 'SecureToken' in secureEntry:
+                all_tokens.extend(secureEntry['SecureToken'])
+
+        return jsonify(all_tokens), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+

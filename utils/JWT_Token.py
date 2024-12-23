@@ -2,6 +2,7 @@ import jwt
 from datetime import datetime, timedelta
 from flask import request, jsonify
 from functools import wraps
+from pytz import timezone
 
 SECRET_KEY = """Re6mYT/HN7aelApSsrQV7vzooBKNLjZCHGkMZLHJN2N0I8ErWnlLAVatKhy+flgS
 iwIXuu1pqLI5aRus77YBdJw//c7Bsq5JGXtSzTfLNSNJ6gS2jhJ+7HBeCAaqNWFO
@@ -9,10 +10,10 @@ iwIXuu1pqLI5aRus77YBdJw//c7Bsq5JGXtSzTfLNSNJ6gS2jhJ+7HBeCAaqNWFO
 t492g1Xp2zgDM0WOuv3oSRrsdo7p+twJATLeTGfrhXqvN4GX3BJ88WGky2L+n67C
 R0+PcVBmz34C3SKxv+Y3/qejkZoQXkHj7U0owh2678vTVDzFev6BtvmZ/g8LiwWP
 zs7dxYwcHi9RHfZA6QtczA=="""
-def create_token(username,additional_claims=None):
+def create_token(username,additional_claims=None,sessionRequired=180):
     payload = {
         "username": username,
-        "exp": datetime.utcnow() + timedelta(hours=2)  
+        "exp": datetime.now(timezone("Asia/Kolkata")) + timedelta(minutes=sessionRequired) 
     }
     if additional_claims:
         payload.update(additional_claims)
