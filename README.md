@@ -25,17 +25,20 @@
 ###### POST /auth/signin
 ```json
 {
-    "username_or_email":"pandurangasaiguptha@gmail.com",
-    "password":"pandusai"
+    "username_or_email":"saiguptha_v@srmap.edu.in",
+    "password":"pandurangasai",
+      "session_required":170
+      
 }
 ```
 ###### Output
 ```json
 {
-    "email": "pandurangasaiguptha@gmail.com",
+    "email": "saiguptha_v@srmap.edu.in",
     "message": "Login successful",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBhbmR1cmFuZ2FzYTFpMyIsImV4cCI6MTczNDcxMDg5NiwidXNlcmlkIjoiYjdmMGNmYzg0MDEzNDMxNWJlNDQ2MWM0MDNiMmQyYjQiLCJlbWFpbCI6InBhbmR1cmFuZ2FzYWlndXB0aGFAZ21haWwuY29tIn0.z-mbWIWhECWBwWolRjmaTezEJtxhknX0oNwqZkig730",
-    "user_id": "b7f0cfc840134315be4461c403b2d2b4"
+    "session_expiry": "2024-12-23 17:12:53.458358+05:30",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBhbmR1cmFuZ2FzYWkiLCJleHAiOjE3MzQ5NTQxNzMsInVzZXJfaWQiOiI5Mjg2YjQxNDYyNjY0YTRlOGJlNzVhNWM1MDUxODU3NSIsImVtYWlsIjoic2FpZ3VwdGhhX3ZAc3JtYXAuZWR1LmluIn0.UdUYZeu2Eu36rdoUwWX-6NqG8HZUmJMOSI1G8a6VuaU",
+    "user_id": "9286b41462664a4e8be75a5c50518575"
 }
 ```
 ---
