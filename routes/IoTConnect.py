@@ -40,7 +40,6 @@ def createServicesConnect(userid, email, username):
             "connection_id": data['connection_id'],
             "IoTConnect": userDoc['IoTConnect']
         }), 201
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -73,3 +72,5 @@ def getAllIoTConnections(userid, email, username):
         return jsonify(iotConnections), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
