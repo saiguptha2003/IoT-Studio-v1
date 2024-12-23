@@ -1,9 +1,7 @@
 import json
-
 from flask import jsonify
 import couchdb
 from utils import cdb
-from constants import DBNAME
 def createDocumentForUser(userId: str,username :str, emailId: str,created_at):
     doc={
         "_id":userId,

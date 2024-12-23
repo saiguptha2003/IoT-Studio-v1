@@ -3,13 +3,9 @@ from datetime import datetime, timedelta
 from flask import request, jsonify
 from functools import wraps
 from pytz import timezone
-
-SECRET_KEY = """Re6mYT/HN7aelApSsrQV7vzooBKNLjZCHGkMZLHJN2N0I8ErWnlLAVatKhy+flgS
-iwIXuu1pqLI5aRus77YBdJw//c7Bsq5JGXtSzTfLNSNJ6gS2jhJ+7HBeCAaqNWFO
-5HY0wCuYgJ1LtBUHSS69Ywoyx+gPlAJ8Ej29nnb7th0Za4hHTtzWZslWcBWT384P
-t492g1Xp2zgDM0WOuv3oSRrsdo7p+twJATLeTGfrhXqvN4GX3BJ88WGky2L+n67C
-R0+PcVBmz34C3SKxv+Y3/qejkZoQXkHj7U0owh2678vTVDzFev6BtvmZ/g8LiwWP
-zs7dxYwcHi9RHfZA6QtczA=="""
+import os
+SECRET_KEY =os.getenv('JWTTOKEN_KEY')
+JWT_ALGORITHM = os.getenv('JWT_ALGORITHM')
 def create_token(username,additional_claims=None,sessionRequired=180):
     payload = {
         "username": username,
@@ -18,13 +14,13 @@ def create_token(username,additional_claims=None,sessionRequired=180):
     if additional_claims:
         payload.update(additional_claims)
     
-    token = jwt.encode(payload, SECRET_KEY, algorithm="HS256")
+    token = jwt.encode(payload, SECRET_KEY, algorithm=JWT_ALGORITHM)
     return token
 
 def decode_token(token):
     """Decode a JWT token."""
     try:
-        payload = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[JWT_ALGORITHM])
         return payload  
     except jwt.ExpiredSignatureError:
         return {"error": "Token has expired"}

@@ -35,7 +35,8 @@ services:
     command: ["python", "main.py"]
     ports:
       - "5000:5000"  # Expose the Flask app port to the host
-
+    env_file:
+      - .env 
 networks:
   app_network:
     driver: bridge

@@ -1,10 +1,13 @@
+from dotenv import load_dotenv
 from flask import Flask
 from models import db
 from Config import Config
 from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP
 from flask_cors import CORS
+import os
 import couchdb
-from constants import DBNAME
+load_dotenv()
+FLASK_PORT=os.getenv('FLASK_PORT')
 app = Flask(__name__)
 app.config.from_object(Config)
 db.init_app(app)
@@ -28,4 +31,4 @@ if __name__ == "__main__":
     if testing:
         print("Running in test mode")
     else:
-        app.run(host="0.0.0.0", port=5000)
+        app.run(host="0.0.0.0", port=FLASK_PORT)

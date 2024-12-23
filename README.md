@@ -308,7 +308,7 @@
 
 ##### /services/SecureStore/createSecureToken
 ###### POST /services/SecureStore/createSecureToken 
-###### Input
+###### Request
 ```json
 {
   "type_of_token": "hex", 
@@ -342,7 +342,7 @@
 
 ##### /contactus
 ###### POST /contactus 
-###### Input
+###### Request
 ```json
 {
     "email":"saiguptha2021@gmail.com",
@@ -402,4 +402,4 @@ python main.py
 
 ## Pending Functions
 
-#### creating the requried session time input in frontend and backen in login screen and login route in api
+#### creating the requried session time Request in frontend and backen in login screen and login route in api

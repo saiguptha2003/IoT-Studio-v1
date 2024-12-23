@@ -5,3 +5,4 @@ uuid
 couchdb
 flask-cors
 pytz
+python-dotenv

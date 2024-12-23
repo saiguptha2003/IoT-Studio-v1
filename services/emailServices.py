@@ -1,6 +1,7 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from .constants import MAIL_SERVER,MAIL_PORT,MAIL_USERNAME,MAIL_PASSWORD
 
 def sendAccountCreationEmail(recipientEmail, userId, userName, created_at):
     """
@@ -11,10 +12,10 @@ def sendAccountCreationEmail(recipientEmail, userId, userName, created_at):
     :param userName: Username of the user
     :param createdAt: Account creation timestamp
     """
-    smtpServer = "smtp.gmail.com"
-    smtpPort = 587
-    senderEmail = "noreply.iotstudio@gmail.com" 
-    senderPassword = "bqao clyg pkfx lacp"  
+    smtpServer = MAIL_SERVER
+    smtpPort =MAIL_PORT
+    senderEmail =MAIL_USERNAME
+    senderPassword =MAIL_PASSWORD 
 
     subject = "Account Created Successfully🎉🎉 - IoT Studio"
     body = f"""
