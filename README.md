@@ -244,6 +244,118 @@
 }
 ```
 
+---
+
+##### /services/SecureStore/getAllSecureTokens
+###### GET /services/SecureStore/getAllSecureTokens
+###### Output
+```json
+[
+    {
+        "created_at": "1734934351.944288",
+        "description": "This is a description of the secure token.",
+        "expire_date_time": "2024-12-31T23:59:59Z",
+        "id": "41cb6732-6f7e-43fb-ace7-4df0f3d7a585",
+        "nbytes": 16,
+        "token": null,
+        "token_name": "hex",
+        "type_of_token": "example_type"
+    }
+]
+```
+---
+
+##### /services/SecureStore/getSecureToken/41cb6732-6f7e-43fb-ace7-4df0f3d7a585
+###### GET /services/SecureStore/getSecureToken/41cb6732-6f7e-43fb-ace7-4df0f3d7a585
+###### Output
+```json
+{
+    "token": {
+        "created_at": "1734934351.944288",
+        "description": "This is a description of the secure token.",
+        "expire_date_time": "2024-12-31T23:59:59Z",
+        "id": "41cb6732-6f7e-43fb-ace7-4df0f3d7a585",
+        "nbytes": 16,
+        "token": null,
+        "token_name": "hex",
+        "type_of_token": "example_type"
+    }
+}
+```
+
+---
+
+##### /services/SecureStore/deleteSecureToken/67bece15-314a-4c22-b4e2-61c636872b1c
+###### DELETE /services/SecureStore/deleteSecureToken/67bece15-314a-4c22-b4e2-61c636872b1c
+###### Output
+```json
+{
+    "message": "Secure Token deleted successfully"
+}
+```
+
+---
+
+##### /services/SecureStore/createSecureToken
+###### POST /services/SecureStore/createSecureToken 
+###### Input
+```json
+{
+  "type_of_token": "hex", 
+  "description": "This is a description of the secure token.",
+  "token_name": "hex2ffd1",
+  "expire_date_time": "2024-12-31T23:59:59Z",
+  "nbytes": 16
+}
+
+```
+###### Response
+```json
+{
+    "entry": {
+        "created_at": "1734966480.530896",
+        "description": "This is a description of the secure token.",
+        "expire_date_time": "2024-12-31T23:59:59Z",
+        "id": "0a8dc79b-ee0f-40ec-a01b-c47aeeb06ed5",
+        "nbytes": 16,
+        "token": "ebe0096347ceca9f794162d48f2a65e9",
+        "token_name": "hex2ffd1",
+        "type_of_token": "hex"
+    },
+    "message": "Secure Token created successfully.",
+    "token_name": "hex2ffd1"
+}
+
+```
+
+---
+
+##### /contactus
+###### POST /contactus 
+###### Input
+```json
+{
+    "email":"saiguptha2021@gmail.com",
+    "phone_number":"8688670712",
+    "fullname":"pandurangasai",
+    "message":"pandaisnfuasnfinadsjfnadsjfnasjdfnadskjfnakjsdfnasdfnausdnfjasfnkjasfn"
+}
+```
+###### Response
+```json
+{
+    "entry": {
+        "created_at": "Mon, 23 Dec 2024 13:49:59 GMT",
+        "email": "saiguptha2021@gmail.com",
+        "fullname": "pandurangasai",
+        "id": 2,
+        "message": "pandaisnfuasnfinadsjfnadsjfnasjdfnadskjfnakjsdfnasdfnausdnfjasfnkjasfn",
+        "phone_number": "8688670712"
+    },
+    "message": "ContactUs entry created successfully"
+}
+```
+
 ### Execution
 #### Using Docker
 ```bash
