@@ -42,6 +42,33 @@ def createServicesConnect(userid, email, username):
         }), 201
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@IoTConnectBP.route("/deleteServiceConnect/<connection_id>", methods=["DELETE"])
+@token_required
+def deleteServiceConnect(userid, email, username, connection_id):
+    try:
+        userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User document not found"}), 404
+
+        if 'IoTConnect' not in userDoc or not userDoc['IoTConnect']:
+            return jsonify({"error": "No IoT connections found"}), 404
+
+        original_count = len(userDoc['IoTConnect'])
+        userDoc['IoTConnect'] = [
+            conn for conn in userDoc['IoTConnect']
+            if conn.get('connection_id') != connection_id
+        ]
+
+        if len(userDoc['IoTConnect']) == original_count:
+            return jsonify({"error": f"No connection found with ID '{connection_id}'"}), 404
+
+        cdb.save(userDoc)
+
+        return jsonify({"message": f"Connection with ID '{connection_id}' deleted successfully"}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 @IoTConnectBP.route("/getConnectionById/<connection_id>", methods=["GET"])

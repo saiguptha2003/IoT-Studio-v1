@@ -114,6 +114,16 @@
 
 ---
 
+##### services/IotConnect/deleteServiceConnect/4d58a83a-0bea-45c1-ba4a-0f819fe67228
+###### DELETE services/IotConnect/deleteServiceConnect/4d58a83a-0bea-45c1-ba4a-0f819fe67228
+###### Output
+```json
+{
+    "message": "Connection with ID '4d58a83a-0bea-45c1-ba4a-0f819fe67228' deleted successfully"
+}
+```
+---
+
 ##### services/IotConnect/getAllIoTConnections
 ###### GET services/IotConnect/getAllIoTConnections
 ###### Output
