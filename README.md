@@ -59,8 +59,8 @@
 
 ---
 
-##### services/IoTConnect/createConnection
-###### POST services/IoTConnect/createConnection
+##### /services/IotConnect/createServiceConnect
+###### POST /services/IotConnect/createServiceConnect
 ```json
 {
     "connection_name":"temperaturef Sensing",
