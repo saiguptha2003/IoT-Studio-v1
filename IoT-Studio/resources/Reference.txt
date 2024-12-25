@@ -1,0 +1,86 @@
+
+
+
+-- /login
+-- /register
+--/dashboard
+--/dashboard/iotconnect
+--/dashboard/iotconnect/mqttConnect/
+--/dashboard/iotconnect/opcuaConnect/
+--/dashboard/iotconnect/opcuaConnect/view/data  -----data should be shown 
+--/dashboard/iotconnect/opcuaConnect/view/metadata
+
+--/dashboard/iotconnect/mqttConnected/view/data
+
+-amqp protocol 
+
+
+publisher: which generates data 
+broker -- store data from publisher
+subscriber: connects to broker and get data 
+
+http - get, post 
+1. login
+2. select iotconnect
+3. Mqtt - iot protocol 
+4. server - ip address --- broker ip address 
+5. temperature , humidity .........
+6. enter 
+7. view 
+
+parrel : 
+project 111
+sqlite3
+portal 
+
+
+
+
+ml:
+user 
+select project 
+select sqlite3
+model name :
+batch size :
+problem type
+number layers:
+
+process--> cloud --> public url 
+
+after model training : Warehouse- - - - Data Repository sqlite3 --> public url  jkey: name : value :public url
+
+Warehouse-- create -sqliute3 add, excel
+
+
+DeepInsights- - - -Analytics and Insights
+
+select trained model 
+run the model according to its inputs 
+
+
+Language = python 
+Database=couchdb  NoSQL
+authentication= sqlite3 inhouse data storage 
+
+
+
+data -- store 10 
+
+
+users --documents:
+a--->documents 
+b---> wait
+a---> leave
+b----> document 
+a---> document 
+b----> document 
+
+
+document :1000 user 
+999 --user 
+get(999)
+O(n) = 999
+
+
+
+ 

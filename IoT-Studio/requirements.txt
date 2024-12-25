@@ -1,0 +1,9 @@
+flask
+pyjwt
+flask_sqlalchemy
+uuid
+couchdb
+flask-cors
+pytz
+python-dotenv
+requests

@@ -1,0 +1,9 @@
+Dec 19, 2024 at 19:05 GMT+05:30 -- Project Introduction
+Dec 21, 2024 at 11:13 GMT+05:30 -- Functional Requirements Discussion
+Dec 21, 2024 at 21:12 GMT+05:30 -- Database Requirements Discussion
+Dec 21, 2024 at 21:45 GMT+05:30 -- Fronted Review and Features discussion
+Dec 22, 2024 at 13:02 GMT+05:30 -- github management and frontend backend integrations
+Dec 23, 2024 at 14:11 GMT+05:30 -- Environment Setup in local system using docker compose 
+Dec 23, 2024 at 20:06 GMT+05:30 -- ContactUs Integration with Frontend
+Dec 24, 2024 at 16:42 GMT+05:30 -- Verified Smart ML feature
+Dec 25, 2024 at 10:14 GMT+05:30 -- Worker Node COnfiguration

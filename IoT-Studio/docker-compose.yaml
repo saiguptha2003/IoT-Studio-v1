@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  couchdb:
+    image: couchdb:latest
+    container_name: couchdb
+    ports:
+      - "5984:5984"
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=iotstudio
+    networks:
+      - app_network
+    volumes:
+      - couchdb_data:/opt/couchdb/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://admin:iotstudio@localhost:5984/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: iotstudio-app
+    depends_on:
+      couchdb:
+        condition: service_healthy
+    networks:
+      - app_network
+    volumes:
+      - .:/app
+    command: ["python", "main.py"]
+    ports:
+      - "5000:5000"  # Expose the Flask app port to the host
+    env_file:
+      - .env 
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  couchdb_data:
