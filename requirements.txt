@@ -6,3 +6,4 @@ couchdb
 flask-cors
 pytz
 python-dotenv
+requests
