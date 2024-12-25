@@ -1,0 +1,7 @@
+Flask
+paho-mqtt
+requests
+python-dotenv
+Flask-Cors
+openpyxl
+Flask-SQLAlchemy
