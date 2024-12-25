@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  mqtt_broker:
+    image: eclipse-mosquitto
+    container_name: mqtt_broker
+    ports:
+      - "1883:1883"  # MQTT port
+      - "9001:9001"  # WebSocket port (optional)
+    networks:
+      - mqtt_network
+  
+  flask_app:
+    build: .
+    container_name: flask_app
+    environment:
+      - FLASK_PORT=5000
+      - MQTT_BROKER=mqtt_broker  # Referencing the MQTT broker service
+    ports:
+      - "4582:4582"
+    depends_on:
+      - mqtt_broker
+    networks:
+      - mqtt_network
+
+networks:
+  mqtt_network:
+    driver: bridge
