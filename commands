@@ -1,0 +1,3 @@
+git subtree push --prefix=IoT-Studio iot-studio main
+git subtree pull --prefix IoT-Studio iot-studio main --squash
+git subtree push --prefix=IoT-Studio-Worker iot-studio-worker main

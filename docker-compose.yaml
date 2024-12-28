@@ -23,7 +23,7 @@ services:
       retries: 5
   redis:
     image: redis:latest
-    container_name: redis
+    container_name: redis1
     ports:
       - "6379:6379"
     networks:
@@ -77,8 +77,8 @@ services:
       - TZ=Asia/Kolkata
 
   mqtt-data-producer:
-    image: mqtt-data-producer
-    container_name: mqtt-data-producer
+    image: mqtt-producer
+    container_name: mqtt-producer
     networks:
       - app_network
     environment:
