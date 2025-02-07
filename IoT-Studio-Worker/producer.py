@@ -3,11 +3,14 @@ import random
 import json
 import paho.mqtt.client as mqtt
 
+# Define MQTT client
 mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
-mqttc.connect("broker.emqx.io", 1883)
-mqttc.loop_start()
 
 try:
+    # Connect to MQTT broker
+    mqttc.connect("broker.emqx.io", 1883, 60)
+    mqttc.loop_start()  # Start background loop
+
     while True:
         # Generate a dictionary with random values
         message = {
@@ -23,14 +26,18 @@ try:
 
         # Publish the JSON message
         msg_info = mqttc.publish("paho/test/topic", json_msg, qos=1)
+        msg_info.wait_for_publish()  # Ensure the message is published
         print(f"Sent message: {json_msg}")
-        msg_info.wait_for_publish()
 
-        time.sleep(1)
+        time.sleep(1)  # Sleep for 1 second
 
 except KeyboardInterrupt:
-    print("Publishing stopped by user.")
+    print("\nPublishing stopped by user.")
+
+except Exception as e:
+    print(f"Error: {str(e)}")
 
 finally:
+    print("Disconnecting from broker...")
     mqttc.disconnect()
     mqttc.loop_stop()
