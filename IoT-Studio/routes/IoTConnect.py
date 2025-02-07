@@ -22,14 +22,13 @@ def createServicesConnect(userid, email, username):
 
         data['connection_id'] = str(uuid.uuid4())
         data['created_at'] =str(datetime.now(timezone.utc).timestamp())
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
-            userDoc = cdb.get(userid)
+        user_data = redisClient.get(userid)
+        userDoc = json.loads(user_data) if user_data else cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User document not found"}), 404
+        if "IoTConnect" not in userDoc:
+            userDoc["IoTConnect"] = []
 
-        if 'IoTConnect' not in userDoc:
-            userDoc['IoTConnect'] = []
 
         existing_names = {conn['connection_name'] for conn in userDoc['IoTConnect']}
         if connection_name in existing_names:
