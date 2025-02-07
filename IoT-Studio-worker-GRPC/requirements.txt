@@ -1,0 +1,7 @@
+Flask
+grpcio
+grpcio-tools
+paho-mqtt
+openpyxl
+grpcio-tools
+protobuf

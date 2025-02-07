@@ -1,0 +1,19 @@
+FROM python:3.10-slim
+
+# Set the working directory
+WORKDIR /app
+COPY . .
+# Copy requirements and install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire project into the container
+COPY . .
+
+# Generate gRPC Python files
+RUN python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. iot_service.proto
+
+# Expose the gRPC server port
+EXPOSE 4342
+
+# Command to run the Flask application
+CMD ["python", "main.py"]

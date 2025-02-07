@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package iot;
+
+service IoTService {
+  rpc StartConnection (ConnectionRequest) returns (ConnectionResponse);
+  rpc StopConnection (StopConnectionRequest) returns (StopConnectionResponse);
+  rpc GetConnectionStatus (ConnectionStatusRequest) returns (ConnectionStatusResponse);
+  rpc DownloadExcelFile (FileDownloadRequest) returns (FileDownloadResponse);
+}
+
+message ConnectionRequest {
+  string user_id = 1;
+  string trigger_id = 2;
+  string connection_id = 3;
+  string connection_url = 4;
+  int32 port = 5;
+  int32 qos = 6;
+  int32 keep_alive = 7;
+  string subscribe_topic = 8;
+}
+
+message ConnectionResponse {
+  string status = 1;
+}
+
+message StopConnectionRequest {
+  string user_id = 1;
+  string trigger_id = 2;
+  string connection_id = 3;
+}
+
+message StopConnectionResponse {
+  string status = 1;
+  bool file_available = 2;
+  bytes file_data = 3;
+}
+
+message ConnectionStatusRequest {
+  string user_id = 1;
+  string trigger_id = 2;
+  optional string connection_id = 3;
+}
+
+message ConnectionStatusResponse {
+  repeated ConnectionRecord connections = 1;
+}
+
+message ConnectionRecord {
+  string status = 1;
+  string created_at = 2;
+  string closed_at = 3;
+}
+
+message FileDownloadRequest {
+  string user_id = 1;
+  string trigger_id = 2;
+  string connection_id = 3;
+}
+
+message FileDownloadResponse {
+  bool file_available = 1;
+  bytes file_data = 2;
+}
