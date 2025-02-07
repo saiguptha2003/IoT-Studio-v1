@@ -8,3 +8,5 @@ pytz
 python-dotenv
 requests
 redis
+grpcio
+grpcio-tools
