@@ -21,6 +21,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+
   redis:
     image: redis:latest
     container_name: redis1
@@ -30,7 +31,7 @@ services:
       - app_network
     volumes:
       - redis_data:/data
-    command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"]  
+    command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"]
 
   main-node-app:
     build:
@@ -77,13 +78,39 @@ services:
       - TZ=Asia/Kolkata
 
   mqtt-data-producer:
-    image: mqtt-producer
+    image: pandusa2003/mqtt-producer
     container_name: mqtt-producer
     networks:
       - app_network
     environment:
       - TZ=Asia/Kolkata
     restart: always
+
+  grpc-server:
+    build:
+      context: ./IoT-Studio-worker-GRPC
+      dockerfile: dockerfile
+    container_name: grpc_server
+    networks:
+      - app_network
+    ports:
+      - "50051:50051"
+    environment:
+      - TZ=Asia/Kolkata
+
+  grpc-client:
+    build:
+      context: ./RPCCLIENT
+      dockerfile: dockerfile
+    container_name: grpc_client
+    networks:
+      - app_network
+    depends_on:
+      - grpc-server
+    environment:
+      - GRPC_SERVER_HOST=nervous_driscoll
+      - GRPC_SERVER_PORT=50051
+    command: ["python", "client.py"]
 
 networks:
   app_network:
