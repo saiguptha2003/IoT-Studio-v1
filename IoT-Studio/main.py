@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from flask import Flask, jsonify,request
 from models import db
 from Config import Config
-from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP,TriggerBP
+from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP,TriggerBP,WareHouseBP
 from flask_cors import CORS
 import os
 from cache import redisClient
@@ -23,6 +23,7 @@ CORS(app)
 app.register_blueprint(authBP, url_prefix='/auth')
 app.register_blueprint(IoTConnectBP, url_prefix='/services/IotConnect')
 app.register_blueprint(SecureStoreBP, url_prefix='/services/SecureStore')
+app.register_blueprint(WareHouseBP,url_prefix="/services/WareHouse")
 app.register_blueprint(BasicBP,url_prefix='/')
 app.register_blueprint(TriggerBP,url_prefix='/Trigger')
 @app.route("/",methods=["GET"])
