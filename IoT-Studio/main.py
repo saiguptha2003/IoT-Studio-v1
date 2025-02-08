@@ -1,7 +1,7 @@
 import json
 import logging
 from dotenv import load_dotenv
-from flask import Flask, jsonify
+from flask import Flask, jsonify,request
 from models import db
 from Config import Config
 from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP,TriggerBP
@@ -28,9 +28,36 @@ app.register_blueprint(TriggerBP,url_prefix='/Trigger')
 @app.route("/",methods=["GET"])
 def index():
     return {"message": "hello User.."}
+
+
 @app.route("/contact-us",methods=["GET"])
 def contactUs():
     return {"Name": "V D Panduranga Sai Guptha", "Email":"saiguptha_v@srmap.edu.in"}
+
+
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        return {"error": "No file part"}, 400
+
+    file = request.files['file']
+
+    if file.filename == '':
+        return {"error": "No selected file"}, 400
+
+    # Read first 5 lines
+    first_5_lines = []
+    for i, line in enumerate(file.stream):
+        if i >= 5:
+            break
+        first_5_lines.append(line.decode('utf-8').strip())
+    logging.info(file.filename)
+
+    return {
+        "filename": file.filename,
+        "first_5_lines": first_5_lines
+    }
+
 
 
 @app.route('/get/<key>', methods=['GET'])
