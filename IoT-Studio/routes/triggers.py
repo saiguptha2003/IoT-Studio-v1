@@ -43,7 +43,7 @@ def addTriggerToUserDoc(userid, trigger_data):
 
         userDoc["triggers"].append(trigger_data) 
         cdb[userid] = userDoc  
-
+        redisClient.set(userid,json.dumps(userDoc))
         return True
     except couchdb.ResourceNotFound:
         print(f"User document with userid {userid} not found.")
@@ -104,10 +104,9 @@ def createTrigger(userid, email, username):
             return jsonify({"error": "Failed to update document in CouchDB"}), 500
 
         user_update_success = addTriggerToUserDoc(userid, triggerId)
-
         if not user_update_success:
             return jsonify({"error": "Failed to update user's document in CouchDB"}), 500
-
+        
         return jsonify({
             "message": "Trigger created and saved successfully",
             "trigger_id": triggerId,
