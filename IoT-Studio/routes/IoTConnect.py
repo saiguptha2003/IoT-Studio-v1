@@ -1,11 +1,15 @@
-from datetime import datetime, timezone
+import base64
+from datetime import datetime, time, timezone
 import json
 import logging
+import os
 import uuid
 from flask import Blueprint, jsonify, request
 from utils import token_required
 from utils import getUniqueID, cdb
 from cache import redisClient
+from werkzeug.utils import secure_filename
+
 IoTConnectBP = Blueprint("IoTConnect", __name__)
 
 @IoTConnectBP.route("/createServiceConnect", methods=["POST"])
@@ -109,5 +113,56 @@ def getAllIoTConnections(userid, email, username):
         return jsonify(iotConnections), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
 
 
+@IoTConnectBP.route("/upload", methods=["POST"])
+@token_required
+def uploadExcelFile(userid, email, username):
+    try:
+        if 'file' not in request.files:
+            return jsonify({"error": "No file part in the request"}), 400
+        
+        file = request.files['file']
+        
+        if file.filename == '':
+            return jsonify({"error": "No selected file"}), 400
+
+        if not file.filename.endswith(('.xls', '.xlsx')):
+            return jsonify({"error": "Invalid file format. Only .xls and .xlsx allowed"}), 400
+
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
+            userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User not found"}), 404
+
+        file_uuid = str(uuid.uuid4())
+
+        ConnectFilesDOCID = "555826f494c24297671d768db101685a"  
+        fileDoc = cdb.get(ConnectFilesDOCID)
+        if not fileDoc:
+            return jsonify({"error": "File storage document not found"}), 404
+        fileDoc["_rev"] = fileDoc["_rev"]
+        filename = secure_filename(file.filename)
+        file_content = base64.b64encode(file.read()).decode("utf-8")
+
+        fileDoc["_attachments"] = fileDoc.get("_attachments", {})
+        fileDoc["_attachments"][file_uuid] = {
+            "content_type": file.content_type,
+            "data": file_content
+        }
+        cdb.save(fileDoc)
+        if "ConnectFiles" not in userDoc:
+            logging.info("in the var")
+            userDoc["ConnectFiles"] = []
+        userDoc["ConnectFiles"].append({"uuid": file_uuid, "filename": filename, "timeStamp":datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+})
+        userDoc["_rev"] = cdb.get(userid)["_rev"]
+        cdb.save(userDoc)
+        redisClient.set(userid,json.dumps(userDoc))
+
+        return jsonify({"message": "File uploaded successfully", "file_uuid": file_uuid, "filename": filename}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
