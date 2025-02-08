@@ -61,3 +61,54 @@ def getConnectFileById(userid, email, username, fileId):
         )
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+
+
+    
+@WareHouseBP.route('/getTriggerFilesList', methods=['GET'])
+@token_required
+def getTriggerFiles(userid, email, username):
+    try:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc or "_rev" not in userDoc:
+            userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User not found"}), 404
+        connect_files = userDoc.get("triggers", [])
+        return jsonify({"trigger_files": connect_files}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+
+
+
+@WareHouseBP.route('/getTriggerFile/<triggerId>', methods=['GET'])
+@token_required
+def getTriggerFileById(userid, email, username, triggerId):
+    try:
+        TRIGGER_DOC_ID = "496f084796a84d1c542e50d439002052"  
+        triggerDoc = cdb.get(TRIGGER_DOC_ID)
+
+        if not triggerDoc or triggerId not in triggerDoc:
+            return jsonify({"error": "Trigger ID not found"}), 404
+        trigger = triggerDoc[triggerId] 
+        filepath=trigger['file_path'] 
+        FILES_DOC_ID = "c08667781a0bd38fcaeeacc6eb003b3b"
+        fileDoc = cdb.get(FILES_DOC_ID)
+
+        if not fileDoc or "_attachments" not in fileDoc or filepath not in fileDoc["_attachments"]:
+            return jsonify({"error": "File not found in storage"}), 404
+        file_content = cdb.get_attachment(FILES_DOC_ID, filepath)
+        if not file_content:
+            return jsonify({"error": "Error retrieving file"}), 500
+        content_type = fileDoc["_attachments"][filepath]["content_type"]
+        logging.info(f"Retrieved file {filepath} from document {FILES_DOC_ID}")
+
+        return send_file(
+            io.BytesIO(file_content.read()),
+            as_attachment=True,
+            download_name=filepath,  
+            mimetype=content_type
+        )
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
