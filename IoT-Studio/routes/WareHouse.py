@@ -10,6 +10,7 @@ from utils import token_required, cdb,getUniqueIDInt
 from cache import redisClient
 from werkzeug.utils import secure_filename
 
+
 WareHouseBP = Blueprint("WareHouseBP", __name__)
 
 
@@ -28,8 +29,6 @@ def getConnectFiles(userid, email, username):
         return jsonify({"error": str(e)}), 500
     
 
-
-
 @WareHouseBP.route('/getConnectFile/<fileId>', methods=['GET'])
 @token_required
 def getConnectFileById(userid, email, username, fileId):
@@ -37,14 +36,12 @@ def getConnectFileById(userid, email, username, fileId):
         userDoc = json.loads(redisClient.get(userid) or '{}')
         if not userDoc or "_rev" not in userDoc:
             userDoc = cdb.get(userid)  
-        
         if not userDoc:
             return jsonify({"error": "User not found"}), 404
         connect_files = userDoc.get("ConnectFiles", [])
         file_entry = next((f for f in connect_files if f["uuid"] == fileId), None)
         if not file_entry:
             return jsonify({"error": "File not found in user records"}), 404
-
         filename = file_entry["filename"]
         ConnectFilesDOCID = "555826f494c24297671d768db101685a"  
         fileDoc = cdb.get(ConnectFilesDOCID)
@@ -74,7 +71,6 @@ def deleteConnectFileById(userid, email, username, fileId):
             userDoc = cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User not found"}), 404
-
         connect_files = userDoc.get("ConnectFiles", [])
         file_entry = next((f for f in connect_files if f["uuid"] == fileId), None)
         if not file_entry:
@@ -91,7 +87,6 @@ def deleteConnectFileById(userid, email, username, fileId):
         cdb.save(fileDoc)
         redisClient.set(userid,json.dumps(userDoc))
         return jsonify({"message": "File deleted successfully"}), 200
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -111,22 +106,18 @@ def getTriggerFiles(userid, email, username):
         return jsonify({"error": str(e)}), 500
     
 
-
-
 @WareHouseBP.route('/getTriggerFile/<triggerId>', methods=['GET'])
 @token_required
 def getTriggerFileById(userid, email, username, triggerId):
     try:
         TRIGGER_DOC_ID = "496f084796a84d1c542e50d439002052"  
         triggerDoc = cdb.get(TRIGGER_DOC_ID)
-
         if not triggerDoc or triggerId not in triggerDoc:
             return jsonify({"error": "Trigger ID not found"}), 404
         trigger = triggerDoc[triggerId] 
         filepath=trigger['file_path'] 
         FILES_DOC_ID = "c08667781a0bd38fcaeeacc6eb003b3b"
         fileDoc = cdb.get(FILES_DOC_ID)
-
         if not fileDoc or "_attachments" not in fileDoc or filepath not in fileDoc["_attachments"]:
             return jsonify({"error": "File not found in storage"}), 404
         file_content = cdb.get_attachment(FILES_DOC_ID, filepath)
@@ -134,7 +125,6 @@ def getTriggerFileById(userid, email, username, triggerId):
             return jsonify({"error": "Error retrieving file"}), 500
         content_type = fileDoc["_attachments"][filepath]["content_type"]
         logging.info(f"Retrieved file {filepath} from document {FILES_DOC_ID}")
-
         return send_file(
             io.BytesIO(file_content.read()),
             as_attachment=True,
@@ -144,8 +134,6 @@ def getTriggerFileById(userid, email, username, triggerId):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-
-
 
 @WareHouseBP.route('/deleteTrigger/<triggerId>', methods=['DELETE'])
 @token_required
@@ -165,12 +153,10 @@ def deleteTriggerById(userid, email, username, triggerId):
         triggerDoc = cdb.get(TRIGGER_DOC_ID)
         if not triggerDoc or triggerId not in triggerDoc:
             return jsonify({"error": "Trigger ID not found"}), 404
-
         trigger = triggerDoc.pop(triggerId) 
         filepath = trigger.get('file_path')
         triggerDoc["_rev"] = cdb.get(TRIGGER_DOC_ID)["_rev"]
         cdb.save(triggerDoc)
-
         if filepath:
             fileDoc = cdb.get(FILES_DOC_ID)
             if fileDoc and "_attachments" in fileDoc and filepath in fileDoc["_attachments"]:
@@ -179,10 +165,8 @@ def deleteTriggerById(userid, email, username, triggerId):
                 cdb.save(fileDoc)
         redisClient.set(userid,json.dumps(userDoc))
         return jsonify({"message": "Trigger, user reference, and associated file deleted successfully"}), 200
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 
 @WareHouseBP.route('/getStaticFileList', methods=['GET'])
@@ -200,30 +184,23 @@ def getStaticFiles(userid, email, username):
         return jsonify({"error": str(e)}), 500
 
 
-
 @WareHouseBP.route("/staticFile/upload", methods=["POST"])
 @token_required
 def uploadExcelFile(userid, email, username):
     try:
         if 'file' not in request.files:
             return jsonify({"error": "No file part in the request"}), 400
-        
         file = request.files['file']
-        
         if file.filename == '':
             return jsonify({"error": "No selected file"}), 400
-
         if not file.filename.endswith(('.xls', '.xlsx','.pdf','.pkl','.docs','.txt','.sh','.bat')):
             return jsonify({"error": "Invalid file format. Only .xls,.xlsx.pdf,.pkl,.docs,.txt,.sh,.bat allowed"}), 400
-
         userDoc = json.loads(redisClient.get(userid) or '{}')
         if not userDoc:
             userDoc = cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User not found"}), 404
-
         file_uuid = str(uuid.uuid4())
-
         StaticFileDOCID = "71cfbf7ba7687d23841cbb0dca00063f"  
         fileDoc = cdb.get(StaticFileDOCID)
         if not fileDoc:
@@ -231,7 +208,6 @@ def uploadExcelFile(userid, email, username):
         fileDoc["_rev"] = fileDoc["_rev"]
         filename = secure_filename(file.filename)
         file_content = base64.b64encode(file.read()).decode("utf-8")
-
         fileDoc["_attachments"] = fileDoc.get("_attachments", {})
         fileDoc["_attachments"][file_uuid] = {
             "content_type": file.content_type,
@@ -249,7 +225,6 @@ def uploadExcelFile(userid, email, username):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
-
 
 @WareHouseBP.route('/staticFile/delete/<staticFileId>', methods=['DELETE'])
 @token_required
@@ -277,6 +252,7 @@ def getStaticDelete(userid, email, username,staticFileId):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
+
 @WareHouseBP.route('/staticFiles/delete', methods=['DELETE'])
 @token_required
 def deleteMultipleStaticFiles(userid, email, username):
@@ -284,7 +260,6 @@ def deleteMultipleStaticFiles(userid, email, username):
         data = request.get_json()
         if not data or "fileIds" not in data:
             return jsonify({"error": "Missing fileIds in request"}), 400
-
         fileIds = data["fileIds"]
         if not isinstance(fileIds, list) or not fileIds:
             return jsonify({"error": "fileIds must be a non-empty list"}), 400
@@ -297,7 +272,6 @@ def deleteMultipleStaticFiles(userid, email, username):
         fileDoc = cdb.get(StaticFileDOCID)
         if not fileDoc or "_attachments" not in fileDoc:
             return jsonify({"error": "File storage document not found"}), 404
-
         deleted_files = []
         for fileId in fileIds:
             if fileId in fileDoc["_attachments"]:
