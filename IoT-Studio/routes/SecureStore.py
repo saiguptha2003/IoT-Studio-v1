@@ -14,11 +14,9 @@ def createUniqueID(userid, email, username):
         data = request.get_json()
         if not data:
             return jsonify({"error": "Invalid request, no data provided"}), 400
-
         type_of_id = data.get('type_of_id')
         description = data.get('description')
         secureid_name = data.get('secureid_name')
-
         if not type_of_id:
             return jsonify({"error": "Missing required field: 'type_of_id'"}), 400
         if not description:
@@ -35,17 +33,14 @@ def createUniqueID(userid, email, username):
             userDoc['SecureStore'] = []
         if not any('SecureID' in entry for entry in userDoc['SecureStore']):
             userDoc['SecureStore'].append({'SecureID': []})
-
         for secureEntry in userDoc['SecureStore']:
             if 'SecureID' in secureEntry:
                 for existingEntry in secureEntry['SecureID']:
                     if existingEntry.get('secureid_name') == secureid_name:
                         return jsonify({"error": f"secureid_name '{secureid_name}' already exists."}), 400
-       
         secure_id = generateUUID(type_of_id)
         unique_id = getUniqueIDInt()
         created_at = str(datetime.now(timezone.utc).timestamp())
-
         new_entry = {
             "id": str(unique_id),
             "secure_id": str(secure_id),
@@ -68,9 +63,9 @@ def createUniqueID(userid, email, username):
             "secure_id": secure_id,
             "entry": new_entry
         }), 201
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
 
 @SecureStoreBP.route('/deleteSecureID/<id>', methods=['DELETE'])
 @token_required
@@ -84,7 +79,6 @@ def deleteSecureID(userid, email, username, id):
             userDoc = cdb.get(userid)
         if not userDoc or 'SecureStore' not in userDoc:
             return jsonify({"error": "No SecureStore data found for the user."}), 404
-
         deletedId = None
         for secureEntry in userDoc['SecureStore']:
             if 'SecureID' in secureEntry:
@@ -93,10 +87,8 @@ def deleteSecureID(userid, email, username, id):
                         secureEntry['SecureID'].remove(entry)
                         deletedId = id
                         break
-
         if not deletedId:
             return jsonify({"error": f"No Secure ID found with id '{id}'."}), 404
-
         cdb.save(userDoc)
         redisClient.set(userid,json.dumps(userDoc))
         return jsonify({
@@ -106,6 +98,7 @@ def deleteSecureID(userid, email, username, id):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
+
 @SecureStoreBP.route('/getSecureID/<id>', methods=['GET'])
 @token_required
 def getSecureID(userid, email, username, id):
@@ -117,17 +110,14 @@ def getSecureID(userid, email, username, id):
             userDoc = cdb.get(userid)
         if not userDoc or 'SecureStore' not in userDoc:
             return jsonify({"error": "No SecureStore data found for the user."}), 404
-
         for secureEntry in userDoc['SecureStore']:
             if 'SecureID' in secureEntry:
                 for entry in secureEntry['SecureID']:
                     if entry.get('id') == id:
                         return jsonify(entry), 200
-
         return jsonify({"error": f"No Secure ID found with id '{id}'."}), 404
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
     
     
 @SecureStoreBP.route('/getAllSecureIDs', methods=['GET'])
@@ -139,13 +129,11 @@ def getAllSecureIDs(userid, email, username):
             userDoc = cdb.get(userid)
         if not userDoc or 'SecureStore' not in userDoc:
             return jsonify({"error": "No SecureStore data found for the user."}), 404
-
         allSecureIds = []
         for secureEntry in userDoc['SecureStore']:
             if 'SecureID' in secureEntry:
                 for entry in secureEntry['SecureID']:
                     allSecureIds.append(entry)
-
         return jsonify(allSecureIds), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -158,13 +146,11 @@ def createSecureToken(userid, email, username):
         data = request.get_json()
         if not data:
             return jsonify({"error": "Invalid request, no data provided"}), 400
-
         type_of_token = data.get('type_of_token')
         description = data.get('description')
         token_name = data.get('token_name')
         expire_date_time = data.get('expire_date_time')
         nbytes=data.get('nbytes')
-
         if not type_of_token:
             return jsonify({"error": "Missing required field: 'type_of_token'"}), 400
         if not description:
@@ -182,12 +168,10 @@ def createSecureToken(userid, email, username):
             userDoc = cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User document not found"}), 404
-
         if 'SecureStore' not in userDoc:
             userDoc['SecureStore'] = []
         if not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             userDoc['SecureStore'].append({'SecureToken': []})
-
         for secureEntry in userDoc['SecureStore']:
             if 'SecureToken' in secureEntry:
                 for existingEntry in secureEntry['SecureToken']:
@@ -196,7 +180,6 @@ def createSecureToken(userid, email, username):
         unique_id=str(uuid.uuid4())
         token=generateTokens(type_of_token,nbytes)
         created_at = str(datetime.now(timezone.utc).timestamp())
-
         new_entry = {
             "id": str(unique_id),
             "token_name": token_name,
@@ -217,9 +200,9 @@ def createSecureToken(userid, email, username):
             "token_name": token_name,
             "entry": new_entry
         }), 201
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 @SecureStoreBP.route('/deleteSecureToken/<token_id>', methods=['DELETE'])
 @token_required
@@ -233,7 +216,6 @@ def deleteSecureTokenById(userid, email, username, token_id):
 
         if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             return jsonify({"error": "No Secure Tokens found"}), 404
-
         for secureEntry in userDoc['SecureStore']:
             if 'SecureToken' in secureEntry:
                 secureTokens = secureEntry['SecureToken']
@@ -243,12 +225,9 @@ def deleteSecureTokenById(userid, email, username, token_id):
                     cdb.save(userDoc)
                     redisClient.set(userid,json.dumps(userDoc))
                     return jsonify({"message": "Secure Token deleted successfully"}), 200
-
         return jsonify({"error": f"Secure Token with id '{token_id}' not found"}), 404
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 
 @SecureStoreBP.route('/getSecureToken/<token_id>', methods=['GET'])
@@ -260,18 +239,14 @@ def getSecureTokenById(userid, email, username, token_id):
             userDoc = cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User document not found"}), 404
-
         if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             return jsonify({"error": "No Secure Tokens found"}), 404
-
         for secureEntry in userDoc['SecureStore']:
             if 'SecureToken' in secureEntry:
                 token = next((t for t in secureEntry['SecureToken'] if t['id'] == token_id), None)
                 if token:
                     return jsonify({"token": token}), 200
-
         return jsonify({"error": f"Secure Token with id '{token_id}' not found"}), 404
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -285,16 +260,13 @@ def getAllSecureTokens(userid, email, username):
             userDoc = cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User document not found"}), 404
-
         if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             return jsonify({"tokens": []}), 200
         all_tokens = []
         for secureEntry in userDoc['SecureStore']:
             if 'SecureToken' in secureEntry:
                 all_tokens.extend(secureEntry['SecureToken'])
-
         return jsonify(all_tokens), 200
-
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

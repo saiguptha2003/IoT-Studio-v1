@@ -17,21 +17,16 @@ def signup():
     email = request.json.get('email')
     username = request.json.get('username')
     password = request.json.get('password')
-
     if not email or not username or not password:
         return jsonify({"error": "Email, Username, and Password are required"}), 400
-
     existingEmail = User.query.filter_by(email=email).first()
     if existingEmail:
         return jsonify({"error": "Email is already registered"}), 400
-
     existingUsername = User.query.filter_by(user_name=username).first()
     if existingUsername:
         return jsonify({"error": "Username is already registered"}), 400
-
     hashedPassword = hashPassword(password)
     uniqueID = getUniqueID()
-
     try:
         newUser = User(
             email=email,
@@ -39,22 +34,15 @@ def signup():
             password_hash=hashedPassword,
             uniqueID=uniqueID
         )
-        
         db.session.add(newUser)
         db.session.flush()
-
         created_at = str(datetime.now(timezone("Asia/Kolkata")))
         couchDBResponse = json.loads(createDocumentForUser(newUser.uniqueID, newUser.user_name, newUser.email, created_at))
-
         if couchDBResponse['status_code'] != 200:
             raise Exception("Failed to create document in CouchDB")
-
         sendAccountCreationEmail(newUser.email, newUser.uniqueID, newUser.user_name, created_at)
-
         db.session.commit()
-
         return jsonify({"success": True, "message": "User signed up successfully!", "status_code": couchDBResponse['status_code']}), 201
-
     except IntegrityError:
         db.session.rollback()
         return jsonify({
@@ -76,6 +64,8 @@ def signup():
             "error": str(type(e).__name__),
             "message": str(e)
         }), 500
+    
+
 @authBP.route('/signin',methods=['POST'])
 def signin():
     data = request.get_json()
@@ -101,6 +91,7 @@ def signin():
     else:
         return jsonify({"message": "Invalid username/email or password"}), 401
     
+
 @authBP.route('/users', methods=['GET'])
 def get_all_users():
     users = User.query.all()
@@ -113,5 +104,4 @@ def get_all_users():
         }
         for user in users
     ]
-    
     return jsonify(user_list), 200
