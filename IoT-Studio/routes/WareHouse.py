@@ -179,7 +179,7 @@ def getStaticFiles(userid, email, username):
         if not userDoc:
             return jsonify({"error": "User not found"}), 404
         connect_files = userDoc.get("StaticFiles", [])
-        return jsonify({"trigger_files": connect_files}), 200
+        return jsonify({"static_files": connect_files}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -224,7 +224,40 @@ def uploadExcelFile(userid, email, username):
         return jsonify({"message": "File uploaded successfully", "file_uuid": file_uuid, "filename": filename}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+
+
+@WareHouseBP.route('/getStaticFile/<fileId>', methods=['GET'])
+@token_required
+def getStaticFileById(userid, email, username, fileId):
+    try:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
+            userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User not found"}), 404
+        static_files = userDoc.get("StaticFiles", [])
+        file_entry = next((f for f in static_files if f["uuid"] == fileId), None)
+        if not file_entry:
+            return jsonify({"error": "File not found in user records"}), 404
+        filename = file_entry["filename"]
+        StaticFileDOCID = "71cfbf7ba7687d23841cbb0dca00063f"
+        fileDoc = cdb.get(StaticFileDOCID)
+        if not fileDoc or "_attachments" not in fileDoc or fileId not in fileDoc["_attachments"]:
+            return jsonify({"error": "File not found in storage"}), 404
+        file_content = cdb.get_attachment(StaticFileDOCID, fileId)
+        if not file_content:
+            return jsonify({"error": "Error retrieving file"}), 500
+        content_type = fileDoc["_attachments"][fileId]["content_type"]
+        logging.info(f"Retrieved static file {filename} (ID: {fileId}) from document {StaticFileDOCID}")
+        return send_file(
+            io.BytesIO(file_content.read()),
+            as_attachment=True,
+            download_name=filename,
+            mimetype=content_type
+        )
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 @WareHouseBP.route('/staticFile/delete/<staticFileId>', methods=['DELETE'])
 @token_required
