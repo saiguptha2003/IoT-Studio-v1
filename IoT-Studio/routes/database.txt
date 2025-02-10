@@ -2,3 +2,5 @@ Triggers Excel file storage in c08667781a0bd38fcaeeacc6eb003b3b
 Triggers details are in 496f084796a84d1c542e50d439002052
 ConnectFilesDOCID which stores the files of the IotConnectFiles excel in  555826f494c24297671d768db101685a
 Warehouse static file uploads 71cfbf7ba7687d23841cbb0dca00063f
+
+customized files  e8e41da7e906bd6ef30ceea355000af7

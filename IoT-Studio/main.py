@@ -18,7 +18,8 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 logging.basicConfig(level=logging.DEBUG)
-CORS(app)
+
+CORS(app, resources={r"/services/WareHouse/*": {"origins": "http://localhost:5173"}}, supports_credentials=True)
     
 app.register_blueprint(authBP, url_prefix='/auth')
 app.register_blueprint(IoTConnectBP, url_prefix='/services/IotConnect')
@@ -29,7 +30,13 @@ app.register_blueprint(TriggerBP,url_prefix='/Trigger')
 @app.route("/",methods=["GET"])
 def index():
     return {"message": "hello User.."}
-
+@app.after_request
+def add_cors_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "http://localhost:5173"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, DELETE, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Authorization, Content-Type"
+    response.headers["Access-Control-Allow-Credentials"] = "true"
+    return response
 
 @app.route("/contact-us",methods=["GET"])
 def contactUs():
