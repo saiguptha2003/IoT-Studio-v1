@@ -23,11 +23,12 @@ def createUniqueID(userid, email, username):
             return jsonify({"error": "Missing required field: 'description'"}), 400
         if not secureid_name:
             return jsonify({"error": "Missing required field: 'secureid_name'"}), 400
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
         if not userDoc:
-            return jsonify({"error": "User document not found"}), 404
+            return jsonify({"error": "User not found"}), 404
+
         print("dsaf3",flush=True)
         if 'SecureStore' not in userDoc:
             userDoc['SecureStore'] = []
@@ -74,9 +75,11 @@ def deleteSecureID(userid, email, username, id):
         id=str(id)
         if not id:
             return jsonify({"error": "Missing required parameter: 'id'"}), 400
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User not found"}), 404
         if not userDoc or 'SecureStore' not in userDoc:
             return jsonify({"error": "No SecureStore data found for the user."}), 404
         deletedId = None
@@ -106,8 +109,11 @@ def getSecureID(userid, email, username, id):
         if not id:
             return jsonify({"error": "Missing required parameter: 'id'"}), 400
         userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:            
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User not found"}), 404
         if not userDoc or 'SecureStore' not in userDoc:
             return jsonify({"error": "No SecureStore data found for the user."}), 404
         for secureEntry in userDoc['SecureStore']:
@@ -124,9 +130,11 @@ def getSecureID(userid, email, username, id):
 @token_required
 def getAllSecureIDs(userid, email, username):
     try:
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
+        if not userDoc:
+            return jsonify({"error": "User not found"}), 404
         if not userDoc or 'SecureStore' not in userDoc:
             return jsonify({"error": "No SecureStore data found for the user."}), 404
         allSecureIds = []
@@ -162,12 +170,11 @@ def createSecureToken(userid, email, username):
         if not nbytes:
             return jsonify({"error": "Missing required field: 'nbytes'"}), 400
         print("assess",flush=True)
-        userDoc=json.loads(redisClient.get(userid))
-        print("assess",flush=True)
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
         if not userDoc:
-            return jsonify({"error": "User document not found"}), 404
+            return jsonify({"error": "User not found"}), 404
         if 'SecureStore' not in userDoc:
             userDoc['SecureStore'] = []
         if not any('SecureToken' in entry for entry in userDoc['SecureStore']):
@@ -208,11 +215,11 @@ def createSecureToken(userid, email, username):
 @token_required
 def deleteSecureTokenById(userid, email, username, token_id):
     try:
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
         if not userDoc:
-            return jsonify({"error": "User document not found"}), 404
+            return jsonify({"error": "User not found"}), 404
 
         if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             return jsonify({"error": "No Secure Tokens found"}), 404
@@ -234,11 +241,11 @@ def deleteSecureTokenById(userid, email, username, token_id):
 @token_required
 def getSecureTokenById(userid, email, username, token_id):
     try:
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
         if not userDoc:
-            return jsonify({"error": "User document not found"}), 404
+            return jsonify({"error": "User not found"}), 404
         if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             return jsonify({"error": "No Secure Tokens found"}), 404
         for secureEntry in userDoc['SecureStore']:
@@ -255,11 +262,11 @@ def getSecureTokenById(userid, email, username, token_id):
 @token_required
 def getAllSecureTokens(userid, email, username):
     try:
-        userDoc=json.loads(redisClient.get(userid))
-        if userDoc is None:
+        userDoc = json.loads(redisClient.get(userid) or '{}')
+        if not userDoc:
             userDoc = cdb.get(userid)
         if not userDoc:
-            return jsonify({"error": "User document not found"}), 404
+            return jsonify({"error": "User not found"}), 404
         if 'SecureStore' not in userDoc or not any('SecureToken' in entry for entry in userDoc['SecureStore']):
             return jsonify({"tokens": []}), 200
         all_tokens = []
