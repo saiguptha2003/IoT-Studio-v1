@@ -100,8 +100,21 @@ def getTriggerFiles(userid, email, username):
             userDoc = cdb.get(userid)
         if not userDoc:
             return jsonify({"error": "User not found"}), 404
-        connect_files = userDoc.get("triggers", [])
-        return jsonify({"trigger_files": connect_files}), 200
+        trigger_ids = userDoc.get("triggers", [])
+        TRIGGER_DOC_ID = "496f084796a84d1c542e50d439002052"
+        triggerDoc = cdb.get(TRIGGER_DOC_ID)
+        trigger_details = []
+        for trigger_id in trigger_ids:
+            if trigger_id in triggerDoc:
+                trigger = triggerDoc[trigger_id]
+                trigger_details.append({
+                    "trigger_id": trigger_id,
+                    "trigger_name": trigger.get("trigger_name"),
+                    "created_at": trigger.get("created_at"),
+                    "file_path": trigger.get("file_path")
+                })
+                
+        return jsonify({"trigger_files": trigger_details}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
