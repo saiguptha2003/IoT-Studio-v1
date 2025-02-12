@@ -23,7 +23,7 @@ def createServicesConnect(userid, email, username):
         if not connection_name:
             return jsonify({"error": "connection_name is required"}), 400
         data['connection_id'] = str(uuid.uuid4())
-        data['created_at'] =str(datetime.now(timezone.utc).timestamp())
+        data['created_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         user_data = redisClient.get(userid)
         userDoc = json.loads(user_data) if user_data else cdb.get(userid)
         if not userDoc:
