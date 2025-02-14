@@ -2420,3 +2420,3332 @@
 1739552979: Sending CONNACK to status_checker (0, 0)
 1739552979: Received DISCONNECT from status_checker
 1739552979: Client status_checker disconnected.
+1739553005: New connection from 172.18.0.2:43901 on port 1883.
+1739553005: New client connected from 172.18.0.2:43901 as status_checker (p2, c1, k2).
+1739553005: No will message specified.
+1739553005: Sending CONNACK to status_checker (0, 0)
+1739553005: Received DISCONNECT from status_checker
+1739553005: Client status_checker disconnected.
+1739553009: New connection from 172.18.0.2:58975 on port 1883.
+1739553009: New client connected from 172.18.0.2:58975 as status_checker (p2, c1, k2).
+1739553009: No will message specified.
+1739553009: Sending CONNACK to status_checker (0, 0)
+1739553009: Received DISCONNECT from status_checker
+1739553009: Client status_checker disconnected.
+1739553035: New connection from 172.18.0.2:60419 on port 1883.
+1739553035: New client connected from 172.18.0.2:60419 as status_checker (p2, c1, k2).
+1739553035: No will message specified.
+1739553035: Sending CONNACK to status_checker (0, 0)
+1739553035: Received DISCONNECT from status_checker
+1739553035: Client status_checker disconnected.
+1739553039: New connection from 172.18.0.2:39411 on port 1883.
+1739553039: New client connected from 172.18.0.2:39411 as status_checker (p2, c1, k2).
+1739553039: No will message specified.
+1739553039: Sending CONNACK to status_checker (0, 0)
+1739553039: Received DISCONNECT from status_checker
+1739553039: Client status_checker disconnected.
+1739553065: New connection from 172.18.0.2:42275 on port 1883.
+1739553065: New client connected from 172.18.0.2:42275 as status_checker (p2, c1, k2).
+1739553065: No will message specified.
+1739553065: Sending CONNACK to status_checker (0, 0)
+1739553065: Received DISCONNECT from status_checker
+1739553065: Client status_checker disconnected.
+1739553069: New connection from 172.18.0.2:50573 on port 1883.
+1739553069: New client connected from 172.18.0.2:50573 as status_checker (p2, c1, k2).
+1739553069: No will message specified.
+1739553069: Sending CONNACK to status_checker (0, 0)
+1739553069: Received DISCONNECT from status_checker
+1739553069: Client status_checker disconnected.
+1739553095: New connection from 172.18.0.2:55019 on port 1883.
+1739553095: New client connected from 172.18.0.2:55019 as status_checker (p2, c1, k2).
+1739553095: No will message specified.
+1739553095: Sending CONNACK to status_checker (0, 0)
+1739553095: Received DISCONNECT from status_checker
+1739553095: Client status_checker disconnected.
+1739553099: New connection from 172.18.0.2:43185 on port 1883.
+1739553099: New client connected from 172.18.0.2:43185 as status_checker (p2, c1, k2).
+1739553099: No will message specified.
+1739553099: Sending CONNACK to status_checker (0, 0)
+1739553099: Received DISCONNECT from status_checker
+1739553099: Client status_checker disconnected.
+1739553125: New connection from 172.18.0.2:38117 on port 1883.
+1739553125: New client connected from 172.18.0.2:38117 as status_checker (p2, c1, k2).
+1739553125: No will message specified.
+1739553125: Sending CONNACK to status_checker (0, 0)
+1739553125: Received DISCONNECT from status_checker
+1739553125: Client status_checker disconnected.
+1739553129: New connection from 172.18.0.2:56153 on port 1883.
+1739553129: New client connected from 172.18.0.2:56153 as status_checker (p2, c1, k2).
+1739553129: No will message specified.
+1739553129: Sending CONNACK to status_checker (0, 0)
+1739553129: Received DISCONNECT from status_checker
+1739553129: Client status_checker disconnected.
+1739553156: New connection from 172.18.0.2:35425 on port 1883.
+1739553156: New client connected from 172.18.0.2:35425 as status_checker (p2, c1, k2).
+1739553156: No will message specified.
+1739553156: Sending CONNACK to status_checker (0, 0)
+1739553156: Received DISCONNECT from status_checker
+1739553156: Client status_checker disconnected.
+1739553159: New connection from 172.18.0.2:54699 on port 1883.
+1739553159: New client connected from 172.18.0.2:54699 as status_checker (p2, c1, k2).
+1739553159: No will message specified.
+1739553159: Sending CONNACK to status_checker (0, 0)
+1739553159: Received DISCONNECT from status_checker
+1739553159: Client status_checker disconnected.
+1739553186: New connection from 172.18.0.2:54757 on port 1883.
+1739553186: New client connected from 172.18.0.2:54757 as status_checker (p2, c1, k2).
+1739553186: No will message specified.
+1739553186: Sending CONNACK to status_checker (0, 0)
+1739553186: Received DISCONNECT from status_checker
+1739553186: Client status_checker disconnected.
+1739553189: New connection from 172.18.0.2:58125 on port 1883.
+1739553189: New client connected from 172.18.0.2:58125 as status_checker (p2, c1, k2).
+1739553189: No will message specified.
+1739553189: Sending CONNACK to status_checker (0, 0)
+1739553189: Received DISCONNECT from status_checker
+1739553189: Client status_checker disconnected.
+1739553216: New connection from 172.18.0.2:33557 on port 1883.
+1739553216: New client connected from 172.18.0.2:33557 as status_checker (p2, c1, k2).
+1739553216: No will message specified.
+1739553216: Sending CONNACK to status_checker (0, 0)
+1739553216: Received DISCONNECT from status_checker
+1739553216: Client status_checker disconnected.
+1739553219: New connection from 172.18.0.2:40513 on port 1883.
+1739553219: New client connected from 172.18.0.2:40513 as status_checker (p2, c1, k2).
+1739553219: No will message specified.
+1739553219: Sending CONNACK to status_checker (0, 0)
+1739553219: Received DISCONNECT from status_checker
+1739553219: Client status_checker disconnected.
+1739553246: New connection from 172.18.0.2:45277 on port 1883.
+1739553246: New client connected from 172.18.0.2:45277 as status_checker (p2, c1, k2).
+1739553246: No will message specified.
+1739553246: Sending CONNACK to status_checker (0, 0)
+1739553246: Received DISCONNECT from status_checker
+1739553246: Client status_checker disconnected.
+1739553249: New connection from 172.18.0.2:37143 on port 1883.
+1739553249: New client connected from 172.18.0.2:37143 as status_checker (p2, c1, k2).
+1739553249: No will message specified.
+1739553249: Sending CONNACK to status_checker (0, 0)
+1739553249: Received DISCONNECT from status_checker
+1739553249: Client status_checker disconnected.
+1739553276: New connection from 172.18.0.2:39947 on port 1883.
+1739553276: New client connected from 172.18.0.2:39947 as status_checker (p2, c1, k2).
+1739553276: No will message specified.
+1739553276: Sending CONNACK to status_checker (0, 0)
+1739553276: Received DISCONNECT from status_checker
+1739553276: Client status_checker disconnected.
+1739553279: New connection from 172.18.0.2:38577 on port 1883.
+1739553279: New client connected from 172.18.0.2:38577 as status_checker (p2, c1, k2).
+1739553279: No will message specified.
+1739553279: Sending CONNACK to status_checker (0, 0)
+1739553279: Received DISCONNECT from status_checker
+1739553279: Client status_checker disconnected.
+1739553306: New connection from 172.18.0.2:35777 on port 1883.
+1739553306: New client connected from 172.18.0.2:35777 as status_checker (p2, c1, k2).
+1739553306: No will message specified.
+1739553306: Sending CONNACK to status_checker (0, 0)
+1739553306: Received DISCONNECT from status_checker
+1739553306: Client status_checker disconnected.
+1739553309: New connection from 172.18.0.2:42339 on port 1883.
+1739553309: New client connected from 172.18.0.2:42339 as status_checker (p2, c1, k2).
+1739553309: No will message specified.
+1739553309: Sending CONNACK to status_checker (0, 0)
+1739553309: Received DISCONNECT from status_checker
+1739553309: Client status_checker disconnected.
+1739553336: New connection from 172.18.0.2:53083 on port 1883.
+1739553336: New client connected from 172.18.0.2:53083 as status_checker (p2, c1, k2).
+1739553336: No will message specified.
+1739553336: Sending CONNACK to status_checker (0, 0)
+1739553336: Received DISCONNECT from status_checker
+1739553336: Client status_checker disconnected.
+1739553339: New connection from 172.18.0.2:60899 on port 1883.
+1739553339: New client connected from 172.18.0.2:60899 as status_checker (p2, c1, k2).
+1739553339: No will message specified.
+1739553339: Sending CONNACK to status_checker (0, 0)
+1739553339: Received DISCONNECT from status_checker
+1739553339: Client status_checker disconnected.
+1739553349: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1739553366: New connection from 172.18.0.2:38381 on port 1883.
+1739553366: New client connected from 172.18.0.2:38381 as status_checker (p2, c1, k2).
+1739553366: No will message specified.
+1739553366: Sending CONNACK to status_checker (0, 0)
+1739553366: Received DISCONNECT from status_checker
+1739553366: Client status_checker disconnected.
+1739553369: New connection from 172.18.0.2:47867 on port 1883.
+1739553369: New client connected from 172.18.0.2:47867 as status_checker (p2, c1, k2).
+1739553369: No will message specified.
+1739553369: Sending CONNACK to status_checker (0, 0)
+1739553369: Received DISCONNECT from status_checker
+1739553369: Client status_checker disconnected.
+1739553396: New connection from 172.18.0.2:55975 on port 1883.
+1739553396: New client connected from 172.18.0.2:55975 as status_checker (p2, c1, k2).
+1739553396: No will message specified.
+1739553396: Sending CONNACK to status_checker (0, 0)
+1739553396: Received DISCONNECT from status_checker
+1739553396: Client status_checker disconnected.
+1739553399: New connection from 172.18.0.2:34537 on port 1883.
+1739553399: New client connected from 172.18.0.2:34537 as status_checker (p2, c1, k2).
+1739553399: No will message specified.
+1739553399: Sending CONNACK to status_checker (0, 0)
+1739553399: Received DISCONNECT from status_checker
+1739553399: Client status_checker disconnected.
+1739553426: New connection from 172.18.0.2:49441 on port 1883.
+1739553426: New client connected from 172.18.0.2:49441 as status_checker (p2, c1, k2).
+1739553426: No will message specified.
+1739553426: Sending CONNACK to status_checker (0, 0)
+1739553426: Received DISCONNECT from status_checker
+1739553426: Client status_checker disconnected.
+1739553429: New connection from 172.18.0.2:33569 on port 1883.
+1739553429: New client connected from 172.18.0.2:33569 as status_checker (p2, c1, k2).
+1739553429: No will message specified.
+1739553429: Sending CONNACK to status_checker (0, 0)
+1739553429: Received DISCONNECT from status_checker
+1739553429: Client status_checker disconnected.
+1739553456: New connection from 172.18.0.2:57073 on port 1883.
+1739553456: New client connected from 172.18.0.2:57073 as status_checker (p2, c1, k2).
+1739553456: No will message specified.
+1739553456: Sending CONNACK to status_checker (0, 0)
+1739553456: Received DISCONNECT from status_checker
+1739553456: Client status_checker disconnected.
+1739553459: New connection from 172.18.0.2:56003 on port 1883.
+1739553459: New client connected from 172.18.0.2:56003 as status_checker (p2, c1, k2).
+1739553459: No will message specified.
+1739553459: Sending CONNACK to status_checker (0, 0)
+1739553459: Received DISCONNECT from status_checker
+1739553459: Client status_checker disconnected.
+1739553486: New connection from 172.18.0.2:33405 on port 1883.
+1739553486: New client connected from 172.18.0.2:33405 as status_checker (p2, c1, k2).
+1739553486: No will message specified.
+1739553486: Sending CONNACK to status_checker (0, 0)
+1739553486: Received DISCONNECT from status_checker
+1739553486: Client status_checker disconnected.
+1739553489: New connection from 172.18.0.2:35003 on port 1883.
+1739553489: New client connected from 172.18.0.2:35003 as status_checker (p2, c1, k2).
+1739553489: No will message specified.
+1739553489: Sending CONNACK to status_checker (0, 0)
+1739553489: Received DISCONNECT from status_checker
+1739553489: Client status_checker disconnected.
+1739553516: New connection from 172.18.0.2:33363 on port 1883.
+1739553516: New client connected from 172.18.0.2:33363 as status_checker (p2, c1, k2).
+1739553516: No will message specified.
+1739553516: Sending CONNACK to status_checker (0, 0)
+1739553516: Received DISCONNECT from status_checker
+1739553516: Client status_checker disconnected.
+1739553519: New connection from 172.18.0.2:53801 on port 1883.
+1739553519: New client connected from 172.18.0.2:53801 as status_checker (p2, c1, k2).
+1739553519: No will message specified.
+1739553519: Sending CONNACK to status_checker (0, 0)
+1739553519: Received DISCONNECT from status_checker
+1739553519: Client status_checker disconnected.
+1739553546: New connection from 172.18.0.2:37699 on port 1883.
+1739553546: New client connected from 172.18.0.2:37699 as status_checker (p2, c1, k2).
+1739553546: No will message specified.
+1739553546: Sending CONNACK to status_checker (0, 0)
+1739553546: Received DISCONNECT from status_checker
+1739553546: Client status_checker disconnected.
+1739553549: New connection from 172.18.0.2:50669 on port 1883.
+1739553549: New client connected from 172.18.0.2:50669 as status_checker (p2, c1, k2).
+1739553549: No will message specified.
+1739553549: Sending CONNACK to status_checker (0, 0)
+1739553549: Received DISCONNECT from status_checker
+1739553549: Client status_checker disconnected.
+1739553576: New connection from 172.18.0.2:35309 on port 1883.
+1739553576: New client connected from 172.18.0.2:35309 as status_checker (p2, c1, k2).
+1739553576: No will message specified.
+1739553576: Sending CONNACK to status_checker (0, 0)
+1739553576: Received DISCONNECT from status_checker
+1739553576: Client status_checker disconnected.
+1739553579: New connection from 172.18.0.2:37093 on port 1883.
+1739553579: New client connected from 172.18.0.2:37093 as status_checker (p2, c1, k2).
+1739553579: No will message specified.
+1739553579: Sending CONNACK to status_checker (0, 0)
+1739553579: Received DISCONNECT from status_checker
+1739553579: Client status_checker disconnected.
+1739553606: New connection from 172.18.0.2:39737 on port 1883.
+1739553606: New client connected from 172.18.0.2:39737 as status_checker (p2, c1, k2).
+1739553606: No will message specified.
+1739553606: Sending CONNACK to status_checker (0, 0)
+1739553606: Received DISCONNECT from status_checker
+1739553606: Client status_checker disconnected.
+1739553609: New connection from 172.18.0.2:47275 on port 1883.
+1739553609: New client connected from 172.18.0.2:47275 as status_checker (p2, c1, k2).
+1739553609: No will message specified.
+1739553609: Sending CONNACK to status_checker (0, 0)
+1739553609: Received DISCONNECT from status_checker
+1739553609: Client status_checker disconnected.
+1739553636: New connection from 172.18.0.2:60537 on port 1883.
+1739553636: New client connected from 172.18.0.2:60537 as status_checker (p2, c1, k2).
+1739553636: No will message specified.
+1739553636: Sending CONNACK to status_checker (0, 0)
+1739553636: Received DISCONNECT from status_checker
+1739553636: Client status_checker disconnected.
+1739553640: New connection from 172.18.0.2:57053 on port 1883.
+1739553640: New client connected from 172.18.0.2:57053 as status_checker (p2, c1, k2).
+1739553640: No will message specified.
+1739553640: Sending CONNACK to status_checker (0, 0)
+1739553640: Received DISCONNECT from status_checker
+1739553640: Client status_checker disconnected.
+1739553666: New connection from 172.18.0.2:36165 on port 1883.
+1739553666: New client connected from 172.18.0.2:36165 as status_checker (p2, c1, k2).
+1739553666: No will message specified.
+1739553666: Sending CONNACK to status_checker (0, 0)
+1739553666: Received DISCONNECT from status_checker
+1739553666: Client status_checker disconnected.
+1739553670: New connection from 172.18.0.2:48671 on port 1883.
+1739553670: New client connected from 172.18.0.2:48671 as status_checker (p2, c1, k2).
+1739553670: No will message specified.
+1739553670: Sending CONNACK to status_checker (0, 0)
+1739553670: Received DISCONNECT from status_checker
+1739553670: Client status_checker disconnected.
+1739553696: New connection from 172.18.0.2:41881 on port 1883.
+1739553696: New client connected from 172.18.0.2:41881 as status_checker (p2, c1, k2).
+1739553696: No will message specified.
+1739553696: Sending CONNACK to status_checker (0, 0)
+1739553696: Received DISCONNECT from status_checker
+1739553696: Client status_checker disconnected.
+1739553700: New connection from 172.18.0.2:45779 on port 1883.
+1739553700: New client connected from 172.18.0.2:45779 as status_checker (p2, c1, k2).
+1739553700: No will message specified.
+1739553700: Sending CONNACK to status_checker (0, 0)
+1739553700: Received DISCONNECT from status_checker
+1739553700: Client status_checker disconnected.
+1739553726: New connection from 172.18.0.2:40035 on port 1883.
+1739553726: New client connected from 172.18.0.2:40035 as status_checker (p2, c1, k2).
+1739553726: No will message specified.
+1739553726: Sending CONNACK to status_checker (0, 0)
+1739553726: Received DISCONNECT from status_checker
+1739553726: Client status_checker disconnected.
+1739553730: New connection from 172.18.0.2:47433 on port 1883.
+1739553730: New client connected from 172.18.0.2:47433 as status_checker (p2, c1, k2).
+1739553730: No will message specified.
+1739553730: Sending CONNACK to status_checker (0, 0)
+1739553730: Received DISCONNECT from status_checker
+1739553730: Client status_checker disconnected.
+1739553756: New connection from 172.18.0.2:44681 on port 1883.
+1739553756: New client connected from 172.18.0.2:44681 as status_checker (p2, c1, k2).
+1739553756: No will message specified.
+1739553756: Sending CONNACK to status_checker (0, 0)
+1739553756: Received DISCONNECT from status_checker
+1739553756: Client status_checker disconnected.
+1739553760: New connection from 172.18.0.2:39003 on port 1883.
+1739553760: New client connected from 172.18.0.2:39003 as status_checker (p2, c1, k2).
+1739553760: No will message specified.
+1739553760: Sending CONNACK to status_checker (0, 0)
+1739553760: Received DISCONNECT from status_checker
+1739553760: Client status_checker disconnected.
+1739553786: New connection from 172.18.0.2:35701 on port 1883.
+1739553786: New client connected from 172.18.0.2:35701 as status_checker (p2, c1, k2).
+1739553786: No will message specified.
+1739553786: Sending CONNACK to status_checker (0, 0)
+1739553786: Received DISCONNECT from status_checker
+1739553786: Client status_checker disconnected.
+1739553790: New connection from 172.18.0.2:34823 on port 1883.
+1739553790: New client connected from 172.18.0.2:34823 as status_checker (p2, c1, k2).
+1739553790: No will message specified.
+1739553790: Sending CONNACK to status_checker (0, 0)
+1739553790: Received DISCONNECT from status_checker
+1739553790: Client status_checker disconnected.
+1739553816: New connection from 172.18.0.2:54523 on port 1883.
+1739553816: New client connected from 172.18.0.2:54523 as status_checker (p2, c1, k2).
+1739553816: No will message specified.
+1739553816: Sending CONNACK to status_checker (0, 0)
+1739553816: Received DISCONNECT from status_checker
+1739553816: Client status_checker disconnected.
+1739553820: New connection from 172.18.0.2:50155 on port 1883.
+1739553820: New client connected from 172.18.0.2:50155 as status_checker (p2, c1, k2).
+1739553820: No will message specified.
+1739553820: Sending CONNACK to status_checker (0, 0)
+1739553820: Received DISCONNECT from status_checker
+1739553820: Client status_checker disconnected.
+1739553846: New connection from 172.18.0.2:54973 on port 1883.
+1739553846: New client connected from 172.18.0.2:54973 as status_checker (p2, c1, k2).
+1739553846: No will message specified.
+1739553846: Sending CONNACK to status_checker (0, 0)
+1739553846: Received DISCONNECT from status_checker
+1739553846: Client status_checker disconnected.
+1739553850: New connection from 172.18.0.2:54163 on port 1883.
+1739553850: New client connected from 172.18.0.2:54163 as status_checker (p2, c1, k2).
+1739553850: No will message specified.
+1739553850: Sending CONNACK to status_checker (0, 0)
+1739553850: Received DISCONNECT from status_checker
+1739553850: Client status_checker disconnected.
+1739553876: New connection from 172.18.0.2:35427 on port 1883.
+1739553876: New client connected from 172.18.0.2:35427 as status_checker (p2, c1, k2).
+1739553876: No will message specified.
+1739553876: Sending CONNACK to status_checker (0, 0)
+1739553876: Received DISCONNECT from status_checker
+1739553876: Client status_checker disconnected.
+1739553880: New connection from 172.18.0.2:58637 on port 1883.
+1739553880: New client connected from 172.18.0.2:58637 as status_checker (p2, c1, k2).
+1739553880: No will message specified.
+1739553880: Sending CONNACK to status_checker (0, 0)
+1739553880: Received DISCONNECT from status_checker
+1739553880: Client status_checker disconnected.
+1739553906: New connection from 172.18.0.2:39339 on port 1883.
+1739553906: New client connected from 172.18.0.2:39339 as status_checker (p2, c1, k2).
+1739553906: No will message specified.
+1739553906: Sending CONNACK to status_checker (0, 0)
+1739553906: Received DISCONNECT from status_checker
+1739553906: Client status_checker disconnected.
+1739553910: New connection from 172.18.0.2:53283 on port 1883.
+1739553910: New client connected from 172.18.0.2:53283 as status_checker (p2, c1, k2).
+1739553910: No will message specified.
+1739553910: Sending CONNACK to status_checker (0, 0)
+1739553910: Received DISCONNECT from status_checker
+1739553910: Client status_checker disconnected.
+1739553936: New connection from 172.18.0.2:33273 on port 1883.
+1739553936: New client connected from 172.18.0.2:33273 as status_checker (p2, c1, k2).
+1739553936: No will message specified.
+1739553936: Sending CONNACK to status_checker (0, 0)
+1739553936: Received DISCONNECT from status_checker
+1739553936: Client status_checker disconnected.
+1739553940: New connection from 172.18.0.2:48061 on port 1883.
+1739553940: New client connected from 172.18.0.2:48061 as status_checker (p2, c1, k2).
+1739553940: No will message specified.
+1739553940: Sending CONNACK to status_checker (0, 0)
+1739553940: Received DISCONNECT from status_checker
+1739553940: Client status_checker disconnected.
+1739553966: New connection from 172.18.0.2:59127 on port 1883.
+1739553966: New client connected from 172.18.0.2:59127 as status_checker (p2, c1, k2).
+1739553966: No will message specified.
+1739553966: Sending CONNACK to status_checker (0, 0)
+1739553966: Received DISCONNECT from status_checker
+1739553966: Client status_checker disconnected.
+1739553970: New connection from 172.18.0.2:47565 on port 1883.
+1739553970: New client connected from 172.18.0.2:47565 as status_checker (p2, c1, k2).
+1739553970: No will message specified.
+1739553970: Sending CONNACK to status_checker (0, 0)
+1739553970: Received DISCONNECT from status_checker
+1739553970: Client status_checker disconnected.
+1739553996: New connection from 172.18.0.2:52085 on port 1883.
+1739553996: New client connected from 172.18.0.2:52085 as status_checker (p2, c1, k2).
+1739553996: No will message specified.
+1739553996: Sending CONNACK to status_checker (0, 0)
+1739553996: Received DISCONNECT from status_checker
+1739553996: Client status_checker disconnected.
+1739554000: New connection from 172.18.0.2:37631 on port 1883.
+1739554000: New client connected from 172.18.0.2:37631 as status_checker (p2, c1, k2).
+1739554000: No will message specified.
+1739554000: Sending CONNACK to status_checker (0, 0)
+1739554000: Received DISCONNECT from status_checker
+1739554000: Client status_checker disconnected.
+1739554026: New connection from 172.18.0.2:33255 on port 1883.
+1739554026: New client connected from 172.18.0.2:33255 as status_checker (p2, c1, k2).
+1739554026: No will message specified.
+1739554026: Sending CONNACK to status_checker (0, 0)
+1739554026: Received DISCONNECT from status_checker
+1739554026: Client status_checker disconnected.
+1739554030: New connection from 172.18.0.2:52923 on port 1883.
+1739554030: New client connected from 172.18.0.2:52923 as status_checker (p2, c1, k2).
+1739554030: No will message specified.
+1739554030: Sending CONNACK to status_checker (0, 0)
+1739554030: Received DISCONNECT from status_checker
+1739554030: Client status_checker disconnected.
+1739554056: New connection from 172.18.0.2:41247 on port 1883.
+1739554056: New client connected from 172.18.0.2:41247 as status_checker (p2, c1, k2).
+1739554056: No will message specified.
+1739554056: Sending CONNACK to status_checker (0, 0)
+1739554056: Received DISCONNECT from status_checker
+1739554056: Client status_checker disconnected.
+1739554060: New connection from 172.18.0.2:57261 on port 1883.
+1739554060: New client connected from 172.18.0.2:57261 as status_checker (p2, c1, k2).
+1739554060: No will message specified.
+1739554060: Sending CONNACK to status_checker (0, 0)
+1739554060: Received DISCONNECT from status_checker
+1739554060: Client status_checker disconnected.
+1739554086: New connection from 172.18.0.2:34943 on port 1883.
+1739554086: New client connected from 172.18.0.2:34943 as status_checker (p2, c1, k2).
+1739554086: No will message specified.
+1739554086: Sending CONNACK to status_checker (0, 0)
+1739554086: Received DISCONNECT from status_checker
+1739554086: Client status_checker disconnected.
+1739554090: New connection from 172.18.0.2:42203 on port 1883.
+1739554090: New client connected from 172.18.0.2:42203 as status_checker (p2, c1, k2).
+1739554090: No will message specified.
+1739554090: Sending CONNACK to status_checker (0, 0)
+1739554090: Received DISCONNECT from status_checker
+1739554090: Client status_checker disconnected.
+1739554116: New connection from 172.18.0.2:49417 on port 1883.
+1739554116: New client connected from 172.18.0.2:49417 as status_checker (p2, c1, k2).
+1739554116: No will message specified.
+1739554116: Sending CONNACK to status_checker (0, 0)
+1739554116: Received DISCONNECT from status_checker
+1739554116: Client status_checker disconnected.
+1739554120: New connection from 172.18.0.2:59971 on port 1883.
+1739554120: New client connected from 172.18.0.2:59971 as status_checker (p2, c1, k2).
+1739554120: No will message specified.
+1739554120: Sending CONNACK to status_checker (0, 0)
+1739554120: Received DISCONNECT from status_checker
+1739554120: Client status_checker disconnected.
+1739554146: New connection from 172.18.0.2:38387 on port 1883.
+1739554146: New client connected from 172.18.0.2:38387 as status_checker (p2, c1, k2).
+1739554146: No will message specified.
+1739554146: Sending CONNACK to status_checker (0, 0)
+1739554146: Received DISCONNECT from status_checker
+1739554146: Client status_checker disconnected.
+1739554150: New connection from 172.18.0.2:44789 on port 1883.
+1739554150: New client connected from 172.18.0.2:44789 as status_checker (p2, c1, k2).
+1739554150: No will message specified.
+1739554150: Sending CONNACK to status_checker (0, 0)
+1739554150: Received DISCONNECT from status_checker
+1739554150: Client status_checker disconnected.
+1739554176: New connection from 172.18.0.2:44463 on port 1883.
+1739554176: New client connected from 172.18.0.2:44463 as status_checker (p2, c1, k2).
+1739554176: No will message specified.
+1739554176: Sending CONNACK to status_checker (0, 0)
+1739554176: Received DISCONNECT from status_checker
+1739554176: Client status_checker disconnected.
+1739554180: New connection from 172.18.0.2:47343 on port 1883.
+1739554180: New client connected from 172.18.0.2:47343 as status_checker (p2, c1, k2).
+1739554180: No will message specified.
+1739554180: Sending CONNACK to status_checker (0, 0)
+1739554180: Received DISCONNECT from status_checker
+1739554180: Client status_checker disconnected.
+1739554206: New connection from 172.18.0.2:42027 on port 1883.
+1739554206: New client connected from 172.18.0.2:42027 as status_checker (p2, c1, k2).
+1739554206: No will message specified.
+1739554206: Sending CONNACK to status_checker (0, 0)
+1739554206: Received DISCONNECT from status_checker
+1739554206: Client status_checker disconnected.
+1739554210: New connection from 172.18.0.2:50525 on port 1883.
+1739554210: New client connected from 172.18.0.2:50525 as status_checker (p2, c1, k2).
+1739554210: No will message specified.
+1739554210: Sending CONNACK to status_checker (0, 0)
+1739554210: Received DISCONNECT from status_checker
+1739554210: Client status_checker disconnected.
+1739554237: New connection from 172.18.0.2:47879 on port 1883.
+1739554237: New client connected from 172.18.0.2:47879 as status_checker (p2, c1, k2).
+1739554237: No will message specified.
+1739554237: Sending CONNACK to status_checker (0, 0)
+1739554237: Received DISCONNECT from status_checker
+1739554237: Client status_checker disconnected.
+1739554240: New connection from 172.18.0.2:48437 on port 1883.
+1739554240: New client connected from 172.18.0.2:48437 as status_checker (p2, c1, k2).
+1739554240: No will message specified.
+1739554240: Sending CONNACK to status_checker (0, 0)
+1739554240: Received DISCONNECT from status_checker
+1739554240: Client status_checker disconnected.
+1739554267: New connection from 172.18.0.2:35629 on port 1883.
+1739554267: New client connected from 172.18.0.2:35629 as status_checker (p2, c1, k2).
+1739554267: No will message specified.
+1739554267: Sending CONNACK to status_checker (0, 0)
+1739554267: Received DISCONNECT from status_checker
+1739554267: Client status_checker disconnected.
+1739554270: New connection from 172.18.0.2:50601 on port 1883.
+1739554270: New client connected from 172.18.0.2:50601 as status_checker (p2, c1, k2).
+1739554270: No will message specified.
+1739554270: Sending CONNACK to status_checker (0, 0)
+1739554270: Received DISCONNECT from status_checker
+1739554270: Client status_checker disconnected.
+1739554297: New connection from 172.18.0.2:42427 on port 1883.
+1739554297: New client connected from 172.18.0.2:42427 as status_checker (p2, c1, k2).
+1739554297: No will message specified.
+1739554297: Sending CONNACK to status_checker (0, 0)
+1739554297: Received DISCONNECT from status_checker
+1739554297: Client status_checker disconnected.
+1739554300: New connection from 172.18.0.2:35375 on port 1883.
+1739554300: New client connected from 172.18.0.2:35375 as status_checker (p2, c1, k2).
+1739554300: No will message specified.
+1739554300: Sending CONNACK to status_checker (0, 0)
+1739554300: Received DISCONNECT from status_checker
+1739554300: Client status_checker disconnected.
+1739554327: New connection from 172.18.0.2:38893 on port 1883.
+1739554327: New client connected from 172.18.0.2:38893 as status_checker (p2, c1, k2).
+1739554327: No will message specified.
+1739554327: Sending CONNACK to status_checker (0, 0)
+1739554327: Received DISCONNECT from status_checker
+1739554327: Client status_checker disconnected.
+1739554330: New connection from 172.18.0.2:41123 on port 1883.
+1739554330: New client connected from 172.18.0.2:41123 as status_checker (p2, c1, k2).
+1739554330: No will message specified.
+1739554330: Sending CONNACK to status_checker (0, 0)
+1739554330: Received DISCONNECT from status_checker
+1739554330: Client status_checker disconnected.
+1739554357: New connection from 172.18.0.2:52447 on port 1883.
+1739554357: New client connected from 172.18.0.2:52447 as status_checker (p2, c1, k2).
+1739554357: No will message specified.
+1739554357: Sending CONNACK to status_checker (0, 0)
+1739554357: Received DISCONNECT from status_checker
+1739554357: Client status_checker disconnected.
+1739554360: New connection from 172.18.0.2:33959 on port 1883.
+1739554360: New client connected from 172.18.0.2:33959 as status_checker (p2, c1, k2).
+1739554360: No will message specified.
+1739554360: Sending CONNACK to status_checker (0, 0)
+1739554360: Received DISCONNECT from status_checker
+1739554360: Client status_checker disconnected.
+1739554387: New connection from 172.18.0.2:55503 on port 1883.
+1739554387: New client connected from 172.18.0.2:55503 as status_checker (p2, c1, k2).
+1739554387: No will message specified.
+1739554387: Sending CONNACK to status_checker (0, 0)
+1739554387: Received DISCONNECT from status_checker
+1739554387: Client status_checker disconnected.
+1739554390: New connection from 172.18.0.2:48967 on port 1883.
+1739554390: New client connected from 172.18.0.2:48967 as status_checker (p2, c1, k2).
+1739554390: No will message specified.
+1739554390: Sending CONNACK to status_checker (0, 0)
+1739554390: Received DISCONNECT from status_checker
+1739554390: Client status_checker disconnected.
+1739554417: New connection from 172.18.0.2:39001 on port 1883.
+1739554417: New client connected from 172.18.0.2:39001 as status_checker (p2, c1, k2).
+1739554417: No will message specified.
+1739554417: Sending CONNACK to status_checker (0, 0)
+1739554417: Received DISCONNECT from status_checker
+1739554417: Client status_checker disconnected.
+1739554420: New connection from 172.18.0.2:39373 on port 1883.
+1739554420: New client connected from 172.18.0.2:39373 as status_checker (p2, c1, k2).
+1739554420: No will message specified.
+1739554420: Sending CONNACK to status_checker (0, 0)
+1739554420: Received DISCONNECT from status_checker
+1739554420: Client status_checker disconnected.
+1739554447: New connection from 172.18.0.2:40497 on port 1883.
+1739554447: New client connected from 172.18.0.2:40497 as status_checker (p2, c1, k2).
+1739554447: No will message specified.
+1739554447: Sending CONNACK to status_checker (0, 0)
+1739554447: Received DISCONNECT from status_checker
+1739554447: Client status_checker disconnected.
+1739554450: New connection from 172.18.0.2:38611 on port 1883.
+1739554450: New client connected from 172.18.0.2:38611 as status_checker (p2, c1, k2).
+1739554450: No will message specified.
+1739554450: Sending CONNACK to status_checker (0, 0)
+1739554450: Received DISCONNECT from status_checker
+1739554450: Client status_checker disconnected.
+1739554477: New connection from 172.18.0.2:55595 on port 1883.
+1739554477: New client connected from 172.18.0.2:55595 as status_checker (p2, c1, k2).
+1739554477: No will message specified.
+1739554477: Sending CONNACK to status_checker (0, 0)
+1739554477: Received DISCONNECT from status_checker
+1739554477: Client status_checker disconnected.
+1739554480: New connection from 172.18.0.2:39031 on port 1883.
+1739554480: New client connected from 172.18.0.2:39031 as status_checker (p2, c1, k2).
+1739554480: No will message specified.
+1739554480: Sending CONNACK to status_checker (0, 0)
+1739554480: Received DISCONNECT from status_checker
+1739554480: Client status_checker disconnected.
+1739554507: New connection from 172.18.0.2:43549 on port 1883.
+1739554507: New client connected from 172.18.0.2:43549 as status_checker (p2, c1, k2).
+1739554507: No will message specified.
+1739554507: Sending CONNACK to status_checker (0, 0)
+1739554507: Received DISCONNECT from status_checker
+1739554507: Client status_checker disconnected.
+1739554510: New connection from 172.18.0.2:58985 on port 1883.
+1739554510: New client connected from 172.18.0.2:58985 as status_checker (p2, c1, k2).
+1739554510: No will message specified.
+1739554510: Sending CONNACK to status_checker (0, 0)
+1739554510: Received DISCONNECT from status_checker
+1739554510: Client status_checker disconnected.
+1739554537: New connection from 172.18.0.2:53821 on port 1883.
+1739554537: New client connected from 172.18.0.2:53821 as status_checker (p2, c1, k2).
+1739554537: No will message specified.
+1739554537: Sending CONNACK to status_checker (0, 0)
+1739554537: Received DISCONNECT from status_checker
+1739554537: Client status_checker disconnected.
+1739554540: New connection from 172.18.0.2:50731 on port 1883.
+1739554540: New client connected from 172.18.0.2:50731 as status_checker (p2, c1, k2).
+1739554540: No will message specified.
+1739554540: Sending CONNACK to status_checker (0, 0)
+1739554540: Received DISCONNECT from status_checker
+1739554540: Client status_checker disconnected.
+1739554567: New connection from 172.18.0.2:47627 on port 1883.
+1739554567: New client connected from 172.18.0.2:47627 as status_checker (p2, c1, k2).
+1739554567: No will message specified.
+1739554567: Sending CONNACK to status_checker (0, 0)
+1739554567: Received DISCONNECT from status_checker
+1739554567: Client status_checker disconnected.
+1739554570: New connection from 172.18.0.2:48431 on port 1883.
+1739554570: New client connected from 172.18.0.2:48431 as status_checker (p2, c1, k2).
+1739554570: No will message specified.
+1739554570: Sending CONNACK to status_checker (0, 0)
+1739554570: Received DISCONNECT from status_checker
+1739554570: Client status_checker disconnected.
+1739554597: New connection from 172.18.0.2:54879 on port 1883.
+1739554597: New client connected from 172.18.0.2:54879 as status_checker (p2, c1, k2).
+1739554597: No will message specified.
+1739554597: Sending CONNACK to status_checker (0, 0)
+1739554597: Received DISCONNECT from status_checker
+1739554597: Client status_checker disconnected.
+1739554600: New connection from 172.18.0.2:55383 on port 1883.
+1739554600: New client connected from 172.18.0.2:55383 as status_checker (p2, c1, k2).
+1739554600: No will message specified.
+1739554600: Sending CONNACK to status_checker (0, 0)
+1739554600: Received DISCONNECT from status_checker
+1739554600: Client status_checker disconnected.
+1739554627: New connection from 172.18.0.2:54765 on port 1883.
+1739554627: New client connected from 172.18.0.2:54765 as status_checker (p2, c1, k2).
+1739554627: No will message specified.
+1739554627: Sending CONNACK to status_checker (0, 0)
+1739554627: Received DISCONNECT from status_checker
+1739554627: Client status_checker disconnected.
+1739554631: New connection from 172.18.0.2:51267 on port 1883.
+1739554631: New client connected from 172.18.0.2:51267 as status_checker (p2, c1, k2).
+1739554631: No will message specified.
+1739554631: Sending CONNACK to status_checker (0, 0)
+1739554631: Received DISCONNECT from status_checker
+1739554631: Client status_checker disconnected.
+1739554657: New connection from 172.18.0.2:34349 on port 1883.
+1739554657: New client connected from 172.18.0.2:34349 as status_checker (p2, c1, k2).
+1739554657: No will message specified.
+1739554657: Sending CONNACK to status_checker (0, 0)
+1739554657: Received DISCONNECT from status_checker
+1739554657: Client status_checker disconnected.
+1739554661: New connection from 172.18.0.2:55597 on port 1883.
+1739554661: New client connected from 172.18.0.2:55597 as status_checker (p2, c1, k2).
+1739554661: No will message specified.
+1739554661: Sending CONNACK to status_checker (0, 0)
+1739554661: Received DISCONNECT from status_checker
+1739554661: Client status_checker disconnected.
+1739554687: New connection from 172.18.0.2:45619 on port 1883.
+1739554687: New client connected from 172.18.0.2:45619 as status_checker (p2, c1, k2).
+1739554687: No will message specified.
+1739554687: Sending CONNACK to status_checker (0, 0)
+1739554687: Received DISCONNECT from status_checker
+1739554687: Client status_checker disconnected.
+1739554691: New connection from 172.18.0.2:51969 on port 1883.
+1739554691: New client connected from 172.18.0.2:51969 as status_checker (p2, c1, k2).
+1739554691: No will message specified.
+1739554691: Sending CONNACK to status_checker (0, 0)
+1739554691: Received DISCONNECT from status_checker
+1739554691: Client status_checker disconnected.
+1739554717: New connection from 172.18.0.2:37999 on port 1883.
+1739554717: New client connected from 172.18.0.2:37999 as status_checker (p2, c1, k2).
+1739554717: No will message specified.
+1739554717: Sending CONNACK to status_checker (0, 0)
+1739554717: Received DISCONNECT from status_checker
+1739554717: Client status_checker disconnected.
+1739554721: New connection from 172.18.0.2:58663 on port 1883.
+1739554721: New client connected from 172.18.0.2:58663 as status_checker (p2, c1, k2).
+1739554721: No will message specified.
+1739554721: Sending CONNACK to status_checker (0, 0)
+1739554721: Received DISCONNECT from status_checker
+1739554721: Client status_checker disconnected.
+1739554747: New connection from 172.18.0.2:59147 on port 1883.
+1739554747: New client connected from 172.18.0.2:59147 as status_checker (p2, c1, k2).
+1739554747: No will message specified.
+1739554747: Sending CONNACK to status_checker (0, 0)
+1739554747: Received DISCONNECT from status_checker
+1739554747: Client status_checker disconnected.
+1739554751: New connection from 172.18.0.2:60809 on port 1883.
+1739554751: New client connected from 172.18.0.2:60809 as status_checker (p2, c1, k2).
+1739554751: No will message specified.
+1739554751: Sending CONNACK to status_checker (0, 0)
+1739554751: Received DISCONNECT from status_checker
+1739554751: Client status_checker disconnected.
+1739554777: New connection from 172.18.0.2:55991 on port 1883.
+1739554777: New client connected from 172.18.0.2:55991 as status_checker (p2, c1, k2).
+1739554777: No will message specified.
+1739554777: Sending CONNACK to status_checker (0, 0)
+1739554777: Received DISCONNECT from status_checker
+1739554777: Client status_checker disconnected.
+1739554781: New connection from 172.18.0.2:36543 on port 1883.
+1739554781: New client connected from 172.18.0.2:36543 as status_checker (p2, c1, k2).
+1739554781: No will message specified.
+1739554781: Sending CONNACK to status_checker (0, 0)
+1739554781: Received DISCONNECT from status_checker
+1739554781: Client status_checker disconnected.
+1739554807: New connection from 172.18.0.2:39391 on port 1883.
+1739554807: New client connected from 172.18.0.2:39391 as status_checker (p2, c1, k2).
+1739554807: No will message specified.
+1739554807: Sending CONNACK to status_checker (0, 0)
+1739554807: Received DISCONNECT from status_checker
+1739554807: Client status_checker disconnected.
+1739554811: New connection from 172.18.0.2:58907 on port 1883.
+1739554811: New client connected from 172.18.0.2:58907 as status_checker (p2, c1, k2).
+1739554811: No will message specified.
+1739554811: Sending CONNACK to status_checker (0, 0)
+1739554811: Received DISCONNECT from status_checker
+1739554811: Client status_checker disconnected.
+1739554837: New connection from 172.18.0.2:44063 on port 1883.
+1739554837: New client connected from 172.18.0.2:44063 as status_checker (p2, c1, k2).
+1739554837: No will message specified.
+1739554837: Sending CONNACK to status_checker (0, 0)
+1739554837: Received DISCONNECT from status_checker
+1739554837: Client status_checker disconnected.
+1739554841: New connection from 172.18.0.2:60875 on port 1883.
+1739554841: New client connected from 172.18.0.2:60875 as status_checker (p2, c1, k2).
+1739554841: No will message specified.
+1739554841: Sending CONNACK to status_checker (0, 0)
+1739554841: Received DISCONNECT from status_checker
+1739554841: Client status_checker disconnected.
+1739554867: New connection from 172.18.0.2:58693 on port 1883.
+1739554867: New client connected from 172.18.0.2:58693 as status_checker (p2, c1, k2).
+1739554867: No will message specified.
+1739554867: Sending CONNACK to status_checker (0, 0)
+1739554867: Received DISCONNECT from status_checker
+1739554867: Client status_checker disconnected.
+1739554871: New connection from 172.18.0.2:47493 on port 1883.
+1739554871: New client connected from 172.18.0.2:47493 as status_checker (p2, c1, k2).
+1739554871: No will message specified.
+1739554871: Sending CONNACK to status_checker (0, 0)
+1739554871: Received DISCONNECT from status_checker
+1739554871: Client status_checker disconnected.
+1739554897: New connection from 172.18.0.2:42309 on port 1883.
+1739554897: New client connected from 172.18.0.2:42309 as status_checker (p2, c1, k2).
+1739554897: No will message specified.
+1739554897: Sending CONNACK to status_checker (0, 0)
+1739554897: Received DISCONNECT from status_checker
+1739554897: Client status_checker disconnected.
+1739554901: New connection from 172.18.0.2:60295 on port 1883.
+1739554901: New client connected from 172.18.0.2:60295 as status_checker (p2, c1, k2).
+1739554901: No will message specified.
+1739554901: Sending CONNACK to status_checker (0, 0)
+1739554901: Received DISCONNECT from status_checker
+1739554901: Client status_checker disconnected.
+1739554927: New connection from 172.18.0.2:60545 on port 1883.
+1739554927: New client connected from 172.18.0.2:60545 as status_checker (p2, c1, k2).
+1739554927: No will message specified.
+1739554927: Sending CONNACK to status_checker (0, 0)
+1739554927: Received DISCONNECT from status_checker
+1739554927: Client status_checker disconnected.
+1739554931: New connection from 172.18.0.2:45989 on port 1883.
+1739554931: New client connected from 172.18.0.2:45989 as status_checker (p2, c1, k2).
+1739554931: No will message specified.
+1739554931: Sending CONNACK to status_checker (0, 0)
+1739554931: Received DISCONNECT from status_checker
+1739554931: Client status_checker disconnected.
+1739554957: New connection from 172.18.0.2:49539 on port 1883.
+1739554957: New client connected from 172.18.0.2:49539 as status_checker (p2, c1, k2).
+1739554957: No will message specified.
+1739554957: Sending CONNACK to status_checker (0, 0)
+1739554957: Received DISCONNECT from status_checker
+1739554957: Client status_checker disconnected.
+1739554961: New connection from 172.18.0.2:33399 on port 1883.
+1739554961: New client connected from 172.18.0.2:33399 as status_checker (p2, c1, k2).
+1739554961: No will message specified.
+1739554961: Sending CONNACK to status_checker (0, 0)
+1739554961: Received DISCONNECT from status_checker
+1739554961: Client status_checker disconnected.
+1739554987: New connection from 172.18.0.2:38353 on port 1883.
+1739554987: New client connected from 172.18.0.2:38353 as status_checker (p2, c1, k2).
+1739554987: No will message specified.
+1739554987: Sending CONNACK to status_checker (0, 0)
+1739554987: Received DISCONNECT from status_checker
+1739554987: Client status_checker disconnected.
+1739554991: New connection from 172.18.0.2:58617 on port 1883.
+1739554991: New client connected from 172.18.0.2:58617 as status_checker (p2, c1, k2).
+1739554991: No will message specified.
+1739554991: Sending CONNACK to status_checker (0, 0)
+1739554991: Received DISCONNECT from status_checker
+1739554991: Client status_checker disconnected.
+1739555017: New connection from 172.18.0.2:55451 on port 1883.
+1739555017: New client connected from 172.18.0.2:55451 as status_checker (p2, c1, k2).
+1739555017: No will message specified.
+1739555017: Sending CONNACK to status_checker (0, 0)
+1739555017: Received DISCONNECT from status_checker
+1739555017: Client status_checker disconnected.
+1739555021: New connection from 172.18.0.2:41423 on port 1883.
+1739555021: New client connected from 172.18.0.2:41423 as status_checker (p2, c1, k2).
+1739555021: No will message specified.
+1739555021: Sending CONNACK to status_checker (0, 0)
+1739555021: Received DISCONNECT from status_checker
+1739555021: Client status_checker disconnected.
+1739555047: New connection from 172.18.0.2:45533 on port 1883.
+1739555047: New client connected from 172.18.0.2:45533 as status_checker (p2, c1, k2).
+1739555047: No will message specified.
+1739555047: Sending CONNACK to status_checker (0, 0)
+1739555047: Received DISCONNECT from status_checker
+1739555047: Client status_checker disconnected.
+1739555051: New connection from 172.18.0.2:58395 on port 1883.
+1739555051: New client connected from 172.18.0.2:58395 as status_checker (p2, c1, k2).
+1739555051: No will message specified.
+1739555051: Sending CONNACK to status_checker (0, 0)
+1739555051: Received DISCONNECT from status_checker
+1739555051: Client status_checker disconnected.
+1739555077: New connection from 172.18.0.2:33801 on port 1883.
+1739555077: New client connected from 172.18.0.2:33801 as status_checker (p2, c1, k2).
+1739555077: No will message specified.
+1739555077: Sending CONNACK to status_checker (0, 0)
+1739555077: Received DISCONNECT from status_checker
+1739555077: Client status_checker disconnected.
+1739555081: New connection from 172.18.0.2:58983 on port 1883.
+1739555081: New client connected from 172.18.0.2:58983 as status_checker (p2, c1, k2).
+1739555081: No will message specified.
+1739555081: Sending CONNACK to status_checker (0, 0)
+1739555081: Received DISCONNECT from status_checker
+1739555081: Client status_checker disconnected.
+1739555107: New connection from 172.18.0.2:45871 on port 1883.
+1739555107: New client connected from 172.18.0.2:45871 as status_checker (p2, c1, k2).
+1739555107: No will message specified.
+1739555107: Sending CONNACK to status_checker (0, 0)
+1739555107: Received DISCONNECT from status_checker
+1739555107: Client status_checker disconnected.
+1739555111: New connection from 172.18.0.2:52555 on port 1883.
+1739555111: New client connected from 172.18.0.2:52555 as status_checker (p2, c1, k2).
+1739555111: No will message specified.
+1739555111: Sending CONNACK to status_checker (0, 0)
+1739555111: Received DISCONNECT from status_checker
+1739555111: Client status_checker disconnected.
+1739555137: New connection from 172.18.0.2:33035 on port 1883.
+1739555137: New client connected from 172.18.0.2:33035 as status_checker (p2, c1, k2).
+1739555137: No will message specified.
+1739555137: Sending CONNACK to status_checker (0, 0)
+1739555137: Received DISCONNECT from status_checker
+1739555137: Client status_checker disconnected.
+1739555141: New connection from 172.18.0.2:50517 on port 1883.
+1739555141: New client connected from 172.18.0.2:50517 as status_checker (p2, c1, k2).
+1739555141: No will message specified.
+1739555141: Sending CONNACK to status_checker (0, 0)
+1739555141: Received DISCONNECT from status_checker
+1739555141: Client status_checker disconnected.
+1739555150: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1739555167: New connection from 172.18.0.2:44857 on port 1883.
+1739555167: New client connected from 172.18.0.2:44857 as status_checker (p2, c1, k2).
+1739555167: No will message specified.
+1739555167: Sending CONNACK to status_checker (0, 0)
+1739555167: Received DISCONNECT from status_checker
+1739555167: Client status_checker disconnected.
+1739555171: New connection from 172.18.0.2:46725 on port 1883.
+1739555171: New client connected from 172.18.0.2:46725 as status_checker (p2, c1, k2).
+1739555171: No will message specified.
+1739555171: Sending CONNACK to status_checker (0, 0)
+1739555171: Received DISCONNECT from status_checker
+1739555171: Client status_checker disconnected.
+1739555197: New connection from 172.18.0.2:43575 on port 1883.
+1739555197: New client connected from 172.18.0.2:43575 as status_checker (p2, c1, k2).
+1739555197: No will message specified.
+1739555197: Sending CONNACK to status_checker (0, 0)
+1739555197: Received DISCONNECT from status_checker
+1739555197: Client status_checker disconnected.
+1739555201: New connection from 172.18.0.2:44615 on port 1883.
+1739555201: New client connected from 172.18.0.2:44615 as status_checker (p2, c1, k2).
+1739555201: No will message specified.
+1739555201: Sending CONNACK to status_checker (0, 0)
+1739555201: Received DISCONNECT from status_checker
+1739555201: Client status_checker disconnected.
+1739555227: New connection from 172.18.0.2:38189 on port 1883.
+1739555227: New client connected from 172.18.0.2:38189 as status_checker (p2, c1, k2).
+1739555227: No will message specified.
+1739555227: Sending CONNACK to status_checker (0, 0)
+1739555227: Received DISCONNECT from status_checker
+1739555227: Client status_checker disconnected.
+1739555231: New connection from 172.18.0.2:56697 on port 1883.
+1739555231: New client connected from 172.18.0.2:56697 as status_checker (p2, c1, k2).
+1739555231: No will message specified.
+1739555231: Sending CONNACK to status_checker (0, 0)
+1739555231: Received DISCONNECT from status_checker
+1739555231: Client status_checker disconnected.
+1739555257: New connection from 172.18.0.2:45563 on port 1883.
+1739555257: New client connected from 172.18.0.2:45563 as status_checker (p2, c1, k2).
+1739555257: No will message specified.
+1739555257: Sending CONNACK to status_checker (0, 0)
+1739555257: Received DISCONNECT from status_checker
+1739555257: Client status_checker disconnected.
+1739555261: New connection from 172.18.0.2:54331 on port 1883.
+1739555261: New client connected from 172.18.0.2:54331 as status_checker (p2, c1, k2).
+1739555261: No will message specified.
+1739555261: Sending CONNACK to status_checker (0, 0)
+1739555261: Received DISCONNECT from status_checker
+1739555261: Client status_checker disconnected.
+1739555287: New connection from 172.18.0.2:51299 on port 1883.
+1739555287: New client connected from 172.18.0.2:51299 as status_checker (p2, c1, k2).
+1739555287: No will message specified.
+1739555287: Sending CONNACK to status_checker (0, 0)
+1739555287: Received DISCONNECT from status_checker
+1739555287: Client status_checker disconnected.
+1739555291: New connection from 172.18.0.2:34571 on port 1883.
+1739555291: New client connected from 172.18.0.2:34571 as status_checker (p2, c1, k2).
+1739555291: No will message specified.
+1739555291: Sending CONNACK to status_checker (0, 0)
+1739555291: Received DISCONNECT from status_checker
+1739555291: Client status_checker disconnected.
+1739555317: New connection from 172.18.0.2:38739 on port 1883.
+1739555317: New client connected from 172.18.0.2:38739 as status_checker (p2, c1, k2).
+1739555317: No will message specified.
+1739555317: Sending CONNACK to status_checker (0, 0)
+1739555317: Received DISCONNECT from status_checker
+1739555317: Client status_checker disconnected.
+1739555321: New connection from 172.18.0.2:37333 on port 1883.
+1739555321: New client connected from 172.18.0.2:37333 as status_checker (p2, c1, k2).
+1739555321: No will message specified.
+1739555321: Sending CONNACK to status_checker (0, 0)
+1739555321: Received DISCONNECT from status_checker
+1739555321: Client status_checker disconnected.
+1739555347: New connection from 172.18.0.2:45747 on port 1883.
+1739555347: New client connected from 172.18.0.2:45747 as status_checker (p2, c1, k2).
+1739555347: No will message specified.
+1739555347: Sending CONNACK to status_checker (0, 0)
+1739555347: Received DISCONNECT from status_checker
+1739555347: Client status_checker disconnected.
+1739555351: New connection from 172.18.0.2:53003 on port 1883.
+1739555351: New client connected from 172.18.0.2:53003 as status_checker (p2, c1, k2).
+1739555351: No will message specified.
+1739555351: Sending CONNACK to status_checker (0, 0)
+1739555351: Received DISCONNECT from status_checker
+1739555351: Client status_checker disconnected.
+1739555378: New connection from 172.18.0.2:44555 on port 1883.
+1739555378: New client connected from 172.18.0.2:44555 as status_checker (p2, c1, k2).
+1739555378: No will message specified.
+1739555378: Sending CONNACK to status_checker (0, 0)
+1739555378: Received DISCONNECT from status_checker
+1739555378: Client status_checker disconnected.
+1739555381: New connection from 172.18.0.2:57919 on port 1883.
+1739555381: New client connected from 172.18.0.2:57919 as status_checker (p2, c1, k2).
+1739555381: No will message specified.
+1739555381: Sending CONNACK to status_checker (0, 0)
+1739555381: Received DISCONNECT from status_checker
+1739555381: Client status_checker disconnected.
+1739555408: New connection from 172.18.0.2:35175 on port 1883.
+1739555408: New client connected from 172.18.0.2:35175 as status_checker (p2, c1, k2).
+1739555408: No will message specified.
+1739555408: Sending CONNACK to status_checker (0, 0)
+1739555408: Received DISCONNECT from status_checker
+1739555408: Client status_checker disconnected.
+1739555411: New connection from 172.18.0.2:51519 on port 1883.
+1739555411: New client connected from 172.18.0.2:51519 as status_checker (p2, c1, k2).
+1739555411: No will message specified.
+1739555411: Sending CONNACK to status_checker (0, 0)
+1739555411: Received DISCONNECT from status_checker
+1739555411: Client status_checker disconnected.
+1739555438: New connection from 172.18.0.2:60735 on port 1883.
+1739555438: New client connected from 172.18.0.2:60735 as status_checker (p2, c1, k2).
+1739555438: No will message specified.
+1739555438: Sending CONNACK to status_checker (0, 0)
+1739555438: Received DISCONNECT from status_checker
+1739555438: Client status_checker disconnected.
+1739555441: New connection from 172.18.0.2:43999 on port 1883.
+1739555441: New client connected from 172.18.0.2:43999 as status_checker (p2, c1, k2).
+1739555441: No will message specified.
+1739555441: Sending CONNACK to status_checker (0, 0)
+1739555441: Received DISCONNECT from status_checker
+1739555441: Client status_checker disconnected.
+1739555468: New connection from 172.18.0.2:44383 on port 1883.
+1739555468: New client connected from 172.18.0.2:44383 as status_checker (p2, c1, k2).
+1739555468: No will message specified.
+1739555468: Sending CONNACK to status_checker (0, 0)
+1739555468: Received DISCONNECT from status_checker
+1739555468: Client status_checker disconnected.
+1739555471: New connection from 172.18.0.2:55867 on port 1883.
+1739555471: New client connected from 172.18.0.2:55867 as status_checker (p2, c1, k2).
+1739555471: No will message specified.
+1739555471: Sending CONNACK to status_checker (0, 0)
+1739555471: Received DISCONNECT from status_checker
+1739555471: Client status_checker disconnected.
+1739555498: New connection from 172.18.0.2:46905 on port 1883.
+1739555498: New client connected from 172.18.0.2:46905 as status_checker (p2, c1, k2).
+1739555498: No will message specified.
+1739555498: Sending CONNACK to status_checker (0, 0)
+1739555498: Received DISCONNECT from status_checker
+1739555498: Client status_checker disconnected.
+1739555501: New connection from 172.18.0.2:45785 on port 1883.
+1739555501: New client connected from 172.18.0.2:45785 as status_checker (p2, c1, k2).
+1739555501: No will message specified.
+1739555501: Sending CONNACK to status_checker (0, 0)
+1739555501: Received DISCONNECT from status_checker
+1739555501: Client status_checker disconnected.
+1739555528: New connection from 172.18.0.2:50443 on port 1883.
+1739555528: New client connected from 172.18.0.2:50443 as status_checker (p2, c1, k2).
+1739555528: No will message specified.
+1739555528: Sending CONNACK to status_checker (0, 0)
+1739555528: Received DISCONNECT from status_checker
+1739555528: Client status_checker disconnected.
+1739555531: New connection from 172.18.0.2:49149 on port 1883.
+1739555531: New client connected from 172.18.0.2:49149 as status_checker (p2, c1, k2).
+1739555531: No will message specified.
+1739555531: Sending CONNACK to status_checker (0, 0)
+1739555531: Received DISCONNECT from status_checker
+1739555531: Client status_checker disconnected.
+1739555558: New connection from 172.18.0.2:56505 on port 1883.
+1739555558: New client connected from 172.18.0.2:56505 as status_checker (p2, c1, k2).
+1739555558: No will message specified.
+1739555558: Sending CONNACK to status_checker (0, 0)
+1739555558: Received DISCONNECT from status_checker
+1739555558: Client status_checker disconnected.
+1739555561: New connection from 172.18.0.2:34939 on port 1883.
+1739555561: New client connected from 172.18.0.2:34939 as status_checker (p2, c1, k2).
+1739555561: No will message specified.
+1739555561: Sending CONNACK to status_checker (0, 0)
+1739555561: Received DISCONNECT from status_checker
+1739555561: Client status_checker disconnected.
+1739555588: New connection from 172.18.0.2:42499 on port 1883.
+1739555588: New client connected from 172.18.0.2:42499 as status_checker (p2, c1, k2).
+1739555588: No will message specified.
+1739555588: Sending CONNACK to status_checker (0, 0)
+1739555588: Received DISCONNECT from status_checker
+1739555588: Client status_checker disconnected.
+1739555591: New connection from 172.18.0.2:34733 on port 1883.
+1739555591: New client connected from 172.18.0.2:34733 as status_checker (p2, c1, k2).
+1739555591: No will message specified.
+1739555591: Sending CONNACK to status_checker (0, 0)
+1739555591: Received DISCONNECT from status_checker
+1739555591: Client status_checker disconnected.
+1739555618: New connection from 172.18.0.2:40981 on port 1883.
+1739555618: New client connected from 172.18.0.2:40981 as status_checker (p2, c1, k2).
+1739555618: No will message specified.
+1739555618: Sending CONNACK to status_checker (0, 0)
+1739555618: Received DISCONNECT from status_checker
+1739555618: Client status_checker disconnected.
+1739555621: New connection from 172.18.0.2:56183 on port 1883.
+1739555621: New client connected from 172.18.0.2:56183 as status_checker (p2, c1, k2).
+1739555621: No will message specified.
+1739555621: Sending CONNACK to status_checker (0, 0)
+1739555621: Received DISCONNECT from status_checker
+1739555621: Client status_checker disconnected.
+1739555648: New connection from 172.18.0.2:59125 on port 1883.
+1739555648: New client connected from 172.18.0.2:59125 as status_checker (p2, c1, k2).
+1739555648: No will message specified.
+1739555648: Sending CONNACK to status_checker (0, 0)
+1739555648: Received DISCONNECT from status_checker
+1739555648: Client status_checker disconnected.
+1739555651: New connection from 172.18.0.2:44535 on port 1883.
+1739555651: New client connected from 172.18.0.2:44535 as status_checker (p2, c1, k2).
+1739555651: No will message specified.
+1739555651: Sending CONNACK to status_checker (0, 0)
+1739555651: Received DISCONNECT from status_checker
+1739555651: Client status_checker disconnected.
+1739555678: New connection from 172.18.0.2:47443 on port 1883.
+1739555678: New client connected from 172.18.0.2:47443 as status_checker (p2, c1, k2).
+1739555678: No will message specified.
+1739555678: Sending CONNACK to status_checker (0, 0)
+1739555678: Received DISCONNECT from status_checker
+1739555678: Client status_checker disconnected.
+1739555681: New connection from 172.18.0.2:34177 on port 1883.
+1739555681: New client connected from 172.18.0.2:34177 as status_checker (p2, c1, k2).
+1739555681: No will message specified.
+1739555681: Sending CONNACK to status_checker (0, 0)
+1739555681: Received DISCONNECT from status_checker
+1739555681: Client status_checker disconnected.
+1739555708: New connection from 172.18.0.2:55015 on port 1883.
+1739555708: New client connected from 172.18.0.2:55015 as status_checker (p2, c1, k2).
+1739555708: No will message specified.
+1739555708: Sending CONNACK to status_checker (0, 0)
+1739555708: Received DISCONNECT from status_checker
+1739555708: Client status_checker disconnected.
+1739555711: New connection from 172.18.0.2:60469 on port 1883.
+1739555711: New client connected from 172.18.0.2:60469 as status_checker (p2, c1, k2).
+1739555711: No will message specified.
+1739555711: Sending CONNACK to status_checker (0, 0)
+1739555711: Received DISCONNECT from status_checker
+1739555711: Client status_checker disconnected.
+1739555738: New connection from 172.18.0.2:44573 on port 1883.
+1739555738: New client connected from 172.18.0.2:44573 as status_checker (p2, c1, k2).
+1739555738: No will message specified.
+1739555738: Sending CONNACK to status_checker (0, 0)
+1739555738: Received DISCONNECT from status_checker
+1739555738: Client status_checker disconnected.
+1739555741: New connection from 172.18.0.2:58297 on port 1883.
+1739555741: New client connected from 172.18.0.2:58297 as status_checker (p2, c1, k2).
+1739555741: No will message specified.
+1739555741: Sending CONNACK to status_checker (0, 0)
+1739555741: Received DISCONNECT from status_checker
+1739555741: Client status_checker disconnected.
+1739555768: New connection from 172.18.0.2:39057 on port 1883.
+1739555768: New client connected from 172.18.0.2:39057 as status_checker (p2, c1, k2).
+1739555768: No will message specified.
+1739555768: Sending CONNACK to status_checker (0, 0)
+1739555768: Received DISCONNECT from status_checker
+1739555768: Client status_checker disconnected.
+1739555771: New connection from 172.18.0.2:37895 on port 1883.
+1739555771: New client connected from 172.18.0.2:37895 as status_checker (p2, c1, k2).
+1739555771: No will message specified.
+1739555771: Sending CONNACK to status_checker (0, 0)
+1739555771: Received DISCONNECT from status_checker
+1739555771: Client status_checker disconnected.
+1739555798: New connection from 172.18.0.2:54931 on port 1883.
+1739555798: New client connected from 172.18.0.2:54931 as status_checker (p2, c1, k2).
+1739555798: No will message specified.
+1739555798: Sending CONNACK to status_checker (0, 0)
+1739555798: Received DISCONNECT from status_checker
+1739555798: Client status_checker disconnected.
+1739555801: New connection from 172.18.0.2:57411 on port 1883.
+1739555801: New client connected from 172.18.0.2:57411 as status_checker (p2, c1, k2).
+1739555801: No will message specified.
+1739555801: Sending CONNACK to status_checker (0, 0)
+1739555801: Received DISCONNECT from status_checker
+1739555801: Client status_checker disconnected.
+1739555828: New connection from 172.18.0.2:57609 on port 1883.
+1739555828: New client connected from 172.18.0.2:57609 as status_checker (p2, c1, k2).
+1739555828: No will message specified.
+1739555828: Sending CONNACK to status_checker (0, 0)
+1739555828: Received DISCONNECT from status_checker
+1739555828: Client status_checker disconnected.
+1739555832: New connection from 172.18.0.2:43155 on port 1883.
+1739555832: New client connected from 172.18.0.2:43155 as status_checker (p2, c1, k2).
+1739555832: No will message specified.
+1739555832: Sending CONNACK to status_checker (0, 0)
+1739555832: Received DISCONNECT from status_checker
+1739555832: Client status_checker disconnected.
+1739555858: New connection from 172.18.0.2:58873 on port 1883.
+1739555858: New client connected from 172.18.0.2:58873 as status_checker (p2, c1, k2).
+1739555858: No will message specified.
+1739555858: Sending CONNACK to status_checker (0, 0)
+1739555858: Received DISCONNECT from status_checker
+1739555858: Client status_checker disconnected.
+1739555862: New connection from 172.18.0.2:43371 on port 1883.
+1739555862: New client connected from 172.18.0.2:43371 as status_checker (p2, c1, k2).
+1739555862: No will message specified.
+1739555862: Sending CONNACK to status_checker (0, 0)
+1739555862: Received DISCONNECT from status_checker
+1739555862: Client status_checker disconnected.
+1739555888: New connection from 172.18.0.2:60257 on port 1883.
+1739555888: New client connected from 172.18.0.2:60257 as status_checker (p2, c1, k2).
+1739555888: No will message specified.
+1739555888: Sending CONNACK to status_checker (0, 0)
+1739555888: Received DISCONNECT from status_checker
+1739555888: Client status_checker disconnected.
+1739555892: New connection from 172.18.0.2:42845 on port 1883.
+1739555892: New client connected from 172.18.0.2:42845 as status_checker (p2, c1, k2).
+1739555892: No will message specified.
+1739555892: Sending CONNACK to status_checker (0, 0)
+1739555892: Received DISCONNECT from status_checker
+1739555892: Client status_checker disconnected.
+1739555918: New connection from 172.18.0.2:41947 on port 1883.
+1739555918: New client connected from 172.18.0.2:41947 as status_checker (p2, c1, k2).
+1739555918: No will message specified.
+1739555918: Sending CONNACK to status_checker (0, 0)
+1739555918: Received DISCONNECT from status_checker
+1739555918: Client status_checker disconnected.
+1739555922: New connection from 172.18.0.2:48029 on port 1883.
+1739555922: New client connected from 172.18.0.2:48029 as status_checker (p2, c1, k2).
+1739555922: No will message specified.
+1739555922: Sending CONNACK to status_checker (0, 0)
+1739555922: Received DISCONNECT from status_checker
+1739555922: Client status_checker disconnected.
+1739555948: New connection from 172.18.0.2:48353 on port 1883.
+1739555948: New client connected from 172.18.0.2:48353 as status_checker (p2, c1, k2).
+1739555948: No will message specified.
+1739555948: Sending CONNACK to status_checker (0, 0)
+1739555948: Received DISCONNECT from status_checker
+1739555948: Client status_checker disconnected.
+1739555952: New connection from 172.18.0.2:50351 on port 1883.
+1739555952: New client connected from 172.18.0.2:50351 as status_checker (p2, c1, k2).
+1739555952: No will message specified.
+1739555952: Sending CONNACK to status_checker (0, 0)
+1739555952: Received DISCONNECT from status_checker
+1739555952: Client status_checker disconnected.
+1739555978: New connection from 172.18.0.2:33615 on port 1883.
+1739555978: New client connected from 172.18.0.2:33615 as status_checker (p2, c1, k2).
+1739555978: No will message specified.
+1739555978: Sending CONNACK to status_checker (0, 0)
+1739555978: Received DISCONNECT from status_checker
+1739555978: Client status_checker disconnected.
+1739555982: New connection from 172.18.0.2:48979 on port 1883.
+1739555982: New client connected from 172.18.0.2:48979 as status_checker (p2, c1, k2).
+1739555982: No will message specified.
+1739555982: Sending CONNACK to status_checker (0, 0)
+1739555982: Received DISCONNECT from status_checker
+1739555982: Client status_checker disconnected.
+1739556008: New connection from 172.18.0.2:38431 on port 1883.
+1739556008: New client connected from 172.18.0.2:38431 as status_checker (p2, c1, k2).
+1739556008: No will message specified.
+1739556008: Sending CONNACK to status_checker (0, 0)
+1739556008: Received DISCONNECT from status_checker
+1739556008: Client status_checker disconnected.
+1739556012: New connection from 172.18.0.2:37947 on port 1883.
+1739556012: New client connected from 172.18.0.2:37947 as status_checker (p2, c1, k2).
+1739556012: No will message specified.
+1739556012: Sending CONNACK to status_checker (0, 0)
+1739556012: Received DISCONNECT from status_checker
+1739556012: Client status_checker disconnected.
+1739556038: New connection from 172.18.0.2:33007 on port 1883.
+1739556038: New client connected from 172.18.0.2:33007 as status_checker (p2, c1, k2).
+1739556038: No will message specified.
+1739556038: Sending CONNACK to status_checker (0, 0)
+1739556038: Received DISCONNECT from status_checker
+1739556038: Client status_checker disconnected.
+1739556042: New connection from 172.18.0.2:50423 on port 1883.
+1739556042: New client connected from 172.18.0.2:50423 as status_checker (p2, c1, k2).
+1739556042: No will message specified.
+1739556042: Sending CONNACK to status_checker (0, 0)
+1739556042: Received DISCONNECT from status_checker
+1739556042: Client status_checker disconnected.
+1739556068: New connection from 172.18.0.2:34455 on port 1883.
+1739556068: New client connected from 172.18.0.2:34455 as status_checker (p2, c1, k2).
+1739556068: No will message specified.
+1739556068: Sending CONNACK to status_checker (0, 0)
+1739556068: Received DISCONNECT from status_checker
+1739556068: Client status_checker disconnected.
+1739556072: New connection from 172.18.0.2:47563 on port 1883.
+1739556072: New client connected from 172.18.0.2:47563 as status_checker (p2, c1, k2).
+1739556072: No will message specified.
+1739556072: Sending CONNACK to status_checker (0, 0)
+1739556072: Received DISCONNECT from status_checker
+1739556072: Client status_checker disconnected.
+1739556098: New connection from 172.18.0.2:49099 on port 1883.
+1739556098: New client connected from 172.18.0.2:49099 as status_checker (p2, c1, k2).
+1739556098: No will message specified.
+1739556098: Sending CONNACK to status_checker (0, 0)
+1739556098: Received DISCONNECT from status_checker
+1739556098: Client status_checker disconnected.
+1739556102: New connection from 172.18.0.2:57591 on port 1883.
+1739556102: New client connected from 172.18.0.2:57591 as status_checker (p2, c1, k2).
+1739556102: No will message specified.
+1739556102: Sending CONNACK to status_checker (0, 0)
+1739556102: Received DISCONNECT from status_checker
+1739556102: Client status_checker disconnected.
+1739556128: New connection from 172.18.0.2:42205 on port 1883.
+1739556128: New client connected from 172.18.0.2:42205 as status_checker (p2, c1, k2).
+1739556128: No will message specified.
+1739556128: Sending CONNACK to status_checker (0, 0)
+1739556128: Received DISCONNECT from status_checker
+1739556128: Client status_checker disconnected.
+1739556132: New connection from 172.18.0.2:35063 on port 1883.
+1739556132: New client connected from 172.18.0.2:35063 as status_checker (p2, c1, k2).
+1739556132: No will message specified.
+1739556132: Sending CONNACK to status_checker (0, 0)
+1739556132: Received DISCONNECT from status_checker
+1739556132: Client status_checker disconnected.
+1739556158: New connection from 172.18.0.2:36029 on port 1883.
+1739556158: New client connected from 172.18.0.2:36029 as status_checker (p2, c1, k2).
+1739556158: No will message specified.
+1739556158: Sending CONNACK to status_checker (0, 0)
+1739556158: Received DISCONNECT from status_checker
+1739556158: Client status_checker disconnected.
+1739556162: New connection from 172.18.0.2:33391 on port 1883.
+1739556162: New client connected from 172.18.0.2:33391 as status_checker (p2, c1, k2).
+1739556162: No will message specified.
+1739556162: Sending CONNACK to status_checker (0, 0)
+1739556162: Received DISCONNECT from status_checker
+1739556162: Client status_checker disconnected.
+1739556188: New connection from 172.18.0.2:33833 on port 1883.
+1739556188: New client connected from 172.18.0.2:33833 as status_checker (p2, c1, k2).
+1739556188: No will message specified.
+1739556188: Sending CONNACK to status_checker (0, 0)
+1739556188: Received DISCONNECT from status_checker
+1739556188: Client status_checker disconnected.
+1739556192: New connection from 172.18.0.2:54367 on port 1883.
+1739556192: New client connected from 172.18.0.2:54367 as status_checker (p2, c1, k2).
+1739556192: No will message specified.
+1739556192: Sending CONNACK to status_checker (0, 0)
+1739556192: Received DISCONNECT from status_checker
+1739556192: Client status_checker disconnected.
+1739556218: New connection from 172.18.0.2:33157 on port 1883.
+1739556218: New client connected from 172.18.0.2:33157 as status_checker (p2, c1, k2).
+1739556218: No will message specified.
+1739556218: Sending CONNACK to status_checker (0, 0)
+1739556218: Received DISCONNECT from status_checker
+1739556218: Client status_checker disconnected.
+1739556222: New connection from 172.18.0.2:41091 on port 1883.
+1739556222: New client connected from 172.18.0.2:41091 as status_checker (p2, c1, k2).
+1739556222: No will message specified.
+1739556222: Sending CONNACK to status_checker (0, 0)
+1739556222: Received DISCONNECT from status_checker
+1739556222: Client status_checker disconnected.
+1739556248: New connection from 172.18.0.2:54153 on port 1883.
+1739556248: New client connected from 172.18.0.2:54153 as status_checker (p2, c1, k2).
+1739556248: No will message specified.
+1739556248: Sending CONNACK to status_checker (0, 0)
+1739556248: Received DISCONNECT from status_checker
+1739556248: Client status_checker disconnected.
+1739556252: New connection from 172.18.0.2:45301 on port 1883.
+1739556252: New client connected from 172.18.0.2:45301 as status_checker (p2, c1, k2).
+1739556252: No will message specified.
+1739556252: Sending CONNACK to status_checker (0, 0)
+1739556252: Received DISCONNECT from status_checker
+1739556252: Client status_checker disconnected.
+1739556278: New connection from 172.18.0.2:39071 on port 1883.
+1739556278: New client connected from 172.18.0.2:39071 as status_checker (p2, c1, k2).
+1739556278: No will message specified.
+1739556278: Sending CONNACK to status_checker (0, 0)
+1739556278: Received DISCONNECT from status_checker
+1739556278: Client status_checker disconnected.
+1739556282: New connection from 172.18.0.2:52779 on port 1883.
+1739556282: New client connected from 172.18.0.2:52779 as status_checker (p2, c1, k2).
+1739556282: No will message specified.
+1739556282: Sending CONNACK to status_checker (0, 0)
+1739556282: Received DISCONNECT from status_checker
+1739556282: Client status_checker disconnected.
+1739556308: New connection from 172.18.0.2:57129 on port 1883.
+1739556308: New client connected from 172.18.0.2:57129 as status_checker (p2, c1, k2).
+1739556308: No will message specified.
+1739556308: Sending CONNACK to status_checker (0, 0)
+1739556308: Received DISCONNECT from status_checker
+1739556308: Client status_checker disconnected.
+1739556312: New connection from 172.18.0.2:59829 on port 1883.
+1739556312: New client connected from 172.18.0.2:59829 as status_checker (p2, c1, k2).
+1739556312: No will message specified.
+1739556312: Sending CONNACK to status_checker (0, 0)
+1739556312: Received DISCONNECT from status_checker
+1739556312: Client status_checker disconnected.
+1739556338: New connection from 172.18.0.2:36529 on port 1883.
+1739556338: New client connected from 172.18.0.2:36529 as status_checker (p2, c1, k2).
+1739556338: No will message specified.
+1739556338: Sending CONNACK to status_checker (0, 0)
+1739556338: Received DISCONNECT from status_checker
+1739556338: Client status_checker disconnected.
+1739556342: New connection from 172.18.0.2:59885 on port 1883.
+1739556342: New client connected from 172.18.0.2:59885 as status_checker (p2, c1, k2).
+1739556342: No will message specified.
+1739556342: Sending CONNACK to status_checker (0, 0)
+1739556342: Received DISCONNECT from status_checker
+1739556342: Client status_checker disconnected.
+1739556368: New connection from 172.18.0.2:32945 on port 1883.
+1739556368: New client connected from 172.18.0.2:32945 as status_checker (p2, c1, k2).
+1739556368: No will message specified.
+1739556368: Sending CONNACK to status_checker (0, 0)
+1739556368: Received DISCONNECT from status_checker
+1739556368: Client status_checker disconnected.
+1739556372: New connection from 172.18.0.2:57775 on port 1883.
+1739556372: New client connected from 172.18.0.2:57775 as status_checker (p2, c1, k2).
+1739556372: No will message specified.
+1739556372: Sending CONNACK to status_checker (0, 0)
+1739556372: Received DISCONNECT from status_checker
+1739556372: Client status_checker disconnected.
+1739556398: New connection from 172.18.0.2:58367 on port 1883.
+1739556398: New client connected from 172.18.0.2:58367 as status_checker (p2, c1, k2).
+1739556398: No will message specified.
+1739556398: Sending CONNACK to status_checker (0, 0)
+1739556398: Received DISCONNECT from status_checker
+1739556398: Client status_checker disconnected.
+1739556402: New connection from 172.18.0.2:44151 on port 1883.
+1739556402: New client connected from 172.18.0.2:44151 as status_checker (p2, c1, k2).
+1739556402: No will message specified.
+1739556402: Sending CONNACK to status_checker (0, 0)
+1739556402: Received DISCONNECT from status_checker
+1739556402: Client status_checker disconnected.
+1739556428: New connection from 172.18.0.2:39921 on port 1883.
+1739556428: New client connected from 172.18.0.2:39921 as status_checker (p2, c1, k2).
+1739556428: No will message specified.
+1739556428: Sending CONNACK to status_checker (0, 0)
+1739556428: Received DISCONNECT from status_checker
+1739556428: Client status_checker disconnected.
+1739556432: New connection from 172.18.0.2:55081 on port 1883.
+1739556432: New client connected from 172.18.0.2:55081 as status_checker (p2, c1, k2).
+1739556432: No will message specified.
+1739556432: Sending CONNACK to status_checker (0, 0)
+1739556432: Received DISCONNECT from status_checker
+1739556432: Client status_checker disconnected.
+1739556458: New connection from 172.18.0.2:44837 on port 1883.
+1739556458: New client connected from 172.18.0.2:44837 as status_checker (p2, c1, k2).
+1739556458: No will message specified.
+1739556458: Sending CONNACK to status_checker (0, 0)
+1739556458: Received DISCONNECT from status_checker
+1739556458: Client status_checker disconnected.
+1739556462: New connection from 172.18.0.2:49005 on port 1883.
+1739556462: New client connected from 172.18.0.2:49005 as status_checker (p2, c1, k2).
+1739556462: No will message specified.
+1739556462: Sending CONNACK to status_checker (0, 0)
+1739556462: Received DISCONNECT from status_checker
+1739556462: Client status_checker disconnected.
+1739556488: New connection from 172.18.0.2:45341 on port 1883.
+1739556488: New client connected from 172.18.0.2:45341 as status_checker (p2, c1, k2).
+1739556488: No will message specified.
+1739556488: Sending CONNACK to status_checker (0, 0)
+1739556488: Received DISCONNECT from status_checker
+1739556488: Client status_checker disconnected.
+1739556492: New connection from 172.18.0.2:54389 on port 1883.
+1739556492: New client connected from 172.18.0.2:54389 as status_checker (p2, c1, k2).
+1739556492: No will message specified.
+1739556492: Sending CONNACK to status_checker (0, 0)
+1739556492: Received DISCONNECT from status_checker
+1739556492: Client status_checker disconnected.
+1739556518: New connection from 172.18.0.2:34147 on port 1883.
+1739556518: New client connected from 172.18.0.2:34147 as status_checker (p2, c1, k2).
+1739556518: No will message specified.
+1739556518: Sending CONNACK to status_checker (0, 0)
+1739556518: Received DISCONNECT from status_checker
+1739556518: Client status_checker disconnected.
+1739556522: New connection from 172.18.0.2:54721 on port 1883.
+1739556522: New client connected from 172.18.0.2:54721 as status_checker (p2, c1, k2).
+1739556522: No will message specified.
+1739556522: Sending CONNACK to status_checker (0, 0)
+1739556522: Received DISCONNECT from status_checker
+1739556522: Client status_checker disconnected.
+1739556548: New connection from 172.18.0.2:44113 on port 1883.
+1739556548: New client connected from 172.18.0.2:44113 as status_checker (p2, c1, k2).
+1739556548: No will message specified.
+1739556548: Sending CONNACK to status_checker (0, 0)
+1739556549: Received DISCONNECT from status_checker
+1739556549: Client status_checker disconnected.
+1739556552: New connection from 172.18.0.2:40757 on port 1883.
+1739556552: New client connected from 172.18.0.2:40757 as status_checker (p2, c1, k2).
+1739556552: No will message specified.
+1739556552: Sending CONNACK to status_checker (0, 0)
+1739556552: Received DISCONNECT from status_checker
+1739556552: Client status_checker disconnected.
+1739556579: New connection from 172.18.0.2:56937 on port 1883.
+1739556579: New client connected from 172.18.0.2:56937 as status_checker (p2, c1, k2).
+1739556579: No will message specified.
+1739556579: Sending CONNACK to status_checker (0, 0)
+1739556579: Received DISCONNECT from status_checker
+1739556579: Client status_checker disconnected.
+1739556582: New connection from 172.18.0.2:40259 on port 1883.
+1739556582: New client connected from 172.18.0.2:40259 as status_checker (p2, c1, k2).
+1739556582: No will message specified.
+1739556582: Sending CONNACK to status_checker (0, 0)
+1739556582: Received DISCONNECT from status_checker
+1739556582: Client status_checker disconnected.
+1739556609: New connection from 172.18.0.2:53989 on port 1883.
+1739556609: New client connected from 172.18.0.2:53989 as status_checker (p2, c1, k2).
+1739556609: No will message specified.
+1739556609: Sending CONNACK to status_checker (0, 0)
+1739556609: Received DISCONNECT from status_checker
+1739556609: Client status_checker disconnected.
+1739556612: New connection from 172.18.0.2:39701 on port 1883.
+1739556612: New client connected from 172.18.0.2:39701 as status_checker (p2, c1, k2).
+1739556612: No will message specified.
+1739556612: Sending CONNACK to status_checker (0, 0)
+1739556612: Received DISCONNECT from status_checker
+1739556612: Client status_checker disconnected.
+1739556639: New connection from 172.18.0.2:46139 on port 1883.
+1739556639: New client connected from 172.18.0.2:46139 as status_checker (p2, c1, k2).
+1739556639: No will message specified.
+1739556639: Sending CONNACK to status_checker (0, 0)
+1739556639: Received DISCONNECT from status_checker
+1739556639: Client status_checker disconnected.
+1739556642: New connection from 172.18.0.2:46377 on port 1883.
+1739556642: New client connected from 172.18.0.2:46377 as status_checker (p2, c1, k2).
+1739556642: No will message specified.
+1739556642: Sending CONNACK to status_checker (0, 0)
+1739556642: Received DISCONNECT from status_checker
+1739556642: Client status_checker disconnected.
+1739556669: New connection from 172.18.0.2:58827 on port 1883.
+1739556669: New client connected from 172.18.0.2:58827 as status_checker (p2, c1, k2).
+1739556669: No will message specified.
+1739556669: Sending CONNACK to status_checker (0, 0)
+1739556669: Received DISCONNECT from status_checker
+1739556669: Client status_checker disconnected.
+1739556672: New connection from 172.18.0.2:56193 on port 1883.
+1739556672: New client connected from 172.18.0.2:56193 as status_checker (p2, c1, k2).
+1739556672: No will message specified.
+1739556672: Sending CONNACK to status_checker (0, 0)
+1739556672: Received DISCONNECT from status_checker
+1739556672: Client status_checker disconnected.
+1739556699: New connection from 172.18.0.2:36127 on port 1883.
+1739556699: New client connected from 172.18.0.2:36127 as status_checker (p2, c1, k2).
+1739556699: No will message specified.
+1739556699: Sending CONNACK to status_checker (0, 0)
+1739556699: Received DISCONNECT from status_checker
+1739556699: Client status_checker disconnected.
+1739556702: New connection from 172.18.0.2:49557 on port 1883.
+1739556702: New client connected from 172.18.0.2:49557 as status_checker (p2, c1, k2).
+1739556702: No will message specified.
+1739556702: Sending CONNACK to status_checker (0, 0)
+1739556702: Received DISCONNECT from status_checker
+1739556702: Client status_checker disconnected.
+1739556729: New connection from 172.18.0.2:42621 on port 1883.
+1739556729: New client connected from 172.18.0.2:42621 as status_checker (p2, c1, k2).
+1739556729: No will message specified.
+1739556729: Sending CONNACK to status_checker (0, 0)
+1739556729: Received DISCONNECT from status_checker
+1739556729: Client status_checker disconnected.
+1739556732: New connection from 172.18.0.2:59285 on port 1883.
+1739556732: New client connected from 172.18.0.2:59285 as status_checker (p2, c1, k2).
+1739556732: No will message specified.
+1739556732: Sending CONNACK to status_checker (0, 0)
+1739556732: Received DISCONNECT from status_checker
+1739556732: Client status_checker disconnected.
+1739556759: New connection from 172.18.0.2:42721 on port 1883.
+1739556759: New client connected from 172.18.0.2:42721 as status_checker (p2, c1, k2).
+1739556759: No will message specified.
+1739556759: Sending CONNACK to status_checker (0, 0)
+1739556759: Received DISCONNECT from status_checker
+1739556759: Client status_checker disconnected.
+1739556762: New connection from 172.18.0.2:45981 on port 1883.
+1739556762: New client connected from 172.18.0.2:45981 as status_checker (p2, c1, k2).
+1739556762: No will message specified.
+1739556762: Sending CONNACK to status_checker (0, 0)
+1739556762: Received DISCONNECT from status_checker
+1739556762: Client status_checker disconnected.
+1739556789: New connection from 172.18.0.2:42323 on port 1883.
+1739556789: New client connected from 172.18.0.2:42323 as status_checker (p2, c1, k2).
+1739556789: No will message specified.
+1739556789: Sending CONNACK to status_checker (0, 0)
+1739556789: Received DISCONNECT from status_checker
+1739556789: Client status_checker disconnected.
+1739556792: New connection from 172.18.0.2:53675 on port 1883.
+1739556792: New client connected from 172.18.0.2:53675 as status_checker (p2, c1, k2).
+1739556792: No will message specified.
+1739556792: Sending CONNACK to status_checker (0, 0)
+1739556792: Received DISCONNECT from status_checker
+1739556792: Client status_checker disconnected.
+1739556819: New connection from 172.18.0.2:34181 on port 1883.
+1739556819: New client connected from 172.18.0.2:34181 as status_checker (p2, c1, k2).
+1739556819: No will message specified.
+1739556819: Sending CONNACK to status_checker (0, 0)
+1739556819: Received DISCONNECT from status_checker
+1739556819: Client status_checker disconnected.
+1739556822: New connection from 172.18.0.2:38763 on port 1883.
+1739556822: New client connected from 172.18.0.2:38763 as status_checker (p2, c1, k2).
+1739556822: No will message specified.
+1739556822: Sending CONNACK to status_checker (0, 0)
+1739556822: Received DISCONNECT from status_checker
+1739556822: Client status_checker disconnected.
+1739556849: New connection from 172.18.0.2:41577 on port 1883.
+1739556849: New client connected from 172.18.0.2:41577 as status_checker (p2, c1, k2).
+1739556849: No will message specified.
+1739556849: Sending CONNACK to status_checker (0, 0)
+1739556849: Received DISCONNECT from status_checker
+1739556849: Client status_checker disconnected.
+1739556852: New connection from 172.18.0.2:49263 on port 1883.
+1739556852: New client connected from 172.18.0.2:49263 as status_checker (p2, c1, k2).
+1739556852: No will message specified.
+1739556852: Sending CONNACK to status_checker (0, 0)
+1739556852: Received DISCONNECT from status_checker
+1739556852: Client status_checker disconnected.
+1739556879: New connection from 172.18.0.2:59675 on port 1883.
+1739556879: New client connected from 172.18.0.2:59675 as status_checker (p2, c1, k2).
+1739556879: No will message specified.
+1739556879: Sending CONNACK to status_checker (0, 0)
+1739556879: Received DISCONNECT from status_checker
+1739556879: Client status_checker disconnected.
+1739556882: New connection from 172.18.0.2:52841 on port 1883.
+1739556882: New client connected from 172.18.0.2:52841 as status_checker (p2, c1, k2).
+1739556882: No will message specified.
+1739556882: Sending CONNACK to status_checker (0, 0)
+1739556882: Received DISCONNECT from status_checker
+1739556882: Client status_checker disconnected.
+1739556909: New connection from 172.18.0.2:40363 on port 1883.
+1739556909: New client connected from 172.18.0.2:40363 as status_checker (p2, c1, k2).
+1739556909: No will message specified.
+1739556909: Sending CONNACK to status_checker (0, 0)
+1739556909: Received DISCONNECT from status_checker
+1739556909: Client status_checker disconnected.
+1739556912: New connection from 172.18.0.2:50499 on port 1883.
+1739556912: New client connected from 172.18.0.2:50499 as status_checker (p2, c1, k2).
+1739556912: No will message specified.
+1739556912: Sending CONNACK to status_checker (0, 0)
+1739556912: Received DISCONNECT from status_checker
+1739556912: Client status_checker disconnected.
+1739556939: New connection from 172.18.0.2:45267 on port 1883.
+1739556939: New client connected from 172.18.0.2:45267 as status_checker (p2, c1, k2).
+1739556939: No will message specified.
+1739556939: Sending CONNACK to status_checker (0, 0)
+1739556939: Received DISCONNECT from status_checker
+1739556939: Client status_checker disconnected.
+1739556942: New connection from 172.18.0.2:56291 on port 1883.
+1739556942: New client connected from 172.18.0.2:56291 as status_checker (p2, c1, k2).
+1739556942: No will message specified.
+1739556942: Sending CONNACK to status_checker (0, 0)
+1739556942: Received DISCONNECT from status_checker
+1739556942: Client status_checker disconnected.
+1739556951: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1739556969: New connection from 172.18.0.2:37721 on port 1883.
+1739556969: New client connected from 172.18.0.2:37721 as status_checker (p2, c1, k2).
+1739556969: No will message specified.
+1739556969: Sending CONNACK to status_checker (0, 0)
+1739556969: Received DISCONNECT from status_checker
+1739556969: Client status_checker disconnected.
+1739556972: New connection from 172.18.0.2:38687 on port 1883.
+1739556972: New client connected from 172.18.0.2:38687 as status_checker (p2, c1, k2).
+1739556972: No will message specified.
+1739556972: Sending CONNACK to status_checker (0, 0)
+1739556972: Received DISCONNECT from status_checker
+1739556972: Client status_checker disconnected.
+1739556999: New connection from 172.18.0.2:49581 on port 1883.
+1739556999: New client connected from 172.18.0.2:49581 as status_checker (p2, c1, k2).
+1739556999: No will message specified.
+1739556999: Sending CONNACK to status_checker (0, 0)
+1739556999: Received DISCONNECT from status_checker
+1739556999: Client status_checker disconnected.
+1739557002: New connection from 172.18.0.2:38867 on port 1883.
+1739557002: New client connected from 172.18.0.2:38867 as status_checker (p2, c1, k2).
+1739557002: No will message specified.
+1739557002: Sending CONNACK to status_checker (0, 0)
+1739557002: Received DISCONNECT from status_checker
+1739557002: Client status_checker disconnected.
+1739557029: New connection from 172.18.0.2:54593 on port 1883.
+1739557029: New client connected from 172.18.0.2:54593 as status_checker (p2, c1, k2).
+1739557029: No will message specified.
+1739557029: Sending CONNACK to status_checker (0, 0)
+1739557029: Received DISCONNECT from status_checker
+1739557029: Client status_checker disconnected.
+1739557032: New connection from 172.18.0.2:45667 on port 1883.
+1739557032: New client connected from 172.18.0.2:45667 as status_checker (p2, c1, k2).
+1739557032: No will message specified.
+1739557032: Sending CONNACK to status_checker (0, 0)
+1739557032: Received DISCONNECT from status_checker
+1739557032: Client status_checker disconnected.
+1739557059: New connection from 172.18.0.2:35029 on port 1883.
+1739557059: New client connected from 172.18.0.2:35029 as status_checker (p2, c1, k2).
+1739557059: No will message specified.
+1739557059: Sending CONNACK to status_checker (0, 0)
+1739557059: Received DISCONNECT from status_checker
+1739557059: Client status_checker disconnected.
+1739557062: New connection from 172.18.0.2:57677 on port 1883.
+1739557062: New client connected from 172.18.0.2:57677 as status_checker (p2, c1, k2).
+1739557062: No will message specified.
+1739557062: Sending CONNACK to status_checker (0, 0)
+1739557062: Received DISCONNECT from status_checker
+1739557062: Client status_checker disconnected.
+1739557089: New connection from 172.18.0.2:57719 on port 1883.
+1739557089: New client connected from 172.18.0.2:57719 as status_checker (p2, c1, k2).
+1739557089: No will message specified.
+1739557089: Sending CONNACK to status_checker (0, 0)
+1739557089: Received DISCONNECT from status_checker
+1739557089: Client status_checker disconnected.
+1739557093: New connection from 172.18.0.2:35471 on port 1883.
+1739557093: New client connected from 172.18.0.2:35471 as status_checker (p2, c1, k2).
+1739557093: No will message specified.
+1739557093: Sending CONNACK to status_checker (0, 0)
+1739557093: Received DISCONNECT from status_checker
+1739557093: Client status_checker disconnected.
+1739557119: New connection from 172.18.0.2:48615 on port 1883.
+1739557119: New client connected from 172.18.0.2:48615 as status_checker (p2, c1, k2).
+1739557119: No will message specified.
+1739557119: Sending CONNACK to status_checker (0, 0)
+1739557119: Received DISCONNECT from status_checker
+1739557119: Client status_checker disconnected.
+1739557123: New connection from 172.18.0.2:37503 on port 1883.
+1739557123: New client connected from 172.18.0.2:37503 as status_checker (p2, c1, k2).
+1739557123: No will message specified.
+1739557123: Sending CONNACK to status_checker (0, 0)
+1739557123: Received DISCONNECT from status_checker
+1739557123: Client status_checker disconnected.
+1739557149: New connection from 172.18.0.2:56171 on port 1883.
+1739557149: New client connected from 172.18.0.2:56171 as status_checker (p2, c1, k2).
+1739557149: No will message specified.
+1739557149: Sending CONNACK to status_checker (0, 0)
+1739557149: Received DISCONNECT from status_checker
+1739557149: Client status_checker disconnected.
+1739557153: New connection from 172.18.0.2:41075 on port 1883.
+1739557153: New client connected from 172.18.0.2:41075 as status_checker (p2, c1, k2).
+1739557153: No will message specified.
+1739557153: Sending CONNACK to status_checker (0, 0)
+1739557153: Received DISCONNECT from status_checker
+1739557153: Client status_checker disconnected.
+1739557179: New connection from 172.18.0.2:59177 on port 1883.
+1739557179: New client connected from 172.18.0.2:59177 as status_checker (p2, c1, k2).
+1739557179: No will message specified.
+1739557179: Sending CONNACK to status_checker (0, 0)
+1739557179: Received DISCONNECT from status_checker
+1739557179: Client status_checker disconnected.
+1739557183: New connection from 172.18.0.2:51611 on port 1883.
+1739557183: New client connected from 172.18.0.2:51611 as status_checker (p2, c1, k2).
+1739557183: No will message specified.
+1739557183: Sending CONNACK to status_checker (0, 0)
+1739557183: Received DISCONNECT from status_checker
+1739557183: Client status_checker disconnected.
+1739557209: New connection from 172.18.0.2:40743 on port 1883.
+1739557209: New client connected from 172.18.0.2:40743 as status_checker (p2, c1, k2).
+1739557209: No will message specified.
+1739557209: Sending CONNACK to status_checker (0, 0)
+1739557209: Received DISCONNECT from status_checker
+1739557209: Client status_checker disconnected.
+1739557213: New connection from 172.18.0.2:56893 on port 1883.
+1739557213: New client connected from 172.18.0.2:56893 as status_checker (p2, c1, k2).
+1739557213: No will message specified.
+1739557213: Sending CONNACK to status_checker (0, 0)
+1739557213: Received DISCONNECT from status_checker
+1739557213: Client status_checker disconnected.
+1739557239: New connection from 172.18.0.2:39361 on port 1883.
+1739557239: New client connected from 172.18.0.2:39361 as status_checker (p2, c1, k2).
+1739557239: No will message specified.
+1739557239: Sending CONNACK to status_checker (0, 0)
+1739557239: Received DISCONNECT from status_checker
+1739557239: Client status_checker disconnected.
+1739557243: New connection from 172.18.0.2:55167 on port 1883.
+1739557243: New client connected from 172.18.0.2:55167 as status_checker (p2, c1, k2).
+1739557243: No will message specified.
+1739557243: Sending CONNACK to status_checker (0, 0)
+1739557243: Received DISCONNECT from status_checker
+1739557243: Client status_checker disconnected.
+1739557269: New connection from 172.18.0.2:49475 on port 1883.
+1739557269: New client connected from 172.18.0.2:49475 as status_checker (p2, c1, k2).
+1739557269: No will message specified.
+1739557269: Sending CONNACK to status_checker (0, 0)
+1739557269: Received DISCONNECT from status_checker
+1739557269: Client status_checker disconnected.
+1739557273: New connection from 172.18.0.2:43677 on port 1883.
+1739557273: New client connected from 172.18.0.2:43677 as status_checker (p2, c1, k2).
+1739557273: No will message specified.
+1739557273: Sending CONNACK to status_checker (0, 0)
+1739557273: Received DISCONNECT from status_checker
+1739557273: Client status_checker disconnected.
+1739557299: New connection from 172.18.0.2:44519 on port 1883.
+1739557299: New client connected from 172.18.0.2:44519 as status_checker (p2, c1, k2).
+1739557299: No will message specified.
+1739557299: Sending CONNACK to status_checker (0, 0)
+1739557299: Received DISCONNECT from status_checker
+1739557299: Client status_checker disconnected.
+1739557303: New connection from 172.18.0.2:52475 on port 1883.
+1739557303: New client connected from 172.18.0.2:52475 as status_checker (p2, c1, k2).
+1739557303: No will message specified.
+1739557303: Sending CONNACK to status_checker (0, 0)
+1739557303: Received DISCONNECT from status_checker
+1739557303: Client status_checker disconnected.
+1739557329: New connection from 172.18.0.2:38779 on port 1883.
+1739557329: New client connected from 172.18.0.2:38779 as status_checker (p2, c1, k2).
+1739557329: No will message specified.
+1739557329: Sending CONNACK to status_checker (0, 0)
+1739557329: Received DISCONNECT from status_checker
+1739557329: Client status_checker disconnected.
+1739557333: New connection from 172.18.0.2:47279 on port 1883.
+1739557333: New client connected from 172.18.0.2:47279 as status_checker (p2, c1, k2).
+1739557333: No will message specified.
+1739557333: Sending CONNACK to status_checker (0, 0)
+1739557333: Received DISCONNECT from status_checker
+1739557333: Client status_checker disconnected.
+1739557359: New connection from 172.18.0.2:57445 on port 1883.
+1739557359: New client connected from 172.18.0.2:57445 as status_checker (p2, c1, k2).
+1739557359: No will message specified.
+1739557359: Sending CONNACK to status_checker (0, 0)
+1739557359: Received DISCONNECT from status_checker
+1739557359: Client status_checker disconnected.
+1739557363: New connection from 172.18.0.2:46571 on port 1883.
+1739557363: New client connected from 172.18.0.2:46571 as status_checker (p2, c1, k2).
+1739557363: No will message specified.
+1739557363: Sending CONNACK to status_checker (0, 0)
+1739557363: Received DISCONNECT from status_checker
+1739557363: Client status_checker disconnected.
+1739557389: New connection from 172.18.0.2:47259 on port 1883.
+1739557389: New client connected from 172.18.0.2:47259 as status_checker (p2, c1, k2).
+1739557389: No will message specified.
+1739557389: Sending CONNACK to status_checker (0, 0)
+1739557389: Received DISCONNECT from status_checker
+1739557389: Client status_checker disconnected.
+1739557393: New connection from 172.18.0.2:43011 on port 1883.
+1739557393: New client connected from 172.18.0.2:43011 as status_checker (p2, c1, k2).
+1739557393: No will message specified.
+1739557393: Sending CONNACK to status_checker (0, 0)
+1739557393: Received DISCONNECT from status_checker
+1739557393: Client status_checker disconnected.
+1739557419: New connection from 172.18.0.2:55867 on port 1883.
+1739557419: New client connected from 172.18.0.2:55867 as status_checker (p2, c1, k2).
+1739557419: No will message specified.
+1739557419: Sending CONNACK to status_checker (0, 0)
+1739557419: Received DISCONNECT from status_checker
+1739557419: Client status_checker disconnected.
+1739557423: New connection from 172.18.0.2:40431 on port 1883.
+1739557423: New client connected from 172.18.0.2:40431 as status_checker (p2, c1, k2).
+1739557423: No will message specified.
+1739557423: Sending CONNACK to status_checker (0, 0)
+1739557423: Received DISCONNECT from status_checker
+1739557423: Client status_checker disconnected.
+1739557449: New connection from 172.18.0.2:51081 on port 1883.
+1739557449: New client connected from 172.18.0.2:51081 as status_checker (p2, c1, k2).
+1739557449: No will message specified.
+1739557449: Sending CONNACK to status_checker (0, 0)
+1739557449: Received DISCONNECT from status_checker
+1739557449: Client status_checker disconnected.
+1739557453: New connection from 172.18.0.2:34055 on port 1883.
+1739557453: New client connected from 172.18.0.2:34055 as status_checker (p2, c1, k2).
+1739557453: No will message specified.
+1739557453: Sending CONNACK to status_checker (0, 0)
+1739557453: Received DISCONNECT from status_checker
+1739557453: Client status_checker disconnected.
+1739557479: New connection from 172.18.0.2:53537 on port 1883.
+1739557479: New client connected from 172.18.0.2:53537 as status_checker (p2, c1, k2).
+1739557479: No will message specified.
+1739557479: Sending CONNACK to status_checker (0, 0)
+1739557479: Received DISCONNECT from status_checker
+1739557479: Client status_checker disconnected.
+1739557483: New connection from 172.18.0.2:35189 on port 1883.
+1739557483: New client connected from 172.18.0.2:35189 as status_checker (p2, c1, k2).
+1739557483: No will message specified.
+1739557483: Sending CONNACK to status_checker (0, 0)
+1739557483: Received DISCONNECT from status_checker
+1739557483: Client status_checker disconnected.
+1739557509: New connection from 172.18.0.2:35627 on port 1883.
+1739557509: New client connected from 172.18.0.2:35627 as status_checker (p2, c1, k2).
+1739557509: No will message specified.
+1739557509: Sending CONNACK to status_checker (0, 0)
+1739557509: Received DISCONNECT from status_checker
+1739557509: Client status_checker disconnected.
+1739557513: New connection from 172.18.0.2:58391 on port 1883.
+1739557513: New client connected from 172.18.0.2:58391 as status_checker (p2, c1, k2).
+1739557513: No will message specified.
+1739557513: Sending CONNACK to status_checker (0, 0)
+1739557513: Received DISCONNECT from status_checker
+1739557513: Client status_checker disconnected.
+1739557539: New connection from 172.18.0.2:58915 on port 1883.
+1739557539: New client connected from 172.18.0.2:58915 as status_checker (p2, c1, k2).
+1739557539: No will message specified.
+1739557539: Sending CONNACK to status_checker (0, 0)
+1739557539: Received DISCONNECT from status_checker
+1739557539: Client status_checker disconnected.
+1739557543: New connection from 172.18.0.2:41653 on port 1883.
+1739557543: New client connected from 172.18.0.2:41653 as status_checker (p2, c1, k2).
+1739557543: No will message specified.
+1739557543: Sending CONNACK to status_checker (0, 0)
+1739557543: Received DISCONNECT from status_checker
+1739557543: Client status_checker disconnected.
+1739557569: New connection from 172.18.0.2:43045 on port 1883.
+1739557569: New client connected from 172.18.0.2:43045 as status_checker (p2, c1, k2).
+1739557569: No will message specified.
+1739557569: Sending CONNACK to status_checker (0, 0)
+1739557569: Received DISCONNECT from status_checker
+1739557569: Client status_checker disconnected.
+1739557573: New connection from 172.18.0.2:36973 on port 1883.
+1739557573: New client connected from 172.18.0.2:36973 as status_checker (p2, c1, k2).
+1739557573: No will message specified.
+1739557573: Sending CONNACK to status_checker (0, 0)
+1739557573: Received DISCONNECT from status_checker
+1739557573: Client status_checker disconnected.
+1739557599: New connection from 172.18.0.2:37319 on port 1883.
+1739557599: New client connected from 172.18.0.2:37319 as status_checker (p2, c1, k2).
+1739557599: No will message specified.
+1739557599: Sending CONNACK to status_checker (0, 0)
+1739557599: Received DISCONNECT from status_checker
+1739557599: Client status_checker disconnected.
+1739557603: New connection from 172.18.0.2:35339 on port 1883.
+1739557603: New client connected from 172.18.0.2:35339 as status_checker (p2, c1, k2).
+1739557603: No will message specified.
+1739557603: Sending CONNACK to status_checker (0, 0)
+1739557603: Received DISCONNECT from status_checker
+1739557603: Client status_checker disconnected.
+1739557629: New connection from 172.18.0.2:48567 on port 1883.
+1739557629: New client connected from 172.18.0.2:48567 as status_checker (p2, c1, k2).
+1739557629: No will message specified.
+1739557629: Sending CONNACK to status_checker (0, 0)
+1739557629: Received DISCONNECT from status_checker
+1739557629: Client status_checker disconnected.
+1739557633: New connection from 172.18.0.2:58759 on port 1883.
+1739557633: New client connected from 172.18.0.2:58759 as status_checker (p2, c1, k2).
+1739557633: No will message specified.
+1739557633: Sending CONNACK to status_checker (0, 0)
+1739557633: Received DISCONNECT from status_checker
+1739557633: Client status_checker disconnected.
+1739557659: New connection from 172.18.0.2:46739 on port 1883.
+1739557659: New client connected from 172.18.0.2:46739 as status_checker (p2, c1, k2).
+1739557659: No will message specified.
+1739557659: Sending CONNACK to status_checker (0, 0)
+1739557659: Received DISCONNECT from status_checker
+1739557659: Client status_checker disconnected.
+1739557663: New connection from 172.18.0.2:50999 on port 1883.
+1739557663: New client connected from 172.18.0.2:50999 as status_checker (p2, c1, k2).
+1739557663: No will message specified.
+1739557663: Sending CONNACK to status_checker (0, 0)
+1739557663: Received DISCONNECT from status_checker
+1739557663: Client status_checker disconnected.
+1739557690: New connection from 172.18.0.2:55959 on port 1883.
+1739557690: New client connected from 172.18.0.2:55959 as status_checker (p2, c1, k2).
+1739557690: No will message specified.
+1739557690: Sending CONNACK to status_checker (0, 0)
+1739557690: Received DISCONNECT from status_checker
+1739557690: Client status_checker disconnected.
+1739557693: New connection from 172.18.0.2:52315 on port 1883.
+1739557693: New client connected from 172.18.0.2:52315 as status_checker (p2, c1, k2).
+1739557693: No will message specified.
+1739557693: Sending CONNACK to status_checker (0, 0)
+1739557693: Received DISCONNECT from status_checker
+1739557693: Client status_checker disconnected.
+1739557720: New connection from 172.18.0.2:36337 on port 1883.
+1739557720: New client connected from 172.18.0.2:36337 as status_checker (p2, c1, k2).
+1739557720: No will message specified.
+1739557720: Sending CONNACK to status_checker (0, 0)
+1739557720: Received DISCONNECT from status_checker
+1739557720: Client status_checker disconnected.
+1739557723: New connection from 172.18.0.2:57767 on port 1883.
+1739557723: New client connected from 172.18.0.2:57767 as status_checker (p2, c1, k2).
+1739557723: No will message specified.
+1739557723: Sending CONNACK to status_checker (0, 0)
+1739557723: Received DISCONNECT from status_checker
+1739557723: Client status_checker disconnected.
+1739557750: New connection from 172.18.0.2:38821 on port 1883.
+1739557750: New client connected from 172.18.0.2:38821 as status_checker (p2, c1, k2).
+1739557750: No will message specified.
+1739557750: Sending CONNACK to status_checker (0, 0)
+1739557750: Received DISCONNECT from status_checker
+1739557750: Client status_checker disconnected.
+1739557753: New connection from 172.18.0.2:34153 on port 1883.
+1739557753: New client connected from 172.18.0.2:34153 as status_checker (p2, c1, k2).
+1739557753: No will message specified.
+1739557753: Sending CONNACK to status_checker (0, 0)
+1739557753: Received DISCONNECT from status_checker
+1739557753: Client status_checker disconnected.
+1739557780: New connection from 172.18.0.2:52007 on port 1883.
+1739557780: New client connected from 172.18.0.2:52007 as status_checker (p2, c1, k2).
+1739557780: No will message specified.
+1739557780: Sending CONNACK to status_checker (0, 0)
+1739557780: Received DISCONNECT from status_checker
+1739557780: Client status_checker disconnected.
+1739557783: New connection from 172.18.0.2:39451 on port 1883.
+1739557783: New client connected from 172.18.0.2:39451 as status_checker (p2, c1, k2).
+1739557783: No will message specified.
+1739557783: Sending CONNACK to status_checker (0, 0)
+1739557783: Received DISCONNECT from status_checker
+1739557783: Client status_checker disconnected.
+1739557810: New connection from 172.18.0.2:40447 on port 1883.
+1739557810: New client connected from 172.18.0.2:40447 as status_checker (p2, c1, k2).
+1739557810: No will message specified.
+1739557810: Sending CONNACK to status_checker (0, 0)
+1739557810: Received DISCONNECT from status_checker
+1739557810: Client status_checker disconnected.
+1739557813: New connection from 172.18.0.2:48623 on port 1883.
+1739557813: New client connected from 172.18.0.2:48623 as status_checker (p2, c1, k2).
+1739557813: No will message specified.
+1739557813: Sending CONNACK to status_checker (0, 0)
+1739557813: Received DISCONNECT from status_checker
+1739557813: Client status_checker disconnected.
+1739557840: New connection from 172.18.0.2:46583 on port 1883.
+1739557840: New client connected from 172.18.0.2:46583 as status_checker (p2, c1, k2).
+1739557840: No will message specified.
+1739557840: Sending CONNACK to status_checker (0, 0)
+1739557840: Received DISCONNECT from status_checker
+1739557840: Client status_checker disconnected.
+1739557843: New connection from 172.18.0.2:47031 on port 1883.
+1739557843: New client connected from 172.18.0.2:47031 as status_checker (p2, c1, k2).
+1739557843: No will message specified.
+1739557843: Sending CONNACK to status_checker (0, 0)
+1739557843: Received DISCONNECT from status_checker
+1739557843: Client status_checker disconnected.
+1739557870: New connection from 172.18.0.2:34479 on port 1883.
+1739557870: New client connected from 172.18.0.2:34479 as status_checker (p2, c1, k2).
+1739557870: No will message specified.
+1739557870: Sending CONNACK to status_checker (0, 0)
+1739557870: Received DISCONNECT from status_checker
+1739557870: Client status_checker disconnected.
+1739557873: New connection from 172.18.0.2:40047 on port 1883.
+1739557873: New client connected from 172.18.0.2:40047 as status_checker (p2, c1, k2).
+1739557873: No will message specified.
+1739557873: Sending CONNACK to status_checker (0, 0)
+1739557873: Received DISCONNECT from status_checker
+1739557873: Client status_checker disconnected.
+1739557900: New connection from 172.18.0.2:52491 on port 1883.
+1739557900: New client connected from 172.18.0.2:52491 as status_checker (p2, c1, k2).
+1739557900: No will message specified.
+1739557900: Sending CONNACK to status_checker (0, 0)
+1739557900: Received DISCONNECT from status_checker
+1739557900: Client status_checker disconnected.
+1739557903: New connection from 172.18.0.2:51373 on port 1883.
+1739557903: New client connected from 172.18.0.2:51373 as status_checker (p2, c1, k2).
+1739557903: No will message specified.
+1739557903: Sending CONNACK to status_checker (0, 0)
+1739557903: Received DISCONNECT from status_checker
+1739557903: Client status_checker disconnected.
+1739557930: New connection from 172.18.0.2:44335 on port 1883.
+1739557930: New client connected from 172.18.0.2:44335 as status_checker (p2, c1, k2).
+1739557930: No will message specified.
+1739557930: Sending CONNACK to status_checker (0, 0)
+1739557930: Received DISCONNECT from status_checker
+1739557930: Client status_checker disconnected.
+1739557933: New connection from 172.18.0.2:57463 on port 1883.
+1739557933: New client connected from 172.18.0.2:57463 as status_checker (p2, c1, k2).
+1739557933: No will message specified.
+1739557933: Sending CONNACK to status_checker (0, 0)
+1739557933: Received DISCONNECT from status_checker
+1739557933: Client status_checker disconnected.
+1739557960: New connection from 172.18.0.2:50909 on port 1883.
+1739557960: New client connected from 172.18.0.2:50909 as status_checker (p2, c1, k2).
+1739557960: No will message specified.
+1739557960: Sending CONNACK to status_checker (0, 0)
+1739557960: Received DISCONNECT from status_checker
+1739557960: Client status_checker disconnected.
+1739557963: New connection from 172.18.0.2:46681 on port 1883.
+1739557963: New client connected from 172.18.0.2:46681 as status_checker (p2, c1, k2).
+1739557963: No will message specified.
+1739557963: Sending CONNACK to status_checker (0, 0)
+1739557963: Received DISCONNECT from status_checker
+1739557963: Client status_checker disconnected.
+1739557990: New connection from 172.18.0.2:56915 on port 1883.
+1739557990: New client connected from 172.18.0.2:56915 as status_checker (p2, c1, k2).
+1739557990: No will message specified.
+1739557990: Sending CONNACK to status_checker (0, 0)
+1739557990: Received DISCONNECT from status_checker
+1739557990: Client status_checker disconnected.
+1739557993: New connection from 172.18.0.2:57557 on port 1883.
+1739557993: New client connected from 172.18.0.2:57557 as status_checker (p2, c1, k2).
+1739557993: No will message specified.
+1739557993: Sending CONNACK to status_checker (0, 0)
+1739557993: Received DISCONNECT from status_checker
+1739557993: Client status_checker disconnected.
+1739558020: New connection from 172.18.0.2:58543 on port 1883.
+1739558020: New client connected from 172.18.0.2:58543 as status_checker (p2, c1, k2).
+1739558020: No will message specified.
+1739558020: Sending CONNACK to status_checker (0, 0)
+1739558020: Received DISCONNECT from status_checker
+1739558020: Client status_checker disconnected.
+1739558023: New connection from 172.18.0.2:49379 on port 1883.
+1739558023: New client connected from 172.18.0.2:49379 as status_checker (p2, c1, k2).
+1739558023: No will message specified.
+1739558023: Sending CONNACK to status_checker (0, 0)
+1739558023: Received DISCONNECT from status_checker
+1739558023: Client status_checker disconnected.
+1739558050: New connection from 172.18.0.2:39335 on port 1883.
+1739558050: New client connected from 172.18.0.2:39335 as status_checker (p2, c1, k2).
+1739558050: No will message specified.
+1739558050: Sending CONNACK to status_checker (0, 0)
+1739558050: Received DISCONNECT from status_checker
+1739558050: Client status_checker disconnected.
+1739558053: New connection from 172.18.0.2:42071 on port 1883.
+1739558053: New client connected from 172.18.0.2:42071 as status_checker (p2, c1, k2).
+1739558053: No will message specified.
+1739558053: Sending CONNACK to status_checker (0, 0)
+1739558053: Received DISCONNECT from status_checker
+1739558053: Client status_checker disconnected.
+1739558080: New connection from 172.18.0.2:42013 on port 1883.
+1739558080: New client connected from 172.18.0.2:42013 as status_checker (p2, c1, k2).
+1739558080: No will message specified.
+1739558080: Sending CONNACK to status_checker (0, 0)
+1739558080: Received DISCONNECT from status_checker
+1739558080: Client status_checker disconnected.
+1739558083: New connection from 172.18.0.2:48603 on port 1883.
+1739558083: New client connected from 172.18.0.2:48603 as status_checker (p2, c1, k2).
+1739558083: No will message specified.
+1739558083: Sending CONNACK to status_checker (0, 0)
+1739558083: Received DISCONNECT from status_checker
+1739558083: Client status_checker disconnected.
+1739558110: New connection from 172.18.0.2:53423 on port 1883.
+1739558110: New client connected from 172.18.0.2:53423 as status_checker (p2, c1, k2).
+1739558110: No will message specified.
+1739558110: Sending CONNACK to status_checker (0, 0)
+1739558110: Received DISCONNECT from status_checker
+1739558110: Client status_checker disconnected.
+1739558113: New connection from 172.18.0.2:60905 on port 1883.
+1739558113: New client connected from 172.18.0.2:60905 as status_checker (p2, c1, k2).
+1739558113: No will message specified.
+1739558113: Sending CONNACK to status_checker (0, 0)
+1739558113: Received DISCONNECT from status_checker
+1739558113: Client status_checker disconnected.
+1739558140: New connection from 172.18.0.2:35601 on port 1883.
+1739558140: New client connected from 172.18.0.2:35601 as status_checker (p2, c1, k2).
+1739558140: No will message specified.
+1739558140: Sending CONNACK to status_checker (0, 0)
+1739558140: Received DISCONNECT from status_checker
+1739558140: Client status_checker disconnected.
+1739558143: New connection from 172.18.0.2:45257 on port 1883.
+1739558143: New client connected from 172.18.0.2:45257 as status_checker (p2, c1, k2).
+1739558143: No will message specified.
+1739558143: Sending CONNACK to status_checker (0, 0)
+1739558143: Received DISCONNECT from status_checker
+1739558143: Client status_checker disconnected.
+1739558170: New connection from 172.18.0.2:45295 on port 1883.
+1739558170: New client connected from 172.18.0.2:45295 as status_checker (p2, c1, k2).
+1739558170: No will message specified.
+1739558170: Sending CONNACK to status_checker (0, 0)
+1739558170: Received DISCONNECT from status_checker
+1739558170: Client status_checker disconnected.
+1739558173: New connection from 172.18.0.2:32801 on port 1883.
+1739558173: New client connected from 172.18.0.2:32801 as status_checker (p2, c1, k2).
+1739558173: No will message specified.
+1739558173: Sending CONNACK to status_checker (0, 0)
+1739558173: Received DISCONNECT from status_checker
+1739558173: Client status_checker disconnected.
+1739558200: New connection from 172.18.0.2:55689 on port 1883.
+1739558200: New client connected from 172.18.0.2:55689 as status_checker (p2, c1, k2).
+1739558200: No will message specified.
+1739558200: Sending CONNACK to status_checker (0, 0)
+1739558200: Received DISCONNECT from status_checker
+1739558200: Client status_checker disconnected.
+1739558203: New connection from 172.18.0.2:60551 on port 1883.
+1739558203: New client connected from 172.18.0.2:60551 as status_checker (p2, c1, k2).
+1739558203: No will message specified.
+1739558203: Sending CONNACK to status_checker (0, 0)
+1739558203: Received DISCONNECT from status_checker
+1739558203: Client status_checker disconnected.
+1739558230: New connection from 172.18.0.2:38569 on port 1883.
+1739558230: New client connected from 172.18.0.2:38569 as status_checker (p2, c1, k2).
+1739558230: No will message specified.
+1739558230: Sending CONNACK to status_checker (0, 0)
+1739558230: Received DISCONNECT from status_checker
+1739558230: Client status_checker disconnected.
+1739558233: New connection from 172.18.0.2:55105 on port 1883.
+1739558233: New client connected from 172.18.0.2:55105 as status_checker (p2, c1, k2).
+1739558233: No will message specified.
+1739558233: Sending CONNACK to status_checker (0, 0)
+1739558233: Received DISCONNECT from status_checker
+1739558233: Client status_checker disconnected.
+1739558260: New connection from 172.18.0.2:40887 on port 1883.
+1739558260: New client connected from 172.18.0.2:40887 as status_checker (p2, c1, k2).
+1739558260: No will message specified.
+1739558260: Sending CONNACK to status_checker (0, 0)
+1739558260: Received DISCONNECT from status_checker
+1739558260: Client status_checker disconnected.
+1739558263: New connection from 172.18.0.2:44497 on port 1883.
+1739558263: New client connected from 172.18.0.2:44497 as status_checker (p2, c1, k2).
+1739558263: No will message specified.
+1739558263: Sending CONNACK to status_checker (0, 0)
+1739558263: Received DISCONNECT from status_checker
+1739558263: Client status_checker disconnected.
+1739558290: New connection from 172.18.0.2:38809 on port 1883.
+1739558290: New client connected from 172.18.0.2:38809 as status_checker (p2, c1, k2).
+1739558290: No will message specified.
+1739558290: Sending CONNACK to status_checker (0, 0)
+1739558290: Received DISCONNECT from status_checker
+1739558290: Client status_checker disconnected.
+1739558293: New connection from 172.18.0.2:48821 on port 1883.
+1739558293: New client connected from 172.18.0.2:48821 as status_checker (p2, c1, k2).
+1739558293: No will message specified.
+1739558293: Sending CONNACK to status_checker (0, 0)
+1739558293: Received DISCONNECT from status_checker
+1739558293: Client status_checker disconnected.
+1739558320: New connection from 172.18.0.2:57549 on port 1883.
+1739558320: New client connected from 172.18.0.2:57549 as status_checker (p2, c1, k2).
+1739558320: No will message specified.
+1739558320: Sending CONNACK to status_checker (0, 0)
+1739558320: Received DISCONNECT from status_checker
+1739558320: Client status_checker disconnected.
+1739558323: New connection from 172.18.0.2:51335 on port 1883.
+1739558323: New client connected from 172.18.0.2:51335 as status_checker (p2, c1, k2).
+1739558323: No will message specified.
+1739558323: Sending CONNACK to status_checker (0, 0)
+1739558323: Received DISCONNECT from status_checker
+1739558323: Client status_checker disconnected.
+1739558350: New connection from 172.18.0.2:41981 on port 1883.
+1739558350: New client connected from 172.18.0.2:41981 as status_checker (p2, c1, k2).
+1739558350: No will message specified.
+1739558350: Sending CONNACK to status_checker (0, 0)
+1739558350: Received DISCONNECT from status_checker
+1739558350: Client status_checker disconnected.
+1739558353: New connection from 172.18.0.2:49747 on port 1883.
+1739558353: New client connected from 172.18.0.2:49747 as status_checker (p2, c1, k2).
+1739558353: No will message specified.
+1739558353: Sending CONNACK to status_checker (0, 0)
+1739558353: Received DISCONNECT from status_checker
+1739558353: Client status_checker disconnected.
+1739558380: New connection from 172.18.0.2:50489 on port 1883.
+1739558380: New client connected from 172.18.0.2:50489 as status_checker (p2, c1, k2).
+1739558380: No will message specified.
+1739558380: Sending CONNACK to status_checker (0, 0)
+1739558380: Received DISCONNECT from status_checker
+1739558380: Client status_checker disconnected.
+1739558384: New connection from 172.18.0.2:39943 on port 1883.
+1739558384: New client connected from 172.18.0.2:39943 as status_checker (p2, c1, k2).
+1739558384: No will message specified.
+1739558384: Sending CONNACK to status_checker (0, 0)
+1739558384: Received DISCONNECT from status_checker
+1739558384: Client status_checker disconnected.
+1739558410: New connection from 172.18.0.2:57463 on port 1883.
+1739558410: New client connected from 172.18.0.2:57463 as status_checker (p2, c1, k2).
+1739558410: No will message specified.
+1739558410: Sending CONNACK to status_checker (0, 0)
+1739558410: Received DISCONNECT from status_checker
+1739558410: Client status_checker disconnected.
+1739558414: New connection from 172.18.0.2:58081 on port 1883.
+1739558414: New client connected from 172.18.0.2:58081 as status_checker (p2, c1, k2).
+1739558414: No will message specified.
+1739558414: Sending CONNACK to status_checker (0, 0)
+1739558414: Received DISCONNECT from status_checker
+1739558414: Client status_checker disconnected.
+1739558440: New connection from 172.18.0.2:53437 on port 1883.
+1739558440: New client connected from 172.18.0.2:53437 as status_checker (p2, c1, k2).
+1739558440: No will message specified.
+1739558440: Sending CONNACK to status_checker (0, 0)
+1739558440: Received DISCONNECT from status_checker
+1739558440: Client status_checker disconnected.
+1739558444: New connection from 172.18.0.2:58089 on port 1883.
+1739558444: New client connected from 172.18.0.2:58089 as status_checker (p2, c1, k2).
+1739558444: No will message specified.
+1739558444: Sending CONNACK to status_checker (0, 0)
+1739558444: Received DISCONNECT from status_checker
+1739558444: Client status_checker disconnected.
+1739558470: New connection from 172.18.0.2:36013 on port 1883.
+1739558470: New client connected from 172.18.0.2:36013 as status_checker (p2, c1, k2).
+1739558470: No will message specified.
+1739558470: Sending CONNACK to status_checker (0, 0)
+1739558470: Received DISCONNECT from status_checker
+1739558470: Client status_checker disconnected.
+1739558474: New connection from 172.18.0.2:38081 on port 1883.
+1739558474: New client connected from 172.18.0.2:38081 as status_checker (p2, c1, k2).
+1739558474: No will message specified.
+1739558474: Sending CONNACK to status_checker (0, 0)
+1739558474: Received DISCONNECT from status_checker
+1739558474: Client status_checker disconnected.
+1739558500: New connection from 172.18.0.2:43233 on port 1883.
+1739558500: New client connected from 172.18.0.2:43233 as status_checker (p2, c1, k2).
+1739558500: No will message specified.
+1739558500: Sending CONNACK to status_checker (0, 0)
+1739558500: Received DISCONNECT from status_checker
+1739558500: Client status_checker disconnected.
+1739558504: New connection from 172.18.0.2:34911 on port 1883.
+1739558504: New client connected from 172.18.0.2:34911 as status_checker (p2, c1, k2).
+1739558504: No will message specified.
+1739558504: Sending CONNACK to status_checker (0, 0)
+1739558504: Received DISCONNECT from status_checker
+1739558504: Client status_checker disconnected.
+1739558530: New connection from 172.18.0.2:58549 on port 1883.
+1739558530: New client connected from 172.18.0.2:58549 as status_checker (p2, c1, k2).
+1739558530: No will message specified.
+1739558530: Sending CONNACK to status_checker (0, 0)
+1739558530: Received DISCONNECT from status_checker
+1739558530: Client status_checker disconnected.
+1739558534: New connection from 172.18.0.2:49711 on port 1883.
+1739558534: New client connected from 172.18.0.2:49711 as status_checker (p2, c1, k2).
+1739558534: No will message specified.
+1739558534: Sending CONNACK to status_checker (0, 0)
+1739558534: Received DISCONNECT from status_checker
+1739558534: Client status_checker disconnected.
+1739558560: New connection from 172.18.0.2:43213 on port 1883.
+1739558560: New client connected from 172.18.0.2:43213 as status_checker (p2, c1, k2).
+1739558560: No will message specified.
+1739558560: Sending CONNACK to status_checker (0, 0)
+1739558560: Received DISCONNECT from status_checker
+1739558560: Client status_checker disconnected.
+1739558564: New connection from 172.18.0.2:36159 on port 1883.
+1739558564: New client connected from 172.18.0.2:36159 as status_checker (p2, c1, k2).
+1739558564: No will message specified.
+1739558564: Sending CONNACK to status_checker (0, 0)
+1739558564: Received DISCONNECT from status_checker
+1739558564: Client status_checker disconnected.
+1739558590: New connection from 172.18.0.2:39183 on port 1883.
+1739558590: New client connected from 172.18.0.2:39183 as status_checker (p2, c1, k2).
+1739558590: No will message specified.
+1739558590: Sending CONNACK to status_checker (0, 0)
+1739558590: Received DISCONNECT from status_checker
+1739558590: Client status_checker disconnected.
+1739558594: New connection from 172.18.0.2:58227 on port 1883.
+1739558594: New client connected from 172.18.0.2:58227 as status_checker (p2, c1, k2).
+1739558594: No will message specified.
+1739558594: Sending CONNACK to status_checker (0, 0)
+1739558594: Received DISCONNECT from status_checker
+1739558594: Client status_checker disconnected.
+1739558620: New connection from 172.18.0.2:49643 on port 1883.
+1739558620: New client connected from 172.18.0.2:49643 as status_checker (p2, c1, k2).
+1739558620: No will message specified.
+1739558620: Sending CONNACK to status_checker (0, 0)
+1739558620: Received DISCONNECT from status_checker
+1739558620: Client status_checker disconnected.
+1739558624: New connection from 172.18.0.2:50353 on port 1883.
+1739558624: New client connected from 172.18.0.2:50353 as status_checker (p2, c1, k2).
+1739558624: No will message specified.
+1739558624: Sending CONNACK to status_checker (0, 0)
+1739558624: Received DISCONNECT from status_checker
+1739558624: Client status_checker disconnected.
+1739558650: New connection from 172.18.0.2:49761 on port 1883.
+1739558650: New client connected from 172.18.0.2:49761 as status_checker (p2, c1, k2).
+1739558650: No will message specified.
+1739558650: Sending CONNACK to status_checker (0, 0)
+1739558650: Received DISCONNECT from status_checker
+1739558650: Client status_checker disconnected.
+1739558654: New connection from 172.18.0.2:53951 on port 1883.
+1739558654: New client connected from 172.18.0.2:53951 as status_checker (p2, c1, k2).
+1739558654: No will message specified.
+1739558654: Sending CONNACK to status_checker (0, 0)
+1739558654: Received DISCONNECT from status_checker
+1739558654: Client status_checker disconnected.
+1739558680: New connection from 172.18.0.2:36695 on port 1883.
+1739558680: New client connected from 172.18.0.2:36695 as status_checker (p2, c1, k2).
+1739558680: No will message specified.
+1739558680: Sending CONNACK to status_checker (0, 0)
+1739558680: Received DISCONNECT from status_checker
+1739558680: Client status_checker disconnected.
+1739558684: New connection from 172.18.0.2:60015 on port 1883.
+1739558684: New client connected from 172.18.0.2:60015 as status_checker (p2, c1, k2).
+1739558684: No will message specified.
+1739558684: Sending CONNACK to status_checker (0, 0)
+1739558684: Received DISCONNECT from status_checker
+1739558684: Client status_checker disconnected.
+1739558710: New connection from 172.18.0.2:46973 on port 1883.
+1739558710: New client connected from 172.18.0.2:46973 as status_checker (p2, c1, k2).
+1739558710: No will message specified.
+1739558710: Sending CONNACK to status_checker (0, 0)
+1739558710: Received DISCONNECT from status_checker
+1739558710: Client status_checker disconnected.
+1739558714: New connection from 172.18.0.2:56605 on port 1883.
+1739558714: New client connected from 172.18.0.2:56605 as status_checker (p2, c1, k2).
+1739558714: No will message specified.
+1739558714: Sending CONNACK to status_checker (0, 0)
+1739558714: Received DISCONNECT from status_checker
+1739558714: Client status_checker disconnected.
+1739558740: New connection from 172.18.0.2:42765 on port 1883.
+1739558740: New client connected from 172.18.0.2:42765 as status_checker (p2, c1, k2).
+1739558740: No will message specified.
+1739558740: Sending CONNACK to status_checker (0, 0)
+1739558740: Received DISCONNECT from status_checker
+1739558740: Client status_checker disconnected.
+1739558744: New connection from 172.18.0.2:56869 on port 1883.
+1739558744: New client connected from 172.18.0.2:56869 as status_checker (p2, c1, k2).
+1739558744: No will message specified.
+1739558744: Sending CONNACK to status_checker (0, 0)
+1739558744: Received DISCONNECT from status_checker
+1739558744: Client status_checker disconnected.
+1739558752: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1739558770: New connection from 172.18.0.2:39885 on port 1883.
+1739558770: New client connected from 172.18.0.2:39885 as status_checker (p2, c1, k2).
+1739558770: No will message specified.
+1739558770: Sending CONNACK to status_checker (0, 0)
+1739558770: Received DISCONNECT from status_checker
+1739558770: Client status_checker disconnected.
+1739558774: New connection from 172.18.0.2:33613 on port 1883.
+1739558774: New client connected from 172.18.0.2:33613 as status_checker (p2, c1, k2).
+1739558774: No will message specified.
+1739558774: Sending CONNACK to status_checker (0, 0)
+1739558774: Received DISCONNECT from status_checker
+1739558774: Client status_checker disconnected.
+1739558800: New connection from 172.18.0.2:46217 on port 1883.
+1739558800: New client connected from 172.18.0.2:46217 as status_checker (p2, c1, k2).
+1739558800: No will message specified.
+1739558800: Sending CONNACK to status_checker (0, 0)
+1739558800: Received DISCONNECT from status_checker
+1739558800: Client status_checker disconnected.
+1739558804: New connection from 172.18.0.2:36437 on port 1883.
+1739558804: New client connected from 172.18.0.2:36437 as status_checker (p2, c1, k2).
+1739558804: No will message specified.
+1739558804: Sending CONNACK to status_checker (0, 0)
+1739558804: Received DISCONNECT from status_checker
+1739558804: Client status_checker disconnected.
+1739558831: New connection from 172.18.0.2:40821 on port 1883.
+1739558831: New client connected from 172.18.0.2:40821 as status_checker (p2, c1, k2).
+1739558831: No will message specified.
+1739558831: Sending CONNACK to status_checker (0, 0)
+1739558831: Received DISCONNECT from status_checker
+1739558831: Client status_checker disconnected.
+1739558834: New connection from 172.18.0.2:52261 on port 1883.
+1739558834: New client connected from 172.18.0.2:52261 as status_checker (p2, c1, k2).
+1739558834: No will message specified.
+1739558834: Sending CONNACK to status_checker (0, 0)
+1739558834: Received DISCONNECT from status_checker
+1739558834: Client status_checker disconnected.
+1739558861: New connection from 172.18.0.2:47125 on port 1883.
+1739558861: New client connected from 172.18.0.2:47125 as status_checker (p2, c1, k2).
+1739558861: No will message specified.
+1739558861: Sending CONNACK to status_checker (0, 0)
+1739558861: Received DISCONNECT from status_checker
+1739558861: Client status_checker disconnected.
+1739558864: New connection from 172.18.0.2:41153 on port 1883.
+1739558864: New client connected from 172.18.0.2:41153 as status_checker (p2, c1, k2).
+1739558864: No will message specified.
+1739558864: Sending CONNACK to status_checker (0, 0)
+1739558864: Received DISCONNECT from status_checker
+1739558864: Client status_checker disconnected.
+1739558891: New connection from 172.18.0.2:35089 on port 1883.
+1739558891: New client connected from 172.18.0.2:35089 as status_checker (p2, c1, k2).
+1739558891: No will message specified.
+1739558891: Sending CONNACK to status_checker (0, 0)
+1739558891: Received DISCONNECT from status_checker
+1739558891: Client status_checker disconnected.
+1739558894: New connection from 172.18.0.2:40655 on port 1883.
+1739558894: New client connected from 172.18.0.2:40655 as status_checker (p2, c1, k2).
+1739558894: No will message specified.
+1739558894: Sending CONNACK to status_checker (0, 0)
+1739558894: Received DISCONNECT from status_checker
+1739558894: Client status_checker disconnected.
+1739558921: New connection from 172.18.0.2:46583 on port 1883.
+1739558921: New client connected from 172.18.0.2:46583 as status_checker (p2, c1, k2).
+1739558921: No will message specified.
+1739558921: Sending CONNACK to status_checker (0, 0)
+1739558921: Received DISCONNECT from status_checker
+1739558921: Client status_checker disconnected.
+1739558924: New connection from 172.18.0.2:40339 on port 1883.
+1739558924: New client connected from 172.18.0.2:40339 as status_checker (p2, c1, k2).
+1739558924: No will message specified.
+1739558924: Sending CONNACK to status_checker (0, 0)
+1739558924: Received DISCONNECT from status_checker
+1739558924: Client status_checker disconnected.
+1739558951: New connection from 172.18.0.2:49609 on port 1883.
+1739558951: New client connected from 172.18.0.2:49609 as status_checker (p2, c1, k2).
+1739558951: No will message specified.
+1739558951: Sending CONNACK to status_checker (0, 0)
+1739558951: Received DISCONNECT from status_checker
+1739558951: Client status_checker disconnected.
+1739558954: New connection from 172.18.0.2:36719 on port 1883.
+1739558954: New client connected from 172.18.0.2:36719 as status_checker (p2, c1, k2).
+1739558954: No will message specified.
+1739558954: Sending CONNACK to status_checker (0, 0)
+1739558954: Received DISCONNECT from status_checker
+1739558954: Client status_checker disconnected.
+1739558981: New connection from 172.18.0.2:47011 on port 1883.
+1739558981: New client connected from 172.18.0.2:47011 as status_checker (p2, c1, k2).
+1739558981: No will message specified.
+1739558981: Sending CONNACK to status_checker (0, 0)
+1739558981: Received DISCONNECT from status_checker
+1739558981: Client status_checker disconnected.
+1739558984: New connection from 172.18.0.2:49917 on port 1883.
+1739558984: New client connected from 172.18.0.2:49917 as status_checker (p2, c1, k2).
+1739558984: No will message specified.
+1739558984: Sending CONNACK to status_checker (0, 0)
+1739558984: Received DISCONNECT from status_checker
+1739558984: Client status_checker disconnected.
+1739559011: New connection from 172.18.0.2:42617 on port 1883.
+1739559011: New client connected from 172.18.0.2:42617 as status_checker (p2, c1, k2).
+1739559011: No will message specified.
+1739559011: Sending CONNACK to status_checker (0, 0)
+1739559011: Received DISCONNECT from status_checker
+1739559011: Client status_checker disconnected.
+1739559014: New connection from 172.18.0.2:43911 on port 1883.
+1739559014: New client connected from 172.18.0.2:43911 as status_checker (p2, c1, k2).
+1739559014: No will message specified.
+1739559014: Sending CONNACK to status_checker (0, 0)
+1739559014: Received DISCONNECT from status_checker
+1739559014: Client status_checker disconnected.
+1739559041: New connection from 172.18.0.2:38985 on port 1883.
+1739559041: New client connected from 172.18.0.2:38985 as status_checker (p2, c1, k2).
+1739559041: No will message specified.
+1739559041: Sending CONNACK to status_checker (0, 0)
+1739559041: Received DISCONNECT from status_checker
+1739559041: Client status_checker disconnected.
+1739559044: New connection from 172.18.0.2:57193 on port 1883.
+1739559044: New client connected from 172.18.0.2:57193 as status_checker (p2, c1, k2).
+1739559044: No will message specified.
+1739559044: Sending CONNACK to status_checker (0, 0)
+1739559044: Received DISCONNECT from status_checker
+1739559044: Client status_checker disconnected.
+1739559071: New connection from 172.18.0.2:52045 on port 1883.
+1739559071: New client connected from 172.18.0.2:52045 as status_checker (p2, c1, k2).
+1739559071: No will message specified.
+1739559071: Sending CONNACK to status_checker (0, 0)
+1739559071: Received DISCONNECT from status_checker
+1739559071: Client status_checker disconnected.
+1739559074: New connection from 172.18.0.2:46587 on port 1883.
+1739559074: New client connected from 172.18.0.2:46587 as status_checker (p2, c1, k2).
+1739559074: No will message specified.
+1739559074: Sending CONNACK to status_checker (0, 0)
+1739559074: Received DISCONNECT from status_checker
+1739559074: Client status_checker disconnected.
+1739559101: New connection from 172.18.0.2:35287 on port 1883.
+1739559101: New client connected from 172.18.0.2:35287 as status_checker (p2, c1, k2).
+1739559101: No will message specified.
+1739559101: Sending CONNACK to status_checker (0, 0)
+1739559101: Received DISCONNECT from status_checker
+1739559101: Client status_checker disconnected.
+1739559104: New connection from 172.18.0.2:45049 on port 1883.
+1739559104: New client connected from 172.18.0.2:45049 as status_checker (p2, c1, k2).
+1739559104: No will message specified.
+1739559104: Sending CONNACK to status_checker (0, 0)
+1739559104: Received DISCONNECT from status_checker
+1739559104: Client status_checker disconnected.
+1739559131: New connection from 172.18.0.2:43909 on port 1883.
+1739559131: New client connected from 172.18.0.2:43909 as status_checker (p2, c1, k2).
+1739559131: No will message specified.
+1739559131: Sending CONNACK to status_checker (0, 0)
+1739559131: Received DISCONNECT from status_checker
+1739559131: Client status_checker disconnected.
+1739559134: New connection from 172.18.0.2:34395 on port 1883.
+1739559134: New client connected from 172.18.0.2:34395 as status_checker (p2, c1, k2).
+1739559134: No will message specified.
+1739559134: Sending CONNACK to status_checker (0, 0)
+1739559134: Received DISCONNECT from status_checker
+1739559134: Client status_checker disconnected.
+1739559161: New connection from 172.18.0.2:43449 on port 1883.
+1739559161: New client connected from 172.18.0.2:43449 as status_checker (p2, c1, k2).
+1739559161: No will message specified.
+1739559161: Sending CONNACK to status_checker (0, 0)
+1739559161: Received DISCONNECT from status_checker
+1739559161: Client status_checker disconnected.
+1739559164: New connection from 172.18.0.2:37933 on port 1883.
+1739559164: New client connected from 172.18.0.2:37933 as status_checker (p2, c1, k2).
+1739559164: No will message specified.
+1739559164: Sending CONNACK to status_checker (0, 0)
+1739559164: Received DISCONNECT from status_checker
+1739559164: Client status_checker disconnected.
+1739559191: New connection from 172.18.0.2:49629 on port 1883.
+1739559191: New client connected from 172.18.0.2:49629 as status_checker (p2, c1, k2).
+1739559191: No will message specified.
+1739559191: Sending CONNACK to status_checker (0, 0)
+1739559191: Received DISCONNECT from status_checker
+1739559191: Client status_checker disconnected.
+1739559194: New connection from 172.18.0.2:60875 on port 1883.
+1739559194: New client connected from 172.18.0.2:60875 as status_checker (p2, c1, k2).
+1739559194: No will message specified.
+1739559194: Sending CONNACK to status_checker (0, 0)
+1739559194: Received DISCONNECT from status_checker
+1739559194: Client status_checker disconnected.
+1739559221: New connection from 172.18.0.2:36281 on port 1883.
+1739559221: New client connected from 172.18.0.2:36281 as status_checker (p2, c1, k2).
+1739559221: No will message specified.
+1739559221: Sending CONNACK to status_checker (0, 0)
+1739559221: Received DISCONNECT from status_checker
+1739559221: Client status_checker disconnected.
+1739559224: New connection from 172.18.0.2:52945 on port 1883.
+1739559224: New client connected from 172.18.0.2:52945 as status_checker (p2, c1, k2).
+1739559224: No will message specified.
+1739559224: Sending CONNACK to status_checker (0, 0)
+1739559224: Received DISCONNECT from status_checker
+1739559224: Client status_checker disconnected.
+1739559251: New connection from 172.18.0.2:36413 on port 1883.
+1739559251: New client connected from 172.18.0.2:36413 as status_checker (p2, c1, k2).
+1739559251: No will message specified.
+1739559251: Sending CONNACK to status_checker (0, 0)
+1739559251: Received DISCONNECT from status_checker
+1739559251: Client status_checker disconnected.
+1739559254: New connection from 172.18.0.2:41467 on port 1883.
+1739559254: New client connected from 172.18.0.2:41467 as status_checker (p2, c1, k2).
+1739559254: No will message specified.
+1739559254: Sending CONNACK to status_checker (0, 0)
+1739559254: Received DISCONNECT from status_checker
+1739559254: Client status_checker disconnected.
+1739559281: New connection from 172.18.0.2:49307 on port 1883.
+1739559281: New client connected from 172.18.0.2:49307 as status_checker (p2, c1, k2).
+1739559281: No will message specified.
+1739559281: Sending CONNACK to status_checker (0, 0)
+1739559281: Received DISCONNECT from status_checker
+1739559281: Client status_checker disconnected.
+1739559284: New connection from 172.18.0.2:50047 on port 1883.
+1739559284: New client connected from 172.18.0.2:50047 as status_checker (p2, c1, k2).
+1739559284: No will message specified.
+1739559284: Sending CONNACK to status_checker (0, 0)
+1739559284: Received DISCONNECT from status_checker
+1739559284: Client status_checker disconnected.
+1739559311: New connection from 172.18.0.2:40207 on port 1883.
+1739559311: New client connected from 172.18.0.2:40207 as status_checker (p2, c1, k2).
+1739559311: No will message specified.
+1739559311: Sending CONNACK to status_checker (0, 0)
+1739559311: Received DISCONNECT from status_checker
+1739559311: Client status_checker disconnected.
+1739559314: New connection from 172.18.0.2:38569 on port 1883.
+1739559314: New client connected from 172.18.0.2:38569 as status_checker (p2, c1, k2).
+1739559314: No will message specified.
+1739559314: Sending CONNACK to status_checker (0, 0)
+1739559314: Received DISCONNECT from status_checker
+1739559314: Client status_checker disconnected.
+1739559341: New connection from 172.18.0.2:39933 on port 1883.
+1739559341: New client connected from 172.18.0.2:39933 as status_checker (p2, c1, k2).
+1739559341: No will message specified.
+1739559341: Sending CONNACK to status_checker (0, 0)
+1739559341: Received DISCONNECT from status_checker
+1739559341: Client status_checker disconnected.
+1739559344: New connection from 172.18.0.2:42109 on port 1883.
+1739559344: New client connected from 172.18.0.2:42109 as status_checker (p2, c1, k2).
+1739559344: No will message specified.
+1739559344: Sending CONNACK to status_checker (0, 0)
+1739559344: Received DISCONNECT from status_checker
+1739559344: Client status_checker disconnected.
+1739559371: New connection from 172.18.0.2:55167 on port 1883.
+1739559371: New client connected from 172.18.0.2:55167 as status_checker (p2, c1, k2).
+1739559371: No will message specified.
+1739559371: Sending CONNACK to status_checker (0, 0)
+1739559371: Received DISCONNECT from status_checker
+1739559371: Client status_checker disconnected.
+1739559374: New connection from 172.18.0.2:44345 on port 1883.
+1739559374: New client connected from 172.18.0.2:44345 as status_checker (p2, c1, k2).
+1739559374: No will message specified.
+1739559374: Sending CONNACK to status_checker (0, 0)
+1739559374: Received DISCONNECT from status_checker
+1739559374: Client status_checker disconnected.
+1739559401: New connection from 172.18.0.2:40341 on port 1883.
+1739559401: New client connected from 172.18.0.2:40341 as status_checker (p2, c1, k2).
+1739559401: No will message specified.
+1739559401: Sending CONNACK to status_checker (0, 0)
+1739559401: Received DISCONNECT from status_checker
+1739559401: Client status_checker disconnected.
+1739559404: New connection from 172.18.0.2:35685 on port 1883.
+1739559404: New client connected from 172.18.0.2:35685 as status_checker (p2, c1, k2).
+1739559404: No will message specified.
+1739559404: Sending CONNACK to status_checker (0, 0)
+1739559404: Received DISCONNECT from status_checker
+1739559404: Client status_checker disconnected.
+1739559431: New connection from 172.18.0.2:49193 on port 1883.
+1739559431: New client connected from 172.18.0.2:49193 as status_checker (p2, c1, k2).
+1739559431: No will message specified.
+1739559431: Sending CONNACK to status_checker (0, 0)
+1739559431: Received DISCONNECT from status_checker
+1739559431: Client status_checker disconnected.
+1739559434: New connection from 172.18.0.2:44981 on port 1883.
+1739559434: New client connected from 172.18.0.2:44981 as status_checker (p2, c1, k2).
+1739559434: No will message specified.
+1739559434: Sending CONNACK to status_checker (0, 0)
+1739559434: Received DISCONNECT from status_checker
+1739559434: Client status_checker disconnected.
+1739559461: New connection from 172.18.0.2:33531 on port 1883.
+1739559461: New client connected from 172.18.0.2:33531 as status_checker (p2, c1, k2).
+1739559461: No will message specified.
+1739559461: Sending CONNACK to status_checker (0, 0)
+1739559461: Received DISCONNECT from status_checker
+1739559461: Client status_checker disconnected.
+1739559464: New connection from 172.18.0.2:51269 on port 1883.
+1739559464: New client connected from 172.18.0.2:51269 as status_checker (p2, c1, k2).
+1739559464: No will message specified.
+1739559464: Sending CONNACK to status_checker (0, 0)
+1739559464: Received DISCONNECT from status_checker
+1739559464: Client status_checker disconnected.
+1739559491: New connection from 172.18.0.2:38497 on port 1883.
+1739559491: New client connected from 172.18.0.2:38497 as status_checker (p2, c1, k2).
+1739559491: No will message specified.
+1739559491: Sending CONNACK to status_checker (0, 0)
+1739559491: Received DISCONNECT from status_checker
+1739559491: Client status_checker disconnected.
+1739559494: New connection from 172.18.0.2:48839 on port 1883.
+1739559494: New client connected from 172.18.0.2:48839 as status_checker (p2, c1, k2).
+1739559494: No will message specified.
+1739559494: Sending CONNACK to status_checker (0, 0)
+1739559494: Received DISCONNECT from status_checker
+1739559494: Client status_checker disconnected.
+1739559521: New connection from 172.18.0.2:49957 on port 1883.
+1739559521: New client connected from 172.18.0.2:49957 as status_checker (p2, c1, k2).
+1739559521: No will message specified.
+1739559521: Sending CONNACK to status_checker (0, 0)
+1739559521: Received DISCONNECT from status_checker
+1739559521: Client status_checker disconnected.
+1739559524: New connection from 172.18.0.2:59241 on port 1883.
+1739559524: New client connected from 172.18.0.2:59241 as status_checker (p2, c1, k2).
+1739559524: No will message specified.
+1739559524: Sending CONNACK to status_checker (0, 0)
+1739559524: Received DISCONNECT from status_checker
+1739559524: Client status_checker disconnected.
+1739559551: New connection from 172.18.0.2:35803 on port 1883.
+1739559551: New client connected from 172.18.0.2:35803 as status_checker (p2, c1, k2).
+1739559551: No will message specified.
+1739559551: Sending CONNACK to status_checker (0, 0)
+1739559551: Received DISCONNECT from status_checker
+1739559551: Client status_checker disconnected.
+1739559554: New connection from 172.18.0.2:45453 on port 1883.
+1739559554: New client connected from 172.18.0.2:45453 as status_checker (p2, c1, k2).
+1739559554: No will message specified.
+1739559554: Sending CONNACK to status_checker (0, 0)
+1739559554: Received DISCONNECT from status_checker
+1739559554: Client status_checker disconnected.
+1739559581: New connection from 172.18.0.2:59141 on port 1883.
+1739559581: New client connected from 172.18.0.2:59141 as status_checker (p2, c1, k2).
+1739559581: No will message specified.
+1739559581: Sending CONNACK to status_checker (0, 0)
+1739559581: Received DISCONNECT from status_checker
+1739559581: Client status_checker disconnected.
+1739559584: New connection from 172.18.0.2:52183 on port 1883.
+1739559584: New client connected from 172.18.0.2:52183 as status_checker (p2, c1, k2).
+1739559584: No will message specified.
+1739559584: Sending CONNACK to status_checker (0, 0)
+1739559584: Received DISCONNECT from status_checker
+1739559584: Client status_checker disconnected.
+1739559611: New connection from 172.18.0.2:41099 on port 1883.
+1739559611: New client connected from 172.18.0.2:41099 as status_checker (p2, c1, k2).
+1739559611: No will message specified.
+1739559611: Sending CONNACK to status_checker (0, 0)
+1739559611: Received DISCONNECT from status_checker
+1739559611: Client status_checker disconnected.
+1739559614: New connection from 172.18.0.2:60879 on port 1883.
+1739559614: New client connected from 172.18.0.2:60879 as status_checker (p2, c1, k2).
+1739559614: No will message specified.
+1739559614: Sending CONNACK to status_checker (0, 0)
+1739559614: Received DISCONNECT from status_checker
+1739559614: Client status_checker disconnected.
+1739559641: New connection from 172.18.0.2:40311 on port 1883.
+1739559641: New client connected from 172.18.0.2:40311 as status_checker (p2, c1, k2).
+1739559641: No will message specified.
+1739559641: Sending CONNACK to status_checker (0, 0)
+1739559641: Received DISCONNECT from status_checker
+1739559641: Client status_checker disconnected.
+1739559644: New connection from 172.18.0.2:41983 on port 1883.
+1739559644: New client connected from 172.18.0.2:41983 as status_checker (p2, c1, k2).
+1739559644: No will message specified.
+1739559644: Sending CONNACK to status_checker (0, 0)
+1739559644: Received DISCONNECT from status_checker
+1739559644: Client status_checker disconnected.
+1739559671: New connection from 172.18.0.2:40425 on port 1883.
+1739559671: New client connected from 172.18.0.2:40425 as status_checker (p2, c1, k2).
+1739559671: No will message specified.
+1739559671: Sending CONNACK to status_checker (0, 0)
+1739559671: Received DISCONNECT from status_checker
+1739559671: Client status_checker disconnected.
+1739559675: New connection from 172.18.0.2:55889 on port 1883.
+1739559675: New client connected from 172.18.0.2:55889 as status_checker (p2, c1, k2).
+1739559675: No will message specified.
+1739559675: Sending CONNACK to status_checker (0, 0)
+1739559675: Received DISCONNECT from status_checker
+1739559675: Client status_checker disconnected.
+1739559701: New connection from 172.18.0.2:53557 on port 1883.
+1739559701: New client connected from 172.18.0.2:53557 as status_checker (p2, c1, k2).
+1739559701: No will message specified.
+1739559701: Sending CONNACK to status_checker (0, 0)
+1739559701: Received DISCONNECT from status_checker
+1739559701: Client status_checker disconnected.
+1739559705: New connection from 172.18.0.2:36457 on port 1883.
+1739559705: New client connected from 172.18.0.2:36457 as status_checker (p2, c1, k2).
+1739559705: No will message specified.
+1739559705: Sending CONNACK to status_checker (0, 0)
+1739559705: Received DISCONNECT from status_checker
+1739559705: Client status_checker disconnected.
+1739559731: New connection from 172.18.0.2:47839 on port 1883.
+1739559731: New client connected from 172.18.0.2:47839 as status_checker (p2, c1, k2).
+1739559731: No will message specified.
+1739559731: Sending CONNACK to status_checker (0, 0)
+1739559731: Received DISCONNECT from status_checker
+1739559731: Client status_checker disconnected.
+1739559735: New connection from 172.18.0.2:35833 on port 1883.
+1739559735: New client connected from 172.18.0.2:35833 as status_checker (p2, c1, k2).
+1739559735: No will message specified.
+1739559735: Sending CONNACK to status_checker (0, 0)
+1739559735: Received DISCONNECT from status_checker
+1739559735: Client status_checker disconnected.
+1739559761: New connection from 172.18.0.2:38659 on port 1883.
+1739559761: New client connected from 172.18.0.2:38659 as status_checker (p2, c1, k2).
+1739559761: No will message specified.
+1739559761: Sending CONNACK to status_checker (0, 0)
+1739559761: Received DISCONNECT from status_checker
+1739559761: Client status_checker disconnected.
+1739559765: New connection from 172.18.0.2:36725 on port 1883.
+1739559765: New client connected from 172.18.0.2:36725 as status_checker (p2, c1, k2).
+1739559765: No will message specified.
+1739559765: Sending CONNACK to status_checker (0, 0)
+1739559765: Received DISCONNECT from status_checker
+1739559765: Client status_checker disconnected.
+1739559791: New connection from 172.18.0.2:48983 on port 1883.
+1739559791: New client connected from 172.18.0.2:48983 as status_checker (p2, c1, k2).
+1739559791: No will message specified.
+1739559791: Sending CONNACK to status_checker (0, 0)
+1739559791: Received DISCONNECT from status_checker
+1739559791: Client status_checker disconnected.
+1739559795: New connection from 172.18.0.2:46861 on port 1883.
+1739559795: New client connected from 172.18.0.2:46861 as status_checker (p2, c1, k2).
+1739559795: No will message specified.
+1739559795: Sending CONNACK to status_checker (0, 0)
+1739559795: Received DISCONNECT from status_checker
+1739559795: Client status_checker disconnected.
+1739559821: New connection from 172.18.0.2:41635 on port 1883.
+1739559821: New client connected from 172.18.0.2:41635 as status_checker (p2, c1, k2).
+1739559821: No will message specified.
+1739559821: Sending CONNACK to status_checker (0, 0)
+1739559821: Received DISCONNECT from status_checker
+1739559821: Client status_checker disconnected.
+1739559825: New connection from 172.18.0.2:53577 on port 1883.
+1739559825: New client connected from 172.18.0.2:53577 as status_checker (p2, c1, k2).
+1739559825: No will message specified.
+1739559825: Sending CONNACK to status_checker (0, 0)
+1739559825: Received DISCONNECT from status_checker
+1739559825: Client status_checker disconnected.
+1739559851: New connection from 172.18.0.2:33469 on port 1883.
+1739559851: New client connected from 172.18.0.2:33469 as status_checker (p2, c1, k2).
+1739559851: No will message specified.
+1739559851: Sending CONNACK to status_checker (0, 0)
+1739559851: Received DISCONNECT from status_checker
+1739559851: Client status_checker disconnected.
+1739559855: New connection from 172.18.0.2:42605 on port 1883.
+1739559855: New client connected from 172.18.0.2:42605 as status_checker (p2, c1, k2).
+1739559855: No will message specified.
+1739559855: Sending CONNACK to status_checker (0, 0)
+1739559855: Received DISCONNECT from status_checker
+1739559855: Client status_checker disconnected.
+1739559881: New connection from 172.18.0.2:51495 on port 1883.
+1739559881: New client connected from 172.18.0.2:51495 as status_checker (p2, c1, k2).
+1739559881: No will message specified.
+1739559881: Sending CONNACK to status_checker (0, 0)
+1739559881: Received DISCONNECT from status_checker
+1739559881: Client status_checker disconnected.
+1739559885: New connection from 172.18.0.2:56357 on port 1883.
+1739559885: New client connected from 172.18.0.2:56357 as status_checker (p2, c1, k2).
+1739559885: No will message specified.
+1739559885: Sending CONNACK to status_checker (0, 0)
+1739559885: Received DISCONNECT from status_checker
+1739559885: Client status_checker disconnected.
+1739559911: New connection from 172.18.0.2:36649 on port 1883.
+1739559911: New client connected from 172.18.0.2:36649 as status_checker (p2, c1, k2).
+1739559911: No will message specified.
+1739559911: Sending CONNACK to status_checker (0, 0)
+1739559911: Received DISCONNECT from status_checker
+1739559911: Client status_checker disconnected.
+1739559915: New connection from 172.18.0.2:56725 on port 1883.
+1739559915: New client connected from 172.18.0.2:56725 as status_checker (p2, c1, k2).
+1739559915: No will message specified.
+1739559915: Sending CONNACK to status_checker (0, 0)
+1739559915: Received DISCONNECT from status_checker
+1739559915: Client status_checker disconnected.
+1739559941: New connection from 172.18.0.2:53735 on port 1883.
+1739559941: New client connected from 172.18.0.2:53735 as status_checker (p2, c1, k2).
+1739559941: No will message specified.
+1739559941: Sending CONNACK to status_checker (0, 0)
+1739559941: Received DISCONNECT from status_checker
+1739559941: Client status_checker disconnected.
+1739559945: New connection from 172.18.0.2:49503 on port 1883.
+1739559945: New client connected from 172.18.0.2:49503 as status_checker (p2, c1, k2).
+1739559945: No will message specified.
+1739559945: Sending CONNACK to status_checker (0, 0)
+1739559945: Received DISCONNECT from status_checker
+1739559945: Client status_checker disconnected.
+1739559971: New connection from 172.18.0.2:56971 on port 1883.
+1739559971: New client connected from 172.18.0.2:56971 as status_checker (p2, c1, k2).
+1739559971: No will message specified.
+1739559971: Sending CONNACK to status_checker (0, 0)
+1739559971: Received DISCONNECT from status_checker
+1739559971: Client status_checker disconnected.
+1739559975: New connection from 172.18.0.2:33211 on port 1883.
+1739559975: New client connected from 172.18.0.2:33211 as status_checker (p2, c1, k2).
+1739559975: No will message specified.
+1739559975: Sending CONNACK to status_checker (0, 0)
+1739559975: Received DISCONNECT from status_checker
+1739559975: Client status_checker disconnected.
+1739560001: New connection from 172.18.0.2:40131 on port 1883.
+1739560001: New client connected from 172.18.0.2:40131 as status_checker (p2, c1, k2).
+1739560001: No will message specified.
+1739560001: Sending CONNACK to status_checker (0, 0)
+1739560001: Received DISCONNECT from status_checker
+1739560001: Client status_checker disconnected.
+1739560005: New connection from 172.18.0.2:59171 on port 1883.
+1739560005: New client connected from 172.18.0.2:59171 as status_checker (p2, c1, k2).
+1739560005: No will message specified.
+1739560005: Sending CONNACK to status_checker (0, 0)
+1739560005: Received DISCONNECT from status_checker
+1739560005: Client status_checker disconnected.
+1739560031: New connection from 172.18.0.2:36863 on port 1883.
+1739560031: New client connected from 172.18.0.2:36863 as status_checker (p2, c1, k2).
+1739560031: No will message specified.
+1739560031: Sending CONNACK to status_checker (0, 0)
+1739560031: Received DISCONNECT from status_checker
+1739560031: Client status_checker disconnected.
+1739560035: New connection from 172.18.0.2:35511 on port 1883.
+1739560035: New client connected from 172.18.0.2:35511 as status_checker (p2, c1, k2).
+1739560035: No will message specified.
+1739560035: Sending CONNACK to status_checker (0, 0)
+1739560035: Received DISCONNECT from status_checker
+1739560035: Client status_checker disconnected.
+1739560061: New connection from 172.18.0.2:42967 on port 1883.
+1739560061: New client connected from 172.18.0.2:42967 as status_checker (p2, c1, k2).
+1739560061: No will message specified.
+1739560061: Sending CONNACK to status_checker (0, 0)
+1739560061: Received DISCONNECT from status_checker
+1739560061: Client status_checker disconnected.
+1739560065: New connection from 172.18.0.2:50293 on port 1883.
+1739560065: New client connected from 172.18.0.2:50293 as status_checker (p2, c1, k2).
+1739560065: No will message specified.
+1739560065: Sending CONNACK to status_checker (0, 0)
+1739560065: Received DISCONNECT from status_checker
+1739560065: Client status_checker disconnected.
+1739560091: New connection from 172.18.0.2:52367 on port 1883.
+1739560091: New client connected from 172.18.0.2:52367 as status_checker (p2, c1, k2).
+1739560091: No will message specified.
+1739560091: Sending CONNACK to status_checker (0, 0)
+1739560091: Received DISCONNECT from status_checker
+1739560091: Client status_checker disconnected.
+1739560095: New connection from 172.18.0.2:59437 on port 1883.
+1739560095: New client connected from 172.18.0.2:59437 as status_checker (p2, c1, k2).
+1739560095: No will message specified.
+1739560095: Sending CONNACK to status_checker (0, 0)
+1739560095: Received DISCONNECT from status_checker
+1739560095: Client status_checker disconnected.
+1739560122: New connection from 172.18.0.2:35781 on port 1883.
+1739560122: New client connected from 172.18.0.2:35781 as status_checker (p2, c1, k2).
+1739560122: No will message specified.
+1739560122: Sending CONNACK to status_checker (0, 0)
+1739560122: Received DISCONNECT from status_checker
+1739560122: Client status_checker disconnected.
+1739560125: New connection from 172.18.0.2:49261 on port 1883.
+1739560125: New client connected from 172.18.0.2:49261 as status_checker (p2, c1, k2).
+1739560125: No will message specified.
+1739560125: Sending CONNACK to status_checker (0, 0)
+1739560125: Received DISCONNECT from status_checker
+1739560125: Client status_checker disconnected.
+1739560152: New connection from 172.18.0.2:37435 on port 1883.
+1739560152: New client connected from 172.18.0.2:37435 as status_checker (p2, c1, k2).
+1739560152: No will message specified.
+1739560152: Sending CONNACK to status_checker (0, 0)
+1739560152: Received DISCONNECT from status_checker
+1739560152: Client status_checker disconnected.
+1739560155: New connection from 172.18.0.2:36205 on port 1883.
+1739560155: New client connected from 172.18.0.2:36205 as status_checker (p2, c1, k2).
+1739560155: No will message specified.
+1739560155: Sending CONNACK to status_checker (0, 0)
+1739560155: Received DISCONNECT from status_checker
+1739560155: Client status_checker disconnected.
+1739560182: New connection from 172.18.0.2:40095 on port 1883.
+1739560182: New client connected from 172.18.0.2:40095 as status_checker (p2, c1, k2).
+1739560182: No will message specified.
+1739560182: Sending CONNACK to status_checker (0, 0)
+1739560182: Received DISCONNECT from status_checker
+1739560182: Client status_checker disconnected.
+1739560185: New connection from 172.18.0.2:40591 on port 1883.
+1739560185: New client connected from 172.18.0.2:40591 as status_checker (p2, c1, k2).
+1739560185: No will message specified.
+1739560185: Sending CONNACK to status_checker (0, 0)
+1739560185: Received DISCONNECT from status_checker
+1739560185: Client status_checker disconnected.
+1739560212: New connection from 172.18.0.2:39239 on port 1883.
+1739560212: New client connected from 172.18.0.2:39239 as status_checker (p2, c1, k2).
+1739560212: No will message specified.
+1739560212: Sending CONNACK to status_checker (0, 0)
+1739560212: Received DISCONNECT from status_checker
+1739560212: Client status_checker disconnected.
+1739560215: New connection from 172.18.0.2:36585 on port 1883.
+1739560215: New client connected from 172.18.0.2:36585 as status_checker (p2, c1, k2).
+1739560215: No will message specified.
+1739560215: Sending CONNACK to status_checker (0, 0)
+1739560215: Received DISCONNECT from status_checker
+1739560215: Client status_checker disconnected.
+1739560242: New connection from 172.18.0.2:35609 on port 1883.
+1739560242: New client connected from 172.18.0.2:35609 as status_checker (p2, c1, k2).
+1739560242: No will message specified.
+1739560242: Sending CONNACK to status_checker (0, 0)
+1739560242: Received DISCONNECT from status_checker
+1739560242: Client status_checker disconnected.
+1739560245: New connection from 172.18.0.2:43757 on port 1883.
+1739560245: New client connected from 172.18.0.2:43757 as status_checker (p2, c1, k2).
+1739560245: No will message specified.
+1739560245: Sending CONNACK to status_checker (0, 0)
+1739560245: Received DISCONNECT from status_checker
+1739560245: Client status_checker disconnected.
+1739560272: New connection from 172.18.0.2:42251 on port 1883.
+1739560272: New client connected from 172.18.0.2:42251 as status_checker (p2, c1, k2).
+1739560272: No will message specified.
+1739560272: Sending CONNACK to status_checker (0, 0)
+1739560272: Received DISCONNECT from status_checker
+1739560272: Client status_checker disconnected.
+1739560275: New connection from 172.18.0.2:38837 on port 1883.
+1739560275: New client connected from 172.18.0.2:38837 as status_checker (p2, c1, k2).
+1739560275: No will message specified.
+1739560275: Sending CONNACK to status_checker (0, 0)
+1739560275: Received DISCONNECT from status_checker
+1739560275: Client status_checker disconnected.
+1739560302: New connection from 172.18.0.2:40031 on port 1883.
+1739560302: New client connected from 172.18.0.2:40031 as status_checker (p2, c1, k2).
+1739560302: No will message specified.
+1739560302: Sending CONNACK to status_checker (0, 0)
+1739560302: Received DISCONNECT from status_checker
+1739560302: Client status_checker disconnected.
+1739560305: New connection from 172.18.0.2:44471 on port 1883.
+1739560305: New client connected from 172.18.0.2:44471 as status_checker (p2, c1, k2).
+1739560305: No will message specified.
+1739560305: Sending CONNACK to status_checker (0, 0)
+1739560305: Received DISCONNECT from status_checker
+1739560305: Client status_checker disconnected.
+1739560332: New connection from 172.18.0.2:42699 on port 1883.
+1739560332: New client connected from 172.18.0.2:42699 as status_checker (p2, c1, k2).
+1739560332: No will message specified.
+1739560332: Sending CONNACK to status_checker (0, 0)
+1739560332: Received DISCONNECT from status_checker
+1739560332: Client status_checker disconnected.
+1739560335: New connection from 172.18.0.2:52605 on port 1883.
+1739560335: New client connected from 172.18.0.2:52605 as status_checker (p2, c1, k2).
+1739560335: No will message specified.
+1739560335: Sending CONNACK to status_checker (0, 0)
+1739560335: Received DISCONNECT from status_checker
+1739560335: Client status_checker disconnected.
+1739560362: New connection from 172.18.0.2:37211 on port 1883.
+1739560362: New client connected from 172.18.0.2:37211 as status_checker (p2, c1, k2).
+1739560362: No will message specified.
+1739560362: Sending CONNACK to status_checker (0, 0)
+1739560362: Received DISCONNECT from status_checker
+1739560362: Client status_checker disconnected.
+1739560365: New connection from 172.18.0.2:56305 on port 1883.
+1739560365: New client connected from 172.18.0.2:56305 as status_checker (p2, c1, k2).
+1739560365: No will message specified.
+1739560365: Sending CONNACK to status_checker (0, 0)
+1739560365: Received DISCONNECT from status_checker
+1739560365: Client status_checker disconnected.
+1739560392: New connection from 172.18.0.2:35807 on port 1883.
+1739560392: New client connected from 172.18.0.2:35807 as status_checker (p2, c1, k2).
+1739560392: No will message specified.
+1739560392: Sending CONNACK to status_checker (0, 0)
+1739560392: Received DISCONNECT from status_checker
+1739560392: Client status_checker disconnected.
+1739560395: New connection from 172.18.0.2:47567 on port 1883.
+1739560395: New client connected from 172.18.0.2:47567 as status_checker (p2, c1, k2).
+1739560395: No will message specified.
+1739560395: Sending CONNACK to status_checker (0, 0)
+1739560395: Received DISCONNECT from status_checker
+1739560395: Client status_checker disconnected.
+1739560422: New connection from 172.18.0.2:55339 on port 1883.
+1739560422: New client connected from 172.18.0.2:55339 as status_checker (p2, c1, k2).
+1739560422: No will message specified.
+1739560422: Sending CONNACK to status_checker (0, 0)
+1739560422: Received DISCONNECT from status_checker
+1739560422: Client status_checker disconnected.
+1739560425: New connection from 172.18.0.2:53815 on port 1883.
+1739560425: New client connected from 172.18.0.2:53815 as status_checker (p2, c1, k2).
+1739560425: No will message specified.
+1739560425: Sending CONNACK to status_checker (0, 0)
+1739560425: Received DISCONNECT from status_checker
+1739560425: Client status_checker disconnected.
+1739560452: New connection from 172.18.0.2:40117 on port 1883.
+1739560452: New client connected from 172.18.0.2:40117 as status_checker (p2, c1, k2).
+1739560452: No will message specified.
+1739560452: Sending CONNACK to status_checker (0, 0)
+1739560452: Received DISCONNECT from status_checker
+1739560452: Client status_checker disconnected.
+1739560455: New connection from 172.18.0.2:34533 on port 1883.
+1739560455: New client connected from 172.18.0.2:34533 as status_checker (p2, c1, k2).
+1739560455: No will message specified.
+1739560455: Sending CONNACK to status_checker (0, 0)
+1739560455: Received DISCONNECT from status_checker
+1739560455: Client status_checker disconnected.
+1739560482: New connection from 172.18.0.2:55013 on port 1883.
+1739560482: New client connected from 172.18.0.2:55013 as status_checker (p2, c1, k2).
+1739560482: No will message specified.
+1739560482: Sending CONNACK to status_checker (0, 0)
+1739560482: Received DISCONNECT from status_checker
+1739560482: Client status_checker disconnected.
+1739560485: New connection from 172.18.0.2:36379 on port 1883.
+1739560485: New client connected from 172.18.0.2:36379 as status_checker (p2, c1, k2).
+1739560485: No will message specified.
+1739560485: Sending CONNACK to status_checker (0, 0)
+1739560485: Received DISCONNECT from status_checker
+1739560485: Client status_checker disconnected.
+1739560512: New connection from 172.18.0.2:44281 on port 1883.
+1739560512: New client connected from 172.18.0.2:44281 as status_checker (p2, c1, k2).
+1739560512: No will message specified.
+1739560512: Sending CONNACK to status_checker (0, 0)
+1739560512: Received DISCONNECT from status_checker
+1739560512: Client status_checker disconnected.
+1739560515: New connection from 172.18.0.2:56119 on port 1883.
+1739560515: New client connected from 172.18.0.2:56119 as status_checker (p2, c1, k2).
+1739560515: No will message specified.
+1739560515: Sending CONNACK to status_checker (0, 0)
+1739560515: Received DISCONNECT from status_checker
+1739560515: Client status_checker disconnected.
+1739560542: New connection from 172.18.0.2:48655 on port 1883.
+1739560542: New client connected from 172.18.0.2:48655 as status_checker (p2, c1, k2).
+1739560542: No will message specified.
+1739560542: Sending CONNACK to status_checker (0, 0)
+1739560542: Received DISCONNECT from status_checker
+1739560542: Client status_checker disconnected.
+1739560545: New connection from 172.18.0.2:41301 on port 1883.
+1739560545: New client connected from 172.18.0.2:41301 as status_checker (p2, c1, k2).
+1739560545: No will message specified.
+1739560545: Sending CONNACK to status_checker (0, 0)
+1739560545: Received DISCONNECT from status_checker
+1739560545: Client status_checker disconnected.
+1739560553: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1739560572: New connection from 172.18.0.2:38113 on port 1883.
+1739560572: New client connected from 172.18.0.2:38113 as status_checker (p2, c1, k2).
+1739560572: No will message specified.
+1739560572: Sending CONNACK to status_checker (0, 0)
+1739560572: Received DISCONNECT from status_checker
+1739560572: Client status_checker disconnected.
+1739560575: New connection from 172.18.0.2:57303 on port 1883.
+1739560575: New client connected from 172.18.0.2:57303 as status_checker (p2, c1, k2).
+1739560575: No will message specified.
+1739560575: Sending CONNACK to status_checker (0, 0)
+1739560575: Received DISCONNECT from status_checker
+1739560575: Client status_checker disconnected.
+1739560602: New connection from 172.18.0.2:36145 on port 1883.
+1739560602: New client connected from 172.18.0.2:36145 as status_checker (p2, c1, k2).
+1739560602: No will message specified.
+1739560602: Sending CONNACK to status_checker (0, 0)
+1739560602: Received DISCONNECT from status_checker
+1739560602: Client status_checker disconnected.
+1739560605: New connection from 172.18.0.2:48041 on port 1883.
+1739560605: New client connected from 172.18.0.2:48041 as status_checker (p2, c1, k2).
+1739560605: No will message specified.
+1739560605: Sending CONNACK to status_checker (0, 0)
+1739560605: Received DISCONNECT from status_checker
+1739560605: Client status_checker disconnected.
+1739560632: New connection from 172.18.0.2:55107 on port 1883.
+1739560632: New client connected from 172.18.0.2:55107 as status_checker (p2, c1, k2).
+1739560632: No will message specified.
+1739560632: Sending CONNACK to status_checker (0, 0)
+1739560632: Received DISCONNECT from status_checker
+1739560632: Client status_checker disconnected.
+1739560635: New connection from 172.18.0.2:53451 on port 1883.
+1739560635: New client connected from 172.18.0.2:53451 as status_checker (p2, c1, k2).
+1739560635: No will message specified.
+1739560635: Sending CONNACK to status_checker (0, 0)
+1739560635: Received DISCONNECT from status_checker
+1739560635: Client status_checker disconnected.
+1739560662: New connection from 172.18.0.2:54795 on port 1883.
+1739560662: New client connected from 172.18.0.2:54795 as status_checker (p2, c1, k2).
+1739560662: No will message specified.
+1739560662: Sending CONNACK to status_checker (0, 0)
+1739560662: Received DISCONNECT from status_checker
+1739560662: Client status_checker disconnected.
+1739560665: New connection from 172.18.0.2:38725 on port 1883.
+1739560665: New client connected from 172.18.0.2:38725 as status_checker (p2, c1, k2).
+1739560665: No will message specified.
+1739560665: Sending CONNACK to status_checker (0, 0)
+1739560665: Received DISCONNECT from status_checker
+1739560665: Client status_checker disconnected.
+1739560692: New connection from 172.18.0.2:48275 on port 1883.
+1739560692: New client connected from 172.18.0.2:48275 as status_checker (p2, c1, k2).
+1739560692: No will message specified.
+1739560692: Sending CONNACK to status_checker (0, 0)
+1739560692: Received DISCONNECT from status_checker
+1739560692: Client status_checker disconnected.
+1739560695: New connection from 172.18.0.2:39593 on port 1883.
+1739560695: New client connected from 172.18.0.2:39593 as status_checker (p2, c1, k2).
+1739560695: No will message specified.
+1739560695: Sending CONNACK to status_checker (0, 0)
+1739560695: Received DISCONNECT from status_checker
+1739560695: Client status_checker disconnected.
+1739560722: New connection from 172.18.0.2:49407 on port 1883.
+1739560722: New client connected from 172.18.0.2:49407 as status_checker (p2, c1, k2).
+1739560722: No will message specified.
+1739560722: Sending CONNACK to status_checker (0, 0)
+1739560722: Received DISCONNECT from status_checker
+1739560722: Client status_checker disconnected.
+1739560725: New connection from 172.18.0.2:60801 on port 1883.
+1739560725: New client connected from 172.18.0.2:60801 as status_checker (p2, c1, k2).
+1739560725: No will message specified.
+1739560725: Sending CONNACK to status_checker (0, 0)
+1739560725: Received DISCONNECT from status_checker
+1739560725: Client status_checker disconnected.
+1739560752: New connection from 172.18.0.2:35005 on port 1883.
+1739560752: New client connected from 172.18.0.2:35005 as status_checker (p2, c1, k2).
+1739560752: No will message specified.
+1739560752: Sending CONNACK to status_checker (0, 0)
+1739560752: Received DISCONNECT from status_checker
+1739560752: Client status_checker disconnected.
+1739560756: New connection from 172.18.0.2:54867 on port 1883.
+1739560756: New client connected from 172.18.0.2:54867 as status_checker (p2, c1, k2).
+1739560756: No will message specified.
+1739560756: Sending CONNACK to status_checker (0, 0)
+1739560756: Received DISCONNECT from status_checker
+1739560756: Client status_checker disconnected.
+1739560782: New connection from 172.18.0.2:49539 on port 1883.
+1739560782: New client connected from 172.18.0.2:49539 as status_checker (p2, c1, k2).
+1739560782: No will message specified.
+1739560782: Sending CONNACK to status_checker (0, 0)
+1739560782: Received DISCONNECT from status_checker
+1739560782: Client status_checker disconnected.
+1739560786: New connection from 172.18.0.2:35201 on port 1883.
+1739560786: New client connected from 172.18.0.2:35201 as status_checker (p2, c1, k2).
+1739560786: No will message specified.
+1739560786: Sending CONNACK to status_checker (0, 0)
+1739560786: Received DISCONNECT from status_checker
+1739560786: Client status_checker disconnected.
+1739560812: New connection from 172.18.0.2:37975 on port 1883.
+1739560812: New client connected from 172.18.0.2:37975 as status_checker (p2, c1, k2).
+1739560812: No will message specified.
+1739560812: Sending CONNACK to status_checker (0, 0)
+1739560812: Received DISCONNECT from status_checker
+1739560812: Client status_checker disconnected.
+1739560816: New connection from 172.18.0.2:41097 on port 1883.
+1739560816: New client connected from 172.18.0.2:41097 as status_checker (p2, c1, k2).
+1739560816: No will message specified.
+1739560816: Sending CONNACK to status_checker (0, 0)
+1739560816: Received DISCONNECT from status_checker
+1739560816: Client status_checker disconnected.
+1739560842: New connection from 172.18.0.2:48489 on port 1883.
+1739560842: New client connected from 172.18.0.2:48489 as status_checker (p2, c1, k2).
+1739560842: No will message specified.
+1739560842: Sending CONNACK to status_checker (0, 0)
+1739560842: Received DISCONNECT from status_checker
+1739560842: Client status_checker disconnected.
+1739560846: New connection from 172.18.0.2:55013 on port 1883.
+1739560846: New client connected from 172.18.0.2:55013 as status_checker (p2, c1, k2).
+1739560846: No will message specified.
+1739560846: Sending CONNACK to status_checker (0, 0)
+1739560846: Received DISCONNECT from status_checker
+1739560846: Client status_checker disconnected.
+1739560872: New connection from 172.18.0.2:54087 on port 1883.
+1739560872: New client connected from 172.18.0.2:54087 as status_checker (p2, c1, k2).
+1739560872: No will message specified.
+1739560872: Sending CONNACK to status_checker (0, 0)
+1739560872: Received DISCONNECT from status_checker
+1739560872: Client status_checker disconnected.
+1739560876: New connection from 172.18.0.2:48493 on port 1883.
+1739560876: New client connected from 172.18.0.2:48493 as status_checker (p2, c1, k2).
+1739560876: No will message specified.
+1739560876: Sending CONNACK to status_checker (0, 0)
+1739560876: Received DISCONNECT from status_checker
+1739560876: Client status_checker disconnected.
+1739560902: New connection from 172.18.0.2:35551 on port 1883.
+1739560902: New client connected from 172.18.0.2:35551 as status_checker (p2, c1, k2).
+1739560902: No will message specified.
+1739560902: Sending CONNACK to status_checker (0, 0)
+1739560902: Received DISCONNECT from status_checker
+1739560902: Client status_checker disconnected.
+1739560906: New connection from 172.18.0.2:42927 on port 1883.
+1739560906: New client connected from 172.18.0.2:42927 as status_checker (p2, c1, k2).
+1739560906: No will message specified.
+1739560906: Sending CONNACK to status_checker (0, 0)
+1739560906: Received DISCONNECT from status_checker
+1739560906: Client status_checker disconnected.
+1739560932: New connection from 172.18.0.2:36325 on port 1883.
+1739560932: New client connected from 172.18.0.2:36325 as status_checker (p2, c1, k2).
+1739560932: No will message specified.
+1739560932: Sending CONNACK to status_checker (0, 0)
+1739560932: Received DISCONNECT from status_checker
+1739560932: Client status_checker disconnected.
+1739560936: New connection from 172.18.0.2:59881 on port 1883.
+1739560936: New client connected from 172.18.0.2:59881 as status_checker (p2, c1, k2).
+1739560936: No will message specified.
+1739560936: Sending CONNACK to status_checker (0, 0)
+1739560936: Received DISCONNECT from status_checker
+1739560936: Client status_checker disconnected.
+1739560962: New connection from 172.18.0.2:39357 on port 1883.
+1739560962: New client connected from 172.18.0.2:39357 as status_checker (p2, c1, k2).
+1739560962: No will message specified.
+1739560962: Sending CONNACK to status_checker (0, 0)
+1739560962: Received DISCONNECT from status_checker
+1739560962: Client status_checker disconnected.
+1739560966: New connection from 172.18.0.2:37573 on port 1883.
+1739560966: New client connected from 172.18.0.2:37573 as status_checker (p2, c1, k2).
+1739560966: No will message specified.
+1739560966: Sending CONNACK to status_checker (0, 0)
+1739560966: Received DISCONNECT from status_checker
+1739560966: Client status_checker disconnected.
+1739560992: New connection from 172.18.0.2:56527 on port 1883.
+1739560992: New client connected from 172.18.0.2:56527 as status_checker (p2, c1, k2).
+1739560992: No will message specified.
+1739560992: Sending CONNACK to status_checker (0, 0)
+1739560992: Received DISCONNECT from status_checker
+1739560992: Client status_checker disconnected.
+1739560996: New connection from 172.18.0.2:41911 on port 1883.
+1739560996: New client connected from 172.18.0.2:41911 as status_checker (p2, c1, k2).
+1739560996: No will message specified.
+1739560996: Sending CONNACK to status_checker (0, 0)
+1739560996: Received DISCONNECT from status_checker
+1739560996: Client status_checker disconnected.
+1739561022: New connection from 172.18.0.2:52619 on port 1883.
+1739561022: New client connected from 172.18.0.2:52619 as status_checker (p2, c1, k2).
+1739561022: No will message specified.
+1739561022: Sending CONNACK to status_checker (0, 0)
+1739561022: Received DISCONNECT from status_checker
+1739561022: Client status_checker disconnected.
+1739561026: New connection from 172.18.0.2:47895 on port 1883.
+1739561026: New client connected from 172.18.0.2:47895 as status_checker (p2, c1, k2).
+1739561026: No will message specified.
+1739561026: Sending CONNACK to status_checker (0, 0)
+1739561026: Received DISCONNECT from status_checker
+1739561026: Client status_checker disconnected.
+1739561052: New connection from 172.18.0.2:35697 on port 1883.
+1739561052: New client connected from 172.18.0.2:35697 as status_checker (p2, c1, k2).
+1739561052: No will message specified.
+1739561052: Sending CONNACK to status_checker (0, 0)
+1739561052: Received DISCONNECT from status_checker
+1739561052: Client status_checker disconnected.
+1739561056: New connection from 172.18.0.2:59007 on port 1883.
+1739561056: New client connected from 172.18.0.2:59007 as status_checker (p2, c1, k2).
+1739561056: No will message specified.
+1739561056: Sending CONNACK to status_checker (0, 0)
+1739561056: Received DISCONNECT from status_checker
+1739561056: Client status_checker disconnected.
+1739561082: New connection from 172.18.0.2:44435 on port 1883.
+1739561082: New client connected from 172.18.0.2:44435 as status_checker (p2, c1, k2).
+1739561082: No will message specified.
+1739561082: Sending CONNACK to status_checker (0, 0)
+1739561082: Received DISCONNECT from status_checker
+1739561082: Client status_checker disconnected.
+1739561086: New connection from 172.18.0.2:53343 on port 1883.
+1739561086: New client connected from 172.18.0.2:53343 as status_checker (p2, c1, k2).
+1739561086: No will message specified.
+1739561086: Sending CONNACK to status_checker (0, 0)
+1739561086: Received DISCONNECT from status_checker
+1739561086: Client status_checker disconnected.
+1739561112: New connection from 172.18.0.2:45389 on port 1883.
+1739561112: New client connected from 172.18.0.2:45389 as status_checker (p2, c1, k2).
+1739561112: No will message specified.
+1739561112: Sending CONNACK to status_checker (0, 0)
+1739561112: Received DISCONNECT from status_checker
+1739561112: Client status_checker disconnected.
+1739561116: New connection from 172.18.0.2:45639 on port 1883.
+1739561116: New client connected from 172.18.0.2:45639 as status_checker (p2, c1, k2).
+1739561116: No will message specified.
+1739561116: Sending CONNACK to status_checker (0, 0)
+1739561116: Received DISCONNECT from status_checker
+1739561116: Client status_checker disconnected.
+1739561142: New connection from 172.18.0.2:50405 on port 1883.
+1739561142: New client connected from 172.18.0.2:50405 as status_checker (p2, c1, k2).
+1739561142: No will message specified.
+1739561142: Sending CONNACK to status_checker (0, 0)
+1739561142: Received DISCONNECT from status_checker
+1739561142: Client status_checker disconnected.
+1739561146: New connection from 172.18.0.2:51099 on port 1883.
+1739561146: New client connected from 172.18.0.2:51099 as status_checker (p2, c1, k2).
+1739561146: No will message specified.
+1739561146: Sending CONNACK to status_checker (0, 0)
+1739561146: Received DISCONNECT from status_checker
+1739561146: Client status_checker disconnected.
+1739561172: New connection from 172.18.0.2:47111 on port 1883.
+1739561172: New client connected from 172.18.0.2:47111 as status_checker (p2, c1, k2).
+1739561172: No will message specified.
+1739561172: Sending CONNACK to status_checker (0, 0)
+1739561172: Received DISCONNECT from status_checker
+1739561172: Client status_checker disconnected.
+1739561176: New connection from 172.18.0.2:57037 on port 1883.
+1739561176: New client connected from 172.18.0.2:57037 as status_checker (p2, c1, k2).
+1739561176: No will message specified.
+1739561176: Sending CONNACK to status_checker (0, 0)
+1739561176: Received DISCONNECT from status_checker
+1739561176: Client status_checker disconnected.
+1739561202: New connection from 172.18.0.2:42443 on port 1883.
+1739561202: New client connected from 172.18.0.2:42443 as status_checker (p2, c1, k2).
+1739561202: No will message specified.
+1739561202: Sending CONNACK to status_checker (0, 0)
+1739561202: Received DISCONNECT from status_checker
+1739561202: Client status_checker disconnected.
+1739561206: New connection from 172.18.0.2:33673 on port 1883.
+1739561206: New client connected from 172.18.0.2:33673 as status_checker (p2, c1, k2).
+1739561206: No will message specified.
+1739561206: Sending CONNACK to status_checker (0, 0)
+1739561206: Received DISCONNECT from status_checker
+1739561206: Client status_checker disconnected.
+1739561232: New connection from 172.18.0.2:48005 on port 1883.
+1739561232: New client connected from 172.18.0.2:48005 as status_checker (p2, c1, k2).
+1739561232: No will message specified.
+1739561232: Sending CONNACK to status_checker (0, 0)
+1739561232: Received DISCONNECT from status_checker
+1739561232: Client status_checker disconnected.
+1739561236: New connection from 172.18.0.2:57163 on port 1883.
+1739561236: New client connected from 172.18.0.2:57163 as status_checker (p2, c1, k2).
+1739561236: No will message specified.
+1739561236: Sending CONNACK to status_checker (0, 0)
+1739561236: Received DISCONNECT from status_checker
+1739561236: Client status_checker disconnected.
+1739561262: New connection from 172.18.0.2:52037 on port 1883.
+1739561262: New client connected from 172.18.0.2:52037 as status_checker (p2, c1, k2).
+1739561262: No will message specified.
+1739561262: Sending CONNACK to status_checker (0, 0)
+1739561262: Received DISCONNECT from status_checker
+1739561262: Client status_checker disconnected.
+1739561266: New connection from 172.18.0.2:47045 on port 1883.
+1739561266: New client connected from 172.18.0.2:47045 as status_checker (p2, c1, k2).
+1739561266: No will message specified.
+1739561266: Sending CONNACK to status_checker (0, 0)
+1739561266: Received DISCONNECT from status_checker
+1739561266: Client status_checker disconnected.
+1739561292: New connection from 172.18.0.2:49199 on port 1883.
+1739561292: New client connected from 172.18.0.2:49199 as status_checker (p2, c1, k2).
+1739561292: No will message specified.
+1739561292: Sending CONNACK to status_checker (0, 0)
+1739561292: Received DISCONNECT from status_checker
+1739561292: Client status_checker disconnected.
+1739561296: New connection from 172.18.0.2:38073 on port 1883.
+1739561296: New client connected from 172.18.0.2:38073 as status_checker (p2, c1, k2).
+1739561296: No will message specified.
+1739561296: Sending CONNACK to status_checker (0, 0)
+1739561296: Received DISCONNECT from status_checker
+1739561296: Client status_checker disconnected.
