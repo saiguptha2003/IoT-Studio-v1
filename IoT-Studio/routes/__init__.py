@@ -4,3 +4,4 @@ from .SecureStore import SecureStoreBP
 from .basic import BasicBP
 from .triggers import TriggerBP
 from .WareHouse import WareHouseBP
+from .SelfHost import SelfHostBP

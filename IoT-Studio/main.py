@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from flask import Flask, jsonify,request
 from models import db
 from Config import Config
-from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP,TriggerBP,WareHouseBP
+from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP,TriggerBP,WareHouseBP,SelfHostBP
 from flask_cors import CORS
 import os
 from cache import redisClient
@@ -19,14 +19,22 @@ with app.app_context():
     db.create_all()
 logging.basicConfig(level=logging.DEBUG)
 
-CORS(app, resources={r"/services/WareHouse/*": {"origins": "http://localhost:5173"}}, supports_credentials=True)
-    
+CORS(app, resources={
+    r"/services/WareHouse/*": {
+        "origins": "http://localhost:5173",
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"],
+        "supports_credentials": True
+    }
+})
+
 app.register_blueprint(authBP, url_prefix='/auth')
 app.register_blueprint(IoTConnectBP, url_prefix='/services/IotConnect')
 app.register_blueprint(SecureStoreBP, url_prefix='/services/SecureStore')
 app.register_blueprint(WareHouseBP,url_prefix="/services/WareHouse")
 app.register_blueprint(BasicBP,url_prefix='/')
 app.register_blueprint(TriggerBP,url_prefix='/Trigger')
+app.register_blueprint(SelfHostBP, url_prefix="/services/SelfHost")
 @app.route("/",methods=["GET"])
 def index():
     return {"message": "hello User.."}
