@@ -1,13 +1,14 @@
 import json
 import logging
 from dotenv import load_dotenv
-from flask import Flask, jsonify,request
+from flask import Flask, Response, jsonify,request
 from models import db
 from Config import Config
 from routes import authBP, IoTConnectBP,SecureStoreBP,BasicBP,TriggerBP,WareHouseBP,SelfHostBP
 from flask_cors import CORS
 import os
 from cache import redisClient
+from TestingKitMQTT import create_zip_file
 import couchdb
 load_dotenv()
 FLASK_PORT=os.getenv('FLASK_PORT')
@@ -86,6 +87,15 @@ def get_data(key):
         return json.loads(value), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route("/download",methods=['GET'])
+def dowmload():
+    zip_data = create_zip_file("test/topic", 1883, 60)
+    return Response(zip_data, 
+                mimetype='application/zip', 
+                headers={'Content-Disposition': 'attachment; filename=mqtt_package.zip'})
+
+    
 
 if __name__ == "__main__":
     import sys
