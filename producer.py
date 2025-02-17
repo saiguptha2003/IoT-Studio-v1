@@ -8,7 +8,7 @@ mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
 
 try:
     # Connect to MQTT broker
-    mqttc.connect("broker.emqx.io", 1883, 60)
+    mqttc.connect("localhost", 1883, 60)
     mqttc.loop_start()  # Start background loop
 
     while True:
@@ -25,7 +25,7 @@ try:
         json_msg = json.dumps(message)
 
         # Publish the JSON message
-        msg_info = mqttc.publish("paho/test/topic", json_msg, qos=1)
+        msg_info = mqttc.publish("test/topic", json_msg, qos=1)
         msg_info.wait_for_publish()  # Ensure the message is published
         print(f"Sent message: {json_msg}")
 
